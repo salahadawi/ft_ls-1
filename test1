@@ -1,0 +1,1258 @@
+total 352
+drwxr-xr-x@ 18 helvi  staff    576 Jun 16 10:07 .
+drwxr-xr-x@ 14 helvi  staff    448 Jun 16 10:07 ..
+-rw-r--r--@  1 helvi  staff   6148 May 22 10:38 .DS_Store
+drwxr-xr-x@ 14 helvi  staff    448 May 19 10:41 .git
+-rw-r--r--   1 helvi  staff     17 May 19 10:05 .gitignore
+-rw-r--r--@  1 helvi  staff   1473 May 26 09:23 Makefile
+-rw-r--r--   1 helvi  staff      0 Jun  9 12:07 asdfasdfaksjdfkjasdkljflkjasdlkjflkjasdfasdf
+-rw-r--r--   1 helvi  staff      9 Mar 13 14:44 author
+-rwxr-xr-x   1 helvi  staff  42920 Jun 16 10:07 ft_ls
+-rw-r--r--@  1 helvi  staff   7011 Jun 16 10:06 ft_ls.c
+-rw-r--r--@  1 helvi  staff    956 May 22 10:59 get_started1.c
+-rw-r--r--@  1 helvi  staff   2763 May 25 13:15 get_started2.c
+drwxr-xr-x@  3 helvi  staff     96 Jun 10 16:55 includes
+drwxr-xr-x@ 10 helvi  staff    320 Jun 16 10:07 libft
+-rwxr-xr-x   1 helvi  staff  37488 May 25 13:15 test
+-rw-r--r--   1 helvi  staff      0 Jun 16 10:07 test1
+-rw-r--r--   1 helvi  staff  54565 Jun 16 10:02 test2
+drwxr-xr-x@  5 helvi  staff    160 May 22 10:39 testi
+
+./.git:
+total 48
+drwxr-xr-x@ 14 helvi  staff  448 May 19 10:41 .
+drwxr-xr-x@ 18 helvi  staff  576 Jun 16 10:07 ..
+-rw-r--r--   1 helvi  staff   10 May 19 10:11 COMMIT_EDITMSG
+-rw-r--r--   1 helvi  staff  108 May 19 10:39 FETCH_HEAD
+-rw-r--r--   1 helvi  staff   23 May 19 10:01 HEAD
+drwxr-xr-x@  2 helvi  staff   64 May 19 10:01 branches
+-rw-r--r--   1 helvi  staff  307 May 19 10:41 config
+-rw-r--r--   1 helvi  staff   73 May 19 10:01 description
+drwxr-xr-x@ 13 helvi  staff  416 May 19 10:01 hooks
+-rw-r--r--   1 helvi  staff  394 May 19 10:11 index
+drwxr-xr-x@  3 helvi  staff   96 May 19 10:01 info
+drwxr-xr-x@  4 helvi  staff  128 May 19 10:41 logs
+drwxr-xr-x@ 10 helvi  staff  320 May 19 10:39 objects
+drwxr-xr-x@  5 helvi  staff  160 May 19 10:39 refs
+
+./.git/branches:
+total 0
+drwxr-xr-x@  2 helvi  staff   64 May 19 10:01 .
+drwxr-xr-x@ 14 helvi  staff  448 May 19 10:41 ..
+
+./.git/hooks:
+total 96
+drwxr-xr-x@ 13 helvi  staff   416 May 19 10:01 .
+drwxr-xr-x@ 14 helvi  staff   448 May 19 10:41 ..
+-rwxr-xr-x   1 helvi  staff   478 May 19 10:01 applypatch-msg.sample
+-rwxr-xr-x   1 helvi  staff   896 May 19 10:01 commit-msg.sample
+-rwxr-xr-x   1 helvi  staff  3327 May 19 10:01 fsmonitor-watchman.sample
+-rwxr-xr-x   1 helvi  staff   189 May 19 10:01 post-update.sample
+-rwxr-xr-x   1 helvi  staff   424 May 19 10:01 pre-applypatch.sample
+-rwxr-xr-x   1 helvi  staff  1638 May 19 10:01 pre-commit.sample
+-rwxr-xr-x   1 helvi  staff  1348 May 19 10:01 pre-push.sample
+-rwxr-xr-x   1 helvi  staff  4898 May 19 10:01 pre-rebase.sample
+-rwxr-xr-x   1 helvi  staff   544 May 19 10:01 pre-receive.sample
+-rwxr-xr-x   1 helvi  staff  1492 May 19 10:01 prepare-commit-msg.sample
+-rwxr-xr-x   1 helvi  staff  3610 May 19 10:01 update.sample
+
+./.git/info:
+total 8
+drwxr-xr-x@  3 helvi  staff   96 May 19 10:01 .
+drwxr-xr-x@ 14 helvi  staff  448 May 19 10:41 ..
+-rw-r--r--   1 helvi  staff  250 May 19 10:01 exclude
+
+./.git/logs:
+total 8
+drwxr-xr-x@  4 helvi  staff  128 May 19 10:41 .
+drwxr-xr-x@ 14 helvi  staff  448 May 19 10:41 ..
+-rw-r--r--   1 helvi  staff  171 May 19 10:11 HEAD
+drwxr-xr-x@  4 helvi  staff  128 May 19 10:41 refs
+
+./.git/logs/refs:
+total 0
+drwxr-xr-x@ 4 helvi  staff  128 May 19 10:41 .
+drwxr-xr-x@ 4 helvi  staff  128 May 19 10:41 ..
+drwxr-xr-x@ 3 helvi  staff   96 May 19 10:17 heads
+drwxr-xr-x@ 3 helvi  staff   96 May 19 10:41 remotes
+
+./.git/logs/refs/heads:
+total 8
+drwxr-xr-x@ 3 helvi  staff   96 May 19 10:17 .
+drwxr-xr-x@ 4 helvi  staff  128 May 19 10:41 ..
+-rw-r--r--  1 helvi  staff  171 May 19 10:11 master
+
+./.git/logs/refs/remotes:
+total 0
+drwxr-xr-x@ 3 helvi  staff   96 May 19 10:41 .
+drwxr-xr-x@ 4 helvi  staff  128 May 19 10:41 ..
+drwxr-xr-x@ 3 helvi  staff   96 May 19 10:41 origin
+
+./.git/logs/refs/remotes/origin:
+total 8
+drwxr-xr-x@ 3 helvi  staff   96 May 19 10:41 .
+drwxr-xr-x@ 3 helvi  staff   96 May 19 10:41 ..
+-rw-r--r--  1 helvi  staff  321 May 19 10:41 master
+
+./.git/objects:
+total 0
+drwxr-xr-x@ 10 helvi  staff  320 May 19 10:39 .
+drwxr-xr-x@ 14 helvi  staff  448 May 19 10:41 ..
+drwxr-xr-x@  3 helvi  staff   96 May 19 10:17 08
+drwxr-xr-x@  3 helvi  staff   96 May 19 10:17 2d
+drwxr-xr-x@  3 helvi  staff   96 May 19 10:17 8a
+drwxr-xr-x@  3 helvi  staff   96 May 19 10:17 9d
+drwxr-xr-x@  3 helvi  staff   96 May 19 10:17 a1
+drwxr-xr-x@  3 helvi  staff   96 May 19 10:17 e6
+drwxr-xr-x@  2 helvi  staff   64 May 19 10:01 info
+drwxr-xr-x@  4 helvi  staff  128 May 19 10:39 pack
+
+./.git/objects/08:
+total 8
+drwxr-xr-x@  3 helvi  staff   96 May 19 10:17 .
+drwxr-xr-x@ 10 helvi  staff  320 May 19 10:39 ..
+-r--r--r--   1 helvi  staff  150 May 19 10:11 3ba99a351f72fcd7c2fc3a6059ff6d4a68c279
+
+./.git/objects/2d:
+total 8
+drwxr-xr-x@  3 helvi  staff   96 May 19 10:17 .
+drwxr-xr-x@ 10 helvi  staff  320 May 19 10:39 ..
+-r--r--r--   1 helvi  staff  138 May 19 10:11 a4fa3be5e4baf5df63f50201651be86ee983d8
+
+./.git/objects/8a:
+total 8
+drwxr-xr-x@  3 helvi  staff   96 May 19 10:17 .
+drwxr-xr-x@ 10 helvi  staff  320 May 19 10:39 ..
+-r--r--r--   1 helvi  staff   52 May 19 10:11 f8d1426b62ca12baedf3ed27f18fbc742c1ae5
+
+./.git/objects/9d:
+total 8
+drwxr-xr-x@  3 helvi  staff   96 May 19 10:17 .
+drwxr-xr-x@ 10 helvi  staff  320 May 19 10:39 ..
+-r--r--r--   1 helvi  staff  389 May 19 10:11 cfa63a93aa611fad0184034c8c1c18006c5a94
+
+./.git/objects/a1:
+total 8
+drwxr-xr-x@  3 helvi  staff   96 May 19 10:17 .
+drwxr-xr-x@ 10 helvi  staff  320 May 19 10:39 ..
+-r--r--r--   1 helvi  staff   24 May 19 10:11 7c8893d84efc18c399428f5e1412b132f7919c
+
+./.git/objects/e6:
+total 8
+drwxr-xr-x@  3 helvi  staff   96 May 19 10:17 .
+drwxr-xr-x@ 10 helvi  staff  320 May 19 10:39 ..
+-r--r--r--   1 helvi  staff   15 May 19 10:11 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+
+./.git/objects/info:
+total 0
+drwxr-xr-x@  2 helvi  staff   64 May 19 10:01 .
+drwxr-xr-x@ 10 helvi  staff  320 May 19 10:39 ..
+
+./.git/objects/pack:
+total 936
+drwxr-xr-x@  4 helvi  staff     128 May 19 10:39 .
+drwxr-xr-x@ 10 helvi  staff     320 May 19 10:39 ..
+-r--r--r--   1 helvi  staff    5496 May 19 10:39 pack-543c90492871354d3599f0f2bf12de1ff6cf5f0d.idx
+-r--r--r--   1 helvi  staff  469710 May 19 10:39 pack-543c90492871354d3599f0f2bf12de1ff6cf5f0d.pack
+
+./.git/refs:
+total 0
+drwxr-xr-x@  5 helvi  staff  160 May 19 10:39 .
+drwxr-xr-x@ 14 helvi  staff  448 May 19 10:41 ..
+drwxr-xr-x@  3 helvi  staff   96 May 19 10:17 heads
+drwxr-xr-x@  3 helvi  staff   96 May 19 10:39 remotes
+drwxr-xr-x@  2 helvi  staff   64 May 19 10:01 tags
+
+./.git/refs/heads:
+total 8
+drwxr-xr-x@ 3 helvi  staff   96 May 19 10:17 .
+drwxr-xr-x@ 5 helvi  staff  160 May 19 10:39 ..
+-rw-r--r--  1 helvi  staff   41 May 19 10:11 master
+
+./.git/refs/remotes:
+total 0
+drwxr-xr-x@ 3 helvi  staff   96 May 19 10:39 .
+drwxr-xr-x@ 5 helvi  staff  160 May 19 10:39 ..
+drwxr-xr-x@ 3 helvi  staff   96 May 19 10:41 origin
+
+./.git/refs/remotes/origin:
+total 8
+drwxr-xr-x@ 3 helvi  staff  96 May 19 10:41 .
+drwxr-xr-x@ 3 helvi  staff  96 May 19 10:39 ..
+-rw-r--r--  1 helvi  staff  41 May 19 10:41 master
+
+./.git/refs/tags:
+total 0
+drwxr-xr-x@ 2 helvi  staff   64 May 19 10:01 .
+drwxr-xr-x@ 5 helvi  staff  160 May 19 10:39 ..
+
+./includes:
+total 8
+drwxr-xr-x@  3 helvi  staff   96 Jun 10 16:55 .
+drwxr-xr-x@ 18 helvi  staff  576 Jun 16 10:07 ..
+-rw-r--r--@  1 helvi  staff  538 Jun 10 16:55 ft_ls.h
+
+./libft:
+total 280
+drwxr-xr-x@ 10 helvi  staff     320 Jun 16 10:07 .
+drwxr-xr-x@ 18 helvi  staff     576 Jun 16 10:07 ..
+-rw-r--r--@  1 helvi  staff    6148 May 19 08:57 .DS_Store
+drwxr-xr-x@ 15 helvi  staff     480 May 22 09:49 .git
+-rw-r--r--   1 helvi  staff      10 May 22 09:12 .gitignore
+-rw-r--r--   1 helvi  staff    1313 May 19 13:14 Makefile
+drwxr-xr-x@  7 helvi  staff     224 Jun 16 10:07 includes
+drwxr-xr-x@ 91 helvi  staff    2912 Jun 16 10:07 libft
+-rw-r--r--   1 helvi  staff  125056 Jun 16 10:07 libft.a
+drwxr-xr-x@ 18 helvi  staff     576 Jun 16 10:07 printf
+
+./libft/.git:
+total 72
+drwxr-xr-x@  15 helvi  staff   480 May 22 09:49 .
+drwxr-xr-x@  10 helvi  staff   320 Jun 16 10:07 ..
+-rw-r--r--    1 helvi  staff    60 May 22 09:12 COMMIT_EDITMSG
+-rw-r--r--    1 helvi  staff   318 May 22 09:49 FETCH_HEAD
+-rw-r--r--    1 helvi  staff    23 May 19 09:51 HEAD
+-rw-r--r--    1 helvi  staff    41 May 22 09:49 ORIG_HEAD
+drwxr-xr-x@   2 helvi  staff    64 May 19 09:56 branches
+-rw-r--r--    1 helvi  staff   307 May 22 09:31 config
+-rw-r--r--    1 helvi  staff    73 May 19 09:51 description
+drwxr-xr-x@  13 helvi  staff   416 May 19 09:57 hooks
+-rw-r--r--    1 helvi  staff  9043 May 22 09:49 index
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 info
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:49 logs
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 objects
+drwxr-xr-x@   5 helvi  staff   160 May 22 09:45 refs
+
+./libft/.git/branches:
+total 0
+drwxr-xr-x@  2 helvi  staff   64 May 19 09:56 .
+drwxr-xr-x@ 15 helvi  staff  480 May 22 09:49 ..
+
+./libft/.git/hooks:
+total 96
+drwxr-xr-x@ 13 helvi  staff   416 May 19 09:57 .
+drwxr-xr-x@ 15 helvi  staff   480 May 22 09:49 ..
+-rwxr-xr-x   1 helvi  staff   478 May 19 09:51 applypatch-msg.sample
+-rwxr-xr-x   1 helvi  staff   896 May 19 09:51 commit-msg.sample
+-rwxr-xr-x   1 helvi  staff  3327 May 19 09:51 fsmonitor-watchman.sample
+-rwxr-xr-x   1 helvi  staff   189 May 19 09:51 post-update.sample
+-rwxr-xr-x   1 helvi  staff   424 May 19 09:51 pre-applypatch.sample
+-rwxr-xr-x   1 helvi  staff  1638 May 19 09:51 pre-commit.sample
+-rwxr-xr-x   1 helvi  staff  1348 May 19 09:51 pre-push.sample
+-rwxr-xr-x   1 helvi  staff  4898 May 19 09:51 pre-rebase.sample
+-rwxr-xr-x   1 helvi  staff   544 May 19 09:51 pre-receive.sample
+-rwxr-xr-x   1 helvi  staff  1492 May 19 09:51 prepare-commit-msg.sample
+-rwxr-xr-x   1 helvi  staff  3610 May 19 09:51 update.sample
+
+./libft/.git/info:
+total 8
+drwxr-xr-x@  3 helvi  staff   96 May 19 09:56 .
+drwxr-xr-x@ 15 helvi  staff  480 May 22 09:49 ..
+-rw-r--r--   1 helvi  staff  250 May 19 09:51 exclude
+
+./libft/.git/logs:
+total 8
+drwxr-xr-x@  4 helvi  staff  128 May 22 09:49 .
+drwxr-xr-x@ 15 helvi  staff  480 May 22 09:49 ..
+-rw-r--r--   1 helvi  staff  711 May 22 09:49 HEAD
+drwxr-xr-x@  4 helvi  staff  128 May 22 09:49 refs
+
+./libft/.git/logs/refs:
+total 0
+drwxr-xr-x@ 4 helvi  staff  128 May 22 09:49 .
+drwxr-xr-x@ 4 helvi  staff  128 May 22 09:49 ..
+drwxr-xr-x@ 3 helvi  staff   96 May 22 09:49 heads
+drwxr-xr-x@ 3 helvi  staff   96 May 22 09:49 remotes
+
+./libft/.git/logs/refs/heads:
+total 8
+drwxr-xr-x@ 3 helvi  staff   96 May 22 09:49 .
+drwxr-xr-x@ 4 helvi  staff  128 May 22 09:49 ..
+-rw-r--r--  1 helvi  staff  711 May 22 09:49 master
+
+./libft/.git/logs/refs/remotes:
+total 0
+drwxr-xr-x@ 3 helvi  staff   96 May 22 09:49 .
+drwxr-xr-x@ 4 helvi  staff  128 May 22 09:49 ..
+drwxr-xr-x@ 5 helvi  staff  160 May 22 09:49 origin
+
+./libft/.git/logs/refs/remotes/origin:
+total 24
+drwxr-xr-x@ 5 helvi  staff  160 May 22 09:49 .
+drwxr-xr-x@ 3 helvi  staff   96 May 22 09:49 ..
+-rw-r--r--  1 helvi  staff  482 May 22 09:49 master
+-rw-r--r--  1 helvi  staff  162 May 22 09:44 version-2.0
+-rw-r--r--  1 helvi  staff  162 May 22 09:44 version1
+
+./libft/.git/objects:
+total 0
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 .
+drwxr-xr-x@  15 helvi  staff   480 May 22 09:49 ..
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 01
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:11 02
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 03
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:49 04
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:49 0a
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 0c
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 0d
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 0f
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 14
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 15
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 1a
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:49 1b
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:56 1c
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 20
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:56 25
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 28
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:49 29
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 2b
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 2e
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 2f
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:49 33
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 35
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:56 38
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 3e
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:49 42
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 43
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:11 46
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:57 47
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 4b
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 4c
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:56 53
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 54
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 55
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 57
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 58
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 59
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 5a
+drwxr-xr-x@   5 helvi  staff   160 May 22 09:49 5b
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 5c
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:49 5d
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 62
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 67
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:56 6a
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 6e
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:57 6f
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:56 71
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:57 72
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:57 75
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 76
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 77
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 78
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 79
+drwxr-xr-x@   5 helvi  staff   160 May 22 09:49 7e
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 80
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 82
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 87
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 88
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:11 8b
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:49 8c
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 90
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 93
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 94
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 96
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 97
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 9a
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 9c
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:49 9e
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:56 9f
+drwxr-xr-x@   5 helvi  staff   160 May 22 09:49 a0
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 a1
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 a3
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 a7
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 a9
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 ac
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:11 ad
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 b2
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 ba
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:49 bf
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 c0
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 c1
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 c3
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 c8
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:57 cc
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 cf
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:11 d0
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 d8
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:56 dc
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 dd
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 de
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 e2
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:49 e3
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 e4
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 e6
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 e9
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 ec
+drwxr-xr-x@   5 helvi  staff   160 May 19 09:57 ed
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 ef
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:56 f0
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 f1
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 f3
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 f4
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 f5
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 fa
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 fb
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 fc
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 fe
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:49 ff
+drwxr-xr-x@   2 helvi  staff    64 May 19 09:56 info
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:45 pack
+
+./libft/.git/objects/01:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   340 May 22 09:11 964ec952794882f072015766c2d28af17e0735
+
+./libft/.git/objects/02:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:11 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   506 May 22 09:11 47418d4401da08296e408c46052030396529fd
+-r--r--r--    1 helvi  staff   404 May 22 09:11 ebc80b002d054160c7b1f8ea3d6b1de0e2fe09
+
+./libft/.git/objects/03:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   961 May 22 09:11 ee9e02ca330b32a1bede4f8d2b5e4b293946e5
+
+./libft/.git/objects/04:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:49 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   808 May 22 09:49 ab001cca424510b18dd87e490b88fd3dcd0477
+
+./libft/.git/objects/0a:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:49 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   696 May 22 09:49 b3420fde9009ca27982e2470cedf73fea98933
+
+./libft/.git/objects/0c:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   667 May 19 09:51 3730231cb2143986984e39e1f6856ac4be59a9
+
+./libft/.git/objects/0d:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   962 May 22 09:11 3f08dd7e730b2f737c0fbfe111bab84d2da6ad
+
+./libft/.git/objects/0f:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   173 May 22 09:11 e38bfcae92641b3be4c9c00b9e29d0648fa2f6
+
+./libft/.git/objects/14:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   636 May 22 09:11 2e9afd1617d70bc63ba1dfa6fde11ef53e5ee0
+
+./libft/.git/objects/15:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   157 May 22 09:11 4037c7246ff709cb94b7437bb95a7d33417d76
+
+./libft/.git/objects/1a:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   176 May 22 09:11 4f9c59d640046b147a3b473771004e30d1bece
+
+./libft/.git/objects/1b:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:49 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   176 May 22 09:49 8feff6c8e93ea7ad22225a63c23cfbcf883024
+
+./libft/.git/objects/1c:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   337 May 22 09:11 d97103d2eb3d5174a86cd60436747f8fb4e43f
+-r--r--r--    1 helvi  staff  2258 May 19 09:51 e61a8baaeeadc8ed4fafc968f436ffac88b4a1
+
+./libft/.git/objects/20:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   881 May 22 09:11 1afef9c6f09e3b795709aea815931fec67361e
+
+./libft/.git/objects/25:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   137 May 19 09:52 5aa1c264e6797734b50891ba21cd43799219f8
+-r--r--r--    1 helvi  staff   696 May 22 09:11 9c1f158fab90f26323cfd957a46aef80f11dec
+
+./libft/.git/objects/28:
+total 904
+drwxr-xr-x@   3 helvi  staff      96 May 22 09:11 .
+drwxr-xr-x@ 111 helvi  staff    3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff  458904 May 22 09:11 a2f45aba91478df589ca9011841f509d9ec993
+
+./libft/.git/objects/29:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:49 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   180 May 22 09:49 203e59ae0bff54783605923f6d704e018ec612
+
+./libft/.git/objects/2b:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   514 May 22 09:11 d1cb9c43a9899ca02ae56afec18637e5fe6bbf
+
+./libft/.git/objects/2e:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   257 May 22 09:11 c38b40b5ad75121ab2be183130daf35f45ea53
+
+./libft/.git/objects/2f:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   382 May 22 09:11 5eac176cf2171043e5b8dd251fb54b101bb64f
+
+./libft/.git/objects/33:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:49 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   492 May 22 09:49 e001ee63f137a2d49e016ded4746f52ef175d4
+-r--r--r--    1 helvi  staff   898 May 22 09:49 ee5c91bc1d485862c0e286748dfb37bea186e3
+
+./libft/.git/objects/35:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   388 May 22 09:11 40d8cec79550ccf01db80d4a5b685417106d8c
+
+./libft/.git/objects/38:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   480 May 22 09:11 0c153c1b68de21af862ffee3e9d8c63836c650
+-r--r--r--    1 helvi  staff   332 May 22 09:11 c66c8cae05f9f5738511c82516eb06f9b023a3
+
+./libft/.git/objects/3e:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   374 May 19 09:51 9ef6345501cd61b6190baa146d3a52bdfa078b
+
+./libft/.git/objects/42:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:49 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   561 May 22 09:49 bdf26507c5e4dfebc8e79308451f877a106209
+
+./libft/.git/objects/43:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   381 May 22 09:11 5ce161e9ca04d9ca2976a47cecc9b520d6178d
+
+./libft/.git/objects/46:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:11 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   798 May 22 09:11 4cba7538ca707460337b7016faaa3d2c968631
+-r--r--r--    1 helvi  staff   570 May 22 09:11 cbc1f52621f8766629af1d5a105bee561ceac2
+
+./libft/.git/objects/47:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   140 May 19 09:51 5d54034d262b28eef0431b31273da146e22921
+-r--r--r--    1 helvi  staff   508 May 22 09:11 84778c29cd5033d46dfe9c89a0ff0000d6b3d8
+
+./libft/.git/objects/4b:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   376 May 22 09:11 0848e91052ff567eb6146232707150fa5a1799
+
+./libft/.git/objects/4c:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   339 May 22 09:11 cf9d7ed2ca22c63293490f6f8ef44624992baa
+
+./libft/.git/objects/53:
+total 40
+drwxr-xr-x@   4 helvi  staff    128 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff   3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff    592 May 22 09:11 2367412e667228467fe16b289172c490cec532
+-r--r--r--    1 helvi  staff  15960 May 22 09:11 a76acf625ffcccaa558bb0f24e2a40247e9f95
+
+./libft/.git/objects/54:
+total 32
+drwxr-xr-x@   3 helvi  staff     96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff   3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff  15924 May 19 09:51 74f01a426003ba52ae01c8f656e4a7b8ce6151
+
+./libft/.git/objects/55:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   386 May 22 09:11 ceaecb7be35cd8238cdcd4b0d6a37ad70ac2ef
+
+./libft/.git/objects/57:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   141 May 22 09:11 744876d2a5d38ab0a336edb6113e3aae7689c1
+
+./libft/.git/objects/58:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   501 May 22 09:11 075bd421c0f55f01d93f2841d7fb70d9ddc2ba
+
+./libft/.git/objects/59:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff  1533 May 22 09:11 45606acfc9f2fd532349934c94414c7d10ccbb
+
+./libft/.git/objects/5a:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   456 May 22 09:11 43a7036d5b765b6e9160c8bad01d6149dec4f4
+
+./libft/.git/objects/5b:
+total 24
+drwxr-xr-x@   5 helvi  staff   160 May 22 09:49 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   309 May 22 09:11 05ccae40140c018b0eab5f27996ac1d32c3cab
+-r--r--r--    1 helvi  staff   962 May 22 09:49 1586e3ab85b95c7337f99751aeeda282c2d1e2
+-r--r--r--    1 helvi  staff   231 May 22 09:11 7bb5efaf0644360c15559397d64768c8e4fe7d
+
+./libft/.git/objects/5c:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   931 May 22 09:11 ed03c59814a4d9a4fda46c6e1caa8d07f088fc
+
+./libft/.git/objects/5d:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:49 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   570 May 22 09:49 7570457bfa163895b163b30b826f2948eea2b4
+-r--r--r--    1 helvi  staff   327 May 22 09:11 c281c389fd8007bdfe224a7f7603d854d928a6
+
+./libft/.git/objects/62:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   462 May 22 09:11 9daeb9fba2ceedf1c32424a2a59f862962e4b8
+
+./libft/.git/objects/67:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   528 May 22 09:11 6eedd29aaf0544c64af7deac215041dcde3302
+
+./libft/.git/objects/6a:
+total 904
+drwxr-xr-x@   4 helvi  staff     128 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff    3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff     395 May 22 09:11 432c8e5793af46803a98d417c1ad7318856586
+-r--r--r--    1 helvi  staff  458398 May 19 09:51 8aceddb373333b9aac637d8968703886eb55f6
+
+./libft/.git/objects/6e:
+total 64
+drwxr-xr-x@   3 helvi  staff     96 May 22 09:11 .
+drwxr-xr-x@ 111 helvi  staff   3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff  30118 May 22 09:11 9c189291c51cd857ac3446087d813765c67be4
+
+./libft/.git/objects/6f:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   403 May 22 09:11 00e344acc87eb1b90293146fbe13df366f839a
+-r--r--r--    1 helvi  staff   525 May 22 09:11 19608730e3e90534c52c6049e5ed508e0ccfd1
+
+./libft/.git/objects/71:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   359 May 22 09:11 833c18ea62d152254c3df43b2f6a8b11927d89
+-r--r--r--    1 helvi  staff   481 May 22 09:11 fbd7d9caa1ff9115249a2d552f0a326c830a6e
+
+./libft/.git/objects/72:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   409 May 22 09:11 39ea41bcbacfea418c1a5ac0667108982b5079
+-r--r--r--    1 helvi  staff   176 May 19 09:51 3e0eef4fcc21bf1e52b3b23fab59a932fd72de
+
+./libft/.git/objects/75:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   390 May 22 09:11 45d62b5d12e793038f2841e37db651da5d7a1d
+-r--r--r--    1 helvi  staff   460 May 22 09:11 b43a51aaca75664601f8646b06e05115b95711
+
+./libft/.git/objects/76:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   616 May 22 09:11 30cb6ff6d8ad06c4baaa1f6684884bf9d21302
+
+./libft/.git/objects/77:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   145 May 22 09:11 ef99603dfd6698878306c4a4374ed1e6c80a23
+
+./libft/.git/objects/78:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   346 May 22 09:11 9b5d00dcf62b17ee21a71cf285c1aab3b0ef9a
+
+./libft/.git/objects/79:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   468 May 22 09:11 1cf7c86ece5d3490e72e0913bb8a7b839eeedf
+
+./libft/.git/objects/7e:
+total 24
+drwxr-xr-x@   5 helvi  staff   160 May 22 09:49 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   428 May 22 09:11 0f2207c6d06aab00a05387d1464bd45e5f9f58
+-r--r--r--    1 helvi  staff   882 May 22 09:49 6e8ad042f9da826d8af6dc219b1d27a3997678
+-r--r--r--    1 helvi  staff   417 May 22 09:11 fb4475477c59ccc2084dfd703abf0600f5a48c
+
+./libft/.git/objects/80:
+total 792
+drwxr-xr-x@   3 helvi  staff      96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff    3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff  403317 May 19 09:51 4ab64cb093d1f74532ee206271ad6b2d66fce8
+
+./libft/.git/objects/82:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   417 May 22 09:11 bbea27207c8ac1fedad854d8726e9ee6b2fcda
+
+./libft/.git/objects/87:
+total 896
+drwxr-xr-x@   3 helvi  staff      96 May 22 09:11 .
+drwxr-xr-x@ 111 helvi  staff    3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff  458561 May 22 09:11 edadf62f5c395e1b9180897df9ee6b96655140
+
+./libft/.git/objects/88:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   503 May 22 09:11 492c742f06876ad74ce6411fd76e169d991c7a
+
+./libft/.git/objects/8b:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:11 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   447 May 22 09:11 2997c0ec32ed649d01633424ec5e06897230f4
+-r--r--r--    1 helvi  staff   654 May 22 09:11 8c9df290f3df30ca251ddabab6d4a83d9d2314
+
+./libft/.git/objects/8c:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:49 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   574 May 22 09:49 693801556f80bda724ace01e1d4bf0c5631b0d
+
+./libft/.git/objects/90:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   360 May 22 09:11 ef521b42de7b1464004aa9c32e7ba565dbb2a3
+
+./libft/.git/objects/93:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   494 May 19 09:51 01a36f14fa5de0ca4cf58aa7605e1b927fdbb3
+
+./libft/.git/objects/94:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   415 May 22 09:11 194d74e0936e6c8bf3ee5ea4ac21bc7af7ab39
+
+./libft/.git/objects/96:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   496 May 22 09:11 03f87dc295a280a6a1731eccd8b889c10f512f
+
+./libft/.git/objects/97:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   484 May 22 09:11 c47de4d6fc9c6ca57ece59d634d9d4691c8662
+
+./libft/.git/objects/9a:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   976 May 22 09:11 94d608b7f991d311f69203336f8571f448a3dd
+
+./libft/.git/objects/9c:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   607 May 22 09:11 455049ca867fab4727d796a7d941af8f095619
+
+./libft/.git/objects/9e:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:49 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   534 May 22 09:11 cac09b71c2d47c8db9f3d1cc8e0c1b869bc39a
+-r--r--r--    1 helvi  staff  1069 May 22 09:49 e58d126a962e79bc1bb87309f0e33d2ddb7b3f
+
+./libft/.git/objects/9f:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   516 May 22 09:11 45bf82ad37248d708cec4b9cb1ba1a5baffec5
+-r--r--r--    1 helvi  staff   550 May 22 09:11 fd0983ae38c8c333dbaf5e030b805f8cb97189
+
+./libft/.git/objects/a0:
+total 24
+drwxr-xr-x@   5 helvi  staff   160 May 22 09:49 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   477 May 22 09:11 305e2f56cf62277d1967b5ec7e1c69ff2d0314
+-r--r--r--    1 helvi  staff   695 May 22 09:49 55edc41e7aa329280896a22f0385fccc22b5df
+-r--r--r--    1 helvi  staff   339 May 22 09:11 7b67e25f08e6e818934afebc5da7896b8a0bef
+
+./libft/.git/objects/a1:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff    24 May 22 09:11 7c8893d84efc18c399428f5e1412b132f7919c
+
+./libft/.git/objects/a3:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   522 May 22 09:11 a42fb482d9d30978f3e14e3bc1488e6ba9e8a4
+
+./libft/.git/objects/a7:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   434 May 22 09:11 a24865ab4d94826bb8f852927d7ad42110aa2a
+
+./libft/.git/objects/a9:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff  1267 May 22 09:11 93848df75326ee22097872b3ef249b9575b779
+
+./libft/.git/objects/ac:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   365 May 22 09:11 df6260ec0f22883d50150141f85892b9bcc52b
+
+./libft/.git/objects/ad:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:11 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff  1238 May 22 09:11 d97eab0c7ee160cf2ab8257b278d62025b389f
+-r--r--r--    1 helvi  staff   432 May 22 09:11 e3efa099a242370e6b1efb9c38d0a0a3212055
+
+./libft/.git/objects/b2:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   465 May 22 09:11 ca95af96b374b95bf78211228100e6027d96d8
+
+./libft/.git/objects/ba:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   583 May 22 09:11 4675f5930277e5b3c1772a61b98b30e09bbfc6
+
+./libft/.git/objects/bf:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:49 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   868 May 22 09:49 a2731ab22d948510cf34f5d7f2a145dceb419a
+-r--r--r--    1 helvi  staff  1459 May 19 09:51 a506bf7e14efa9241b342ad1435500a16bc512
+
+./libft/.git/objects/c0:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   406 May 22 09:11 e22e52bbdff2f0c3a7cc4f4dad9711c6cd1625
+
+./libft/.git/objects/c1:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   669 May 22 09:11 eb08ffd22ba6652ac29de1ea7d396c9849e2f6
+
+./libft/.git/objects/c3:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   561 May 22 09:11 27699d8f3055c9c668996899c48de3ffa3316c
+
+./libft/.git/objects/c8:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   809 May 22 09:11 b9dfa33b5d2fe66aa8880231a6595affcefb32
+
+./libft/.git/objects/cc:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   696 May 22 09:11 825bbcaf0ee1000e04132c56899980a5335799
+-r--r--r--    1 helvi  staff   370 May 22 09:11 f240ae8daeabe09ea7e7e03d2e1ce484426be5
+
+./libft/.git/objects/cf:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   306 May 22 09:11 92e575a0174b53890b33c5ad4dc08acc75282f
+
+./libft/.git/objects/d0:
+total 96
+drwxr-xr-x@   4 helvi  staff    128 May 22 09:11 .
+drwxr-xr-x@ 111 helvi  staff   3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff  41662 May 19 09:51 60b99058440c66e65338db59c651a50ab0f11a
+-r--r--r--    1 helvi  staff    201 May 22 09:11 753c9e0999dafe94434fa29925644929bcbe18
+
+./libft/.git/objects/d8:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   389 May 22 09:11 72f2034a7194757be89f42b2e7a2b0c3d74f7a
+
+./libft/.git/objects/dc:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   869 May 22 09:11 1a7a2a541466b61c18dff8d2afb6f51904d00f
+-r--r--r--    1 helvi  staff   544 May 22 09:11 c5c4e3fbbd9b93a6ec1cc2bd0f97e49fcabc3f
+
+./libft/.git/objects/dd:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 22 09:11 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff  2364 May 22 09:11 bc043828c6053a71ab9e127f1b94867daa58be
+
+./libft/.git/objects/de:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   724 May 22 09:11 02a8d6741f84aa6e861768b1f6f7c539710a47
+
+./libft/.git/objects/e2:
+total 56
+drwxr-xr-x@   3 helvi  staff     96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff   3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff  26235 May 19 09:51 fc517c8ddfb5c644e711f05f8e16027c9ce75c
+
+./libft/.git/objects/e3:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:49 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   390 May 22 09:11 6265b693254f7884410f10c826354ab6c78e10
+-r--r--r--    1 helvi  staff   960 May 22 09:49 945f622d3d988ea0e7382e7aa8bcc09e20b05e
+
+./libft/.git/objects/e4:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   500 May 22 09:11 f0fc19d3155900f037ec36585646e7aca0518c
+
+./libft/.git/objects/e6:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   338 May 22 09:11 4b7bec3845d280aff430a95e500e78b80032a6
+
+./libft/.git/objects/e9:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   538 May 22 09:11 a961ffc30b9171dc661b1bbf3b71a101334fe2
+
+./libft/.git/objects/ec:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   357 May 22 09:11 01fbad2569982dfcd6c1e26511218e1a34891f
+
+./libft/.git/objects/ed:
+total 24
+drwxr-xr-x@   5 helvi  staff   160 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   349 May 22 09:11 73442cf07f106876379f86ae1e3cf0058d06a9
+-r--r--r--    1 helvi  staff   431 May 22 09:11 738fcf92617bbd6f19d2f9abba8cb734b5e2b6
+-r--r--r--    1 helvi  staff   349 May 22 09:11 d1077aa11ce8ce5df490db69e385d04571103a
+
+./libft/.git/objects/ef:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   898 May 22 09:11 e7e1722f652688bead54dd454f336c69c9cf20
+
+./libft/.git/objects/f0:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   415 May 22 09:11 50f0ffc5c4438095f8fc3e37013f12962736f9
+-r--r--r--    1 helvi  staff   780 May 19 09:51 6b18ce0ffb43efe0a4b7daa8369e274a73a5b4
+
+./libft/.git/objects/f1:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   420 May 22 09:11 5a12b09db16ca71dfc6192f4e5b9434ca5381e
+
+./libft/.git/objects/f3:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   538 May 22 09:11 46ab86d80679e41998e7030652f3b0e0a454bf
+
+./libft/.git/objects/f4:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   404 May 22 09:11 4a750997be37623ee4bd7ab63f92dfbc73a782
+
+./libft/.git/objects/f5:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff  1247 May 19 09:51 4634a31dfb80026d7f2393759a44e4ece23825
+
+./libft/.git/objects/fa:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:57 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   482 May 22 09:11 5c024ca6d0acb60c4a1b96aa344febe49d1c16
+
+./libft/.git/objects/fb:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   353 May 22 09:11 9a89d34c844539baf05620dedfae0f719cf573
+
+./libft/.git/objects/fc:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   330 May 22 09:11 bc79793f42ba4a6e73623437c57520ab8dace9
+
+./libft/.git/objects/fe:
+total 8
+drwxr-xr-x@   3 helvi  staff    96 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   384 May 22 09:11 0d35db1acfc121e6de27135f4fa4c0e5762a67
+
+./libft/.git/objects/ff:
+total 16
+drwxr-xr-x@   4 helvi  staff   128 May 22 09:49 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff   928 May 22 09:49 b05fdb01ef304ce608644b7872bdef5e059b73
+-r--r--r--    1 helvi  staff   574 May 22 09:11 cb138892a661f0ba2e49b814e47dbd19e6d991
+
+./libft/.git/objects/info:
+total 0
+drwxr-xr-x@   2 helvi  staff    64 May 19 09:56 .
+drwxr-xr-x@ 111 helvi  staff  3552 May 22 09:49 ..
+
+./libft/.git/objects/pack:
+total 2928
+drwxr-xr-x@   4 helvi  staff      128 May 22 09:45 .
+drwxr-xr-x@ 111 helvi  staff     3552 May 22 09:49 ..
+-r--r--r--    1 helvi  staff     8128 May 22 09:44 pack-9d3457fea2ffddbebe746883415f7536aedb4a91.idx
+-r--r--r--    1 helvi  staff  1487689 May 22 09:44 pack-9d3457fea2ffddbebe746883415f7536aedb4a91.pack
+
+./libft/.git/refs:
+total 0
+drwxr-xr-x@  5 helvi  staff  160 May 22 09:45 .
+drwxr-xr-x@ 15 helvi  staff  480 May 22 09:49 ..
+drwxr-xr-x@  3 helvi  staff   96 May 22 09:49 heads
+drwxr-xr-x@  3 helvi  staff   96 May 22 09:45 remotes
+drwxr-xr-x@  2 helvi  staff   64 May 19 09:56 tags
+
+./libft/.git/refs/heads:
+total 8
+drwxr-xr-x@ 3 helvi  staff   96 May 22 09:49 .
+drwxr-xr-x@ 5 helvi  staff  160 May 22 09:45 ..
+-rw-r--r--  1 helvi  staff   41 May 22 09:49 master
+
+./libft/.git/refs/remotes:
+total 0
+drwxr-xr-x@ 3 helvi  staff   96 May 22 09:45 .
+drwxr-xr-x@ 5 helvi  staff  160 May 22 09:45 ..
+drwxr-xr-x@ 5 helvi  staff  160 May 22 09:49 origin
+
+./libft/.git/refs/remotes/origin:
+total 24
+drwxr-xr-x@ 5 helvi  staff  160 May 22 09:49 .
+drwxr-xr-x@ 3 helvi  staff   96 May 22 09:45 ..
+-rw-r--r--  1 helvi  staff   41 May 22 09:49 master
+-rw-r--r--  1 helvi  staff   41 May 22 09:44 version-2.0
+-rw-r--r--  1 helvi  staff   41 May 22 09:44 version1
+
+./libft/.git/refs/tags:
+total 0
+drwxr-xr-x@ 2 helvi  staff   64 May 19 09:56 .
+drwxr-xr-x@ 5 helvi  staff  160 May 22 09:45 ..
+
+./libft/includes:
+total 3328
+drwxr-xr-x@  7 helvi  staff     224 Jun 16 10:07 .
+drwxr-xr-x@ 10 helvi  staff     320 Jun 16 10:07 ..
+-rw-r--r--@  1 helvi  staff    6148 May 19 08:58 .DS_Store
+-rw-r--r--@  1 helvi  staff    4428 May 19 09:01 ft_printf.h
+-rw-r--r--   1 helvi  staff  838908 Jun 16 10:07 ft_printf.h.gch
+-rw-r--r--   1 helvi  staff    5573 Jun  4 10:07 libft.h
+-rw-r--r--   1 helvi  staff  838012 Jun 16 10:07 libft.h.gch
+
+./libft/libft:
+total 856
+drwxr-xr-x@ 91 helvi  staff   2912 Jun 16 10:07 .
+drwxr-xr-x@ 10 helvi  staff    320 Jun 16 10:07 ..
+-rw-r--r--   1 helvi  staff   6148 May 20 17:52 .DS_Store
+-rw-r--r--   1 helvi  staff   2358 Jun  2 11:11 Makefile
+-rw-rw-r--@  1 helvi  staff      9 Dec 16  2019 author
+-rw-rw-r--@  1 helvi  staff   1413 May 19 09:11 ft_addstr.c
+-rw-rw-r--@  1 helvi  staff   1522 May 19 09:11 ft_atoi.c
+-rw-rw-r--@  1 helvi  staff   1102 May 19 09:11 ft_bzero.c
+-rw-r--r--@  1 helvi  staff   1451 May 19 09:11 ft_char_str_join.c
+-rw-rw-r--@  1 helvi  staff   1186 May 19 09:11 ft_define_length.c
+-rw-r--r--@  1 helvi  staff   1654 May 19 09:12 ft_dynamic_string.c
+-rw-rw-r--@  1 helvi  staff   1152 May 19 09:12 ft_is_whitespace.c
+-rw-rw-r--@  1 helvi  staff   1076 May 19 09:12 ft_isalnum.c
+-rw-rw-r--@  1 helvi  staff   1170 May 19 09:12 ft_isalpha.c
+-rw-rw-r--@  1 helvi  staff   1064 May 19 09:12 ft_isascii.c
+-rw-rw-r--@  1 helvi  staff   1078 May 19 09:12 ft_isdigit.c
+-rw-rw-r--@  1 helvi  staff   1082 May 19 09:12 ft_isprint.c
+-rw-rw-r--@  1 helvi  staff   1407 May 19 09:10 ft_itoa.c
+-rw-r--r--   1 helvi  staff   1780 May 19 09:12 ft_itoa_base.c
+-rw-r--r--   1 helvi  staff   1680 May 19 09:12 ft_itoa_float.c
+-rw-r--r--   1 helvi  staff   1597 May 19 09:12 ft_itoa_hexa.c
+-rw-r--r--   1 helvi  staff   1462 May 19 09:12 ft_itoa_uint.c
+-rw-r--r--@  1 helvi  staff    148 Jun  2 10:08 ft_lst_length.c
+-rw-r--r--@  1 helvi  staff    422 Jun  4 10:08 ft_lst_merge_sort.c
+-rw-r--r--@  1 helvi  staff    393 Jun  4 10:09 ft_lst_sorted_merge.c
+-rw-r--r--@  1 helvi  staff    350 Jun  3 17:04 ft_lst_split.c
+-rw-rw-r--@  1 helvi  staff   1005 May 19 09:13 ft_lstadd.c
+-rw-r--r--@  1 helvi  staff    169 May 20 09:51 ft_lstaddafter.c
+-rw-rw-r--@  1 helvi  staff   1160 May 19 09:13 ft_lstdel.c
+-rw-r--r--@  1 helvi  staff    217 May 20 10:10 ft_lstdellast.c
+-rw-rw-r--@  1 helvi  staff   1065 May 19 09:13 ft_lstdelone.c
+-rw-r--r--@  1 helvi  staff    234 May 20 09:17 ft_lstend.c
+-rw-rw-r--@  1 helvi  staff   1062 May 19 09:13 ft_lstiter.c
+-rw-rw-r--@  1 helvi  staff   1543 May 19 09:13 ft_lstmap.c
+-rw-rw-r--@  1 helvi  staff   1647 May 26 15:32 ft_lstnew.c
+-rw-r--r--@  1 helvi  staff    372 May 20 09:56 ft_lstnewtoend.c
+-rw-r--r--@  1 helvi  staff    419 May 20 09:04 ft_lstsrc.c
+-rw-rw-r--@  1 helvi  staff   1207 May 19 09:13 ft_memalloc.c
+-rw-rw-r--@  1 helvi  staff   1380 May 19 09:13 ft_memccpy.c
+-rw-rw-r--@  1 helvi  staff   1315 May 19 09:13 ft_memchr.c
+-rw-rw-r--@  1 helvi  staff   1424 May 19 09:13 ft_memcmp.c
+-rw-rw-r--@  1 helvi  staff   1250 May 19 09:13 ft_memcpy.c
+-rw-rw-r--@  1 helvi  staff   1051 May 19 09:13 ft_memdel.c
+-rw-rw-r--@  1 helvi  staff   1419 May 19 09:13 ft_memmove.c
+-rw-rw-r--@  1 helvi  staff   1138 May 19 09:14 ft_memset.c
+-rw-rw-r--@  1 helvi  staff    997 May 19 09:14 ft_putchar.c
+-rw-rw-r--@  1 helvi  staff   1039 May 19 09:14 ft_putchar_fd.c
+-rw-rw-r--@  1 helvi  staff   1042 May 19 09:14 ft_putendl.c
+-rw-rw-r--@  1 helvi  staff   1087 May 19 09:14 ft_putendl_fd.c
+-rw-rw-r--@  1 helvi  staff   1186 May 19 09:14 ft_putnbr.c
+-rw-rw-r--@  1 helvi  staff   1270 May 19 09:14 ft_putnbr_fd.c
+-rw-rw-r--@  1 helvi  staff   1029 May 19 09:14 ft_putstr.c
+-rw-rw-r--@  1 helvi  staff   1039 May 19 09:14 ft_putstr_fd.c
+-rw-r--r--   1 helvi  staff    562 May 19 09:15 ft_str_char_join.c
+-rw-r--r--@  1 helvi  staff   1218 May 19 09:15 ft_str_realloc.c
+-rw-rw-r--@  1 helvi  staff   1287 May 19 09:15 ft_strcat.c
+-rw-rw-r--@  1 helvi  staff   1241 May 19 09:15 ft_strchr.c
+-rw-rw-r--@  1 helvi  staff   1069 May 19 09:15 ft_strclr.c
+-rw-rw-r--@  1 helvi  staff   1231 Jun  2 10:59 ft_strcmp.c
+-rw-rw-r--@  1 helvi  staff   1155 May 19 09:15 ft_strcpy.c
+-rw-rw-r--@  1 helvi  staff   1093 May 19 09:15 ft_strdel.c
+-rw-rw-r--@  1 helvi  staff   1358 May 19 09:15 ft_strdup.c
+-rw-rw-r--@  1 helvi  staff   1152 May 19 09:15 ft_strequ.c
+-rw-rw-r--@  1 helvi  staff   1124 May 19 09:15 ft_striter.c
+-rw-rw-r--@  1 helvi  staff   1286 May 19 09:16 ft_striteri.c
+-rw-r--r--   1 helvi  staff   1430 May 19 09:16 ft_strjoin.c
+-rw-r--r--@  1 helvi  staff   1499 May 19 09:16 ft_strjoin_frees2.c
+-rw-rw-r--@  1 helvi  staff   1537 May 19 09:16 ft_strlcat.c
+-rw-rw-r--@  1 helvi  staff   1070 May 19 09:16 ft_strlen.c
+-rw-rw-r--@  1 helvi  staff   1368 May 19 09:16 ft_strmap.c
+-rw-rw-r--@  1 helvi  staff   1417 May 19 09:16 ft_strmapi.c
+-rw-rw-r--@  1 helvi  staff   1229 May 19 09:16 ft_strncat.c
+-rw-rw-r--@  1 helvi  staff   1304 May 19 09:16 ft_strncmp.c
+-rw-rw-r--@  1 helvi  staff   1292 May 19 09:16 ft_strncpy.c
+-rw-rw-r--@  1 helvi  staff   1180 May 19 09:19 ft_strnequ.c
+-rw-rw-r--@  1 helvi  staff   1259 May 19 09:20 ft_strnew.c
+-rw-rw-r--@  1 helvi  staff   1424 May 19 09:20 ft_strnstr.c
+-rw-r--r--   1 helvi  staff   1124 May 19 09:20 ft_strpaste.c
+-rw-r--r--@  1 helvi  staff   1175 May 19 09:20 ft_strpaste_digits.c
+-rw-r--r--   1 helvi  staff   1218 May 19 09:20 ft_strpaste_end.c
+-rw-rw-r--@  1 helvi  staff   1163 May 19 09:20 ft_strrchr.c
+-rw-r--r--@  1 helvi  staff   1325 May 19 09:20 ft_strset.c
+-rw-rw-r--@  1 helvi  staff   2018 May 19 09:20 ft_strsplit.c
+-rw-rw-r--@  1 helvi  staff   1338 May 19 09:20 ft_strstr.c
+-rw-rw-r--@  1 helvi  staff   1528 May 19 09:20 ft_strsub.c
+-rw-r--r--   1 helvi  staff   1575 May 19 09:20 ft_strsub_freestr.c
+-rw-rw-r--@  1 helvi  staff   1802 May 19 09:20 ft_strtrim.c
+-rw-rw-r--@  1 helvi  staff   1140 May 19 09:21 ft_tolower.c
+-rw-rw-r--@  1 helvi  staff   1139 May 19 09:21 ft_toupper.c
+-rw-r--r--@  1 helvi  staff   2532 May 19 09:21 get_next_line.c
+-rw-r--r--   1 helvi  staff  70280 May 19 09:21 libft.a
+
+./libft/printf:
+total 136
+drwxr-xr-x@ 18 helvi  staff   576 Jun 16 10:07 .
+drwxr-xr-x@ 10 helvi  staff   320 Jun 16 10:07 ..
+-rw-r--r--@  1 helvi  staff  6148 May 19 08:58 .DS_Store
+-rw-r--r--   1 helvi  staff  2078 May 19 13:11 Makefile
+-rw-r--r--   1 helvi  staff     9 May 22 09:44 author
+-rw-r--r--@  1 helvi  staff  1696 May 22 09:49 float_trim_and_round.c
+-rw-r--r--@  1 helvi  staff  3673 May 26 10:12 ft_printf.c
+-rw-r--r--@  1 helvi  staff  2637 May 22 09:49 helper_functions.c
+-rw-r--r--@  1 helvi  staff  1768 May 22 09:49 print_c.c
+-rw-r--r--@  1 helvi  staff  3169 May 22 09:49 print_d.c
+-rw-r--r--@  1 helvi  staff  3310 May 22 09:49 print_f.c
+-rw-r--r--@  1 helvi  staff  3103 May 22 09:49 print_o.c
+-rw-r--r--@  1 helvi  staff  2774 May 22 09:49 print_p.c
+-rw-r--r--@  1 helvi  staff  2248 May 22 09:49 print_s.c
+-rw-r--r--@  1 helvi  staff  3330 May 22 09:49 print_u.c
+-rw-r--r--@  1 helvi  staff  3085 May 22 09:49 print_x.c
+-rw-r--r--@  1 helvi  staff  3006 May 22 09:49 set_command_values.c
+-rw-r--r--@  1 helvi  staff  2577 May 22 09:49 va_arg_reader_functions.c
+
+./testi:
+total 16
+drwxr-xr-x@  5 helvi  staff   160 May 22 10:39 .
+drwxr-xr-x@ 18 helvi  staff   576 Jun 16 10:07 ..
+-rw-r--r--@  1 helvi  staff  6148 May 28 21:04 .DS_Store
+-rw-r--r--   1 helvi  staff     0 May 22 10:39 file1
+drwxr-xr-x@  3 helvi  staff    96 May 22 10:39 testi2
+
+./testi/testi2:
+total 0
+drwxr-xr-x@ 3 helvi  staff   96 May 22 10:39 .
+drwxr-xr-x@ 5 helvi  staff  160 May 22 10:39 ..
+-rw-r--r--  1 helvi  staff    0 May 22 10:39 file2

@@ -3,14 +3,14 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: helvi <helvi@student.42.fr>                +#+  +:+       +#+         #
+#    By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/17 12:00:35 by hlaineka          #+#    #+#              #
-#    Updated: 2020/05/19 10:00:36 by helvi            ###   ########.fr        #
+#    Updated: 2020/06/22 14:39:16 by hlaineka         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libft.a
+NAME = ft_ls
 
 SRC = ft_ls.c
 
@@ -18,12 +18,36 @@ OSRC = $(SRC:.c=.o)
 
 INC_LS = includes/ft_ls.h
 
+
+
+LIB_FT = libft/libft.a
+
 all: $(NAME)
 
 $(NAME): fclean
-	cd libft && make re
-	cd printf && make re
-	ar rc $(NAME) $(LIB_LIBFT) $(LIB_PRINTF)
+	gcc -Wall -Wextra -Werror $(LIB_FT) ft_ls.c -o $(NAME) -I$(INC_LS)
+	make clean
+
+debug:
+	cd libft && make
+	gcc -Wall -Wextra -Werror $(LIB_FT) ft_ls.c -o $(NAME) -I$(INC_LS) -g
+	make clean
+
+lib: fclean
+	cd libft && make
+	make clean
+
+ft:	
+	gcc $(LIB_FT) ft_ls.c -o $(NAME) -I$(INC_LS)
+
+main2: fclean
+	cd libft && make
+	gcc $(LIB_FT) get_started1.c -o test2 -I$(INC_LS)
+	make clean
+
+main3: fclean
+	cd libft && make
+	gcc $(LIB_FT) get_started2.c -o test3 -I$(INC_LS)
 	make clean
 
 clean:
