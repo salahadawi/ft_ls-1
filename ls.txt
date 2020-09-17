@@ -1,0 +1,55 @@
+/private/tmp:
+total 0
+drwxrwxrwt  23 root   wheel  736 Sep  5 12:26 .
+drwxr-xr-x   6 root   wheel  192 Jun  3 10:25 ..
+-rwxrwxrwx   1 root   wheel    0 Sep  3 22:05 .TeamViewer.lock
+drwx------   3 helvi  wheel   96 Sep  4 09:26 com.apple.launchd.GCfn0MAy1A
+drwxr-xr-x@  4 helvi  wheel  128 Sep  4 09:27 com.google.Keystone
+drwxrwxrwx@  6 helvi  wheel  192 Sep  4 09:27 dumps
+prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_client_request_861_10
+prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_client_request_861_11
+prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_client_request_861_12
+prwx------   1 helvi  wheel    0 Sep  5 19:57 pipe_client_request_861_9
+prwx------   1 helvi  wheel    0 Sep  5 12:15 pipe_client_response_861_10
+prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_client_response_861_11
+prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_client_response_861_12
+prwx------   1 helvi  wheel    0 Sep  4 14:44 pipe_client_response_861_9
+prwx------   1 helvi  wheel    0 Sep  5 12:15 pipe_server_request_861_10
+prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_server_request_861_11
+prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_server_request_861_12
+prwx------   1 helvi  wheel    0 Sep  4 14:44 pipe_server_request_861_9
+prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_server_response_861_10
+prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_server_response_861_11
+prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_server_response_861_12
+prwx------   1 helvi  wheel    0 Sep  5 19:57 pipe_server_response_861_9
+drwxr-xr-x   2 root   wheel   64 Sep  3 22:05 powerlog
+
+/private/var:
+total 0
+drwxr-xr-x   27 root          wheel           864 Jun  3 10:31 .
+drwxr-xr-x    6 root          wheel           192 Jun  3 10:25 ..
+drwx------    2 root          wheel            64 Aug 24  2019 agentx
+drwxr-xr-x    8 daemon        wheel           256 Oct 24  2019 at
+drwx------  906 root          wheel         28992 Sep  3 22:05 audit
+drwx------    2 root          wheel            64 Oct 18  2019 backups
+drwxr-xr-x  106 root          wheel          3392 Aug 28 00:21 db
+drwxr-xr-x    2 root          sys              64 Oct 18  2019 empty
+drwxr-xr-x    6 root          wheel           192 Jan 13  2014 folders
+drwx------    2 root          wheel            64 Aug 28 00:18 install
+drwxr-x---    2 _jabber       _jabber          64 Aug 24  2019 jabberd
+drwxr-xr-x    3 root          wheel            96 Sep 19  2019 lib
+drwxr-xr-x   46 root          wheel          1472 Sep  5 01:28 log
+drwxr-x---    2 _mobileasset  _mobileasset     64 Oct 18  2019 ma
+drwxrwxr-x    2 root          mail             64 Oct 18  2019 mail
+drwxr-xr-x    3 root          wheel            96 Oct 18  2019 msgs
+drwxr-xr-x    2 root          wheel            64 Oct 18  2019 netboot
+drwxr-xr-x    6 _networkd     _networkd       192 Jun  3 10:29 networkd
+drwxr-x---    7 root          wheel           224 Mar 12  2019 root
+drwxr-xr-x    4 root          wheel           128 Oct 18  2019 rpc
+drwxrwxr-x   33 root          daemon         1056 Sep  5 19:56 run
+drwxr-xr-x    2 daemon        wheel            64 Oct 18  2019 rwho
+drwxr-xr-x    3 root          wheel            96 Nov 29  2019 select
+drwxr-xr-x    6 root          wheel           192 Oct 24  2019 spool
+drwxrwxrwt    6 root          wheel           192 Sep  4 09:26 tmp
+drwxr-xr-x    5 root          wheel           160 Sep  4 16:35 vm
+drwxr-xr-x    4 root          wheel           128 Jun  3 10:29 yp
