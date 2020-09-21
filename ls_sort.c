@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/01 16:16:25 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/16 20:00:45 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/18 17:43:32 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,8 @@ int		sort_dir_time(t_list *a, t_list *b)
 		return (FALSE);
 	if (!ft_strequ(b_dir->name, ""))
 		return (TRUE);
+	if (!a_dir->stat_info || !b_dir->stat_info)
+		return (FALSE);
 	if (a_dir->stat_info->st_mtime > b_dir->stat_info->st_mtime)
 		return (TRUE);
 	if (a_dir->stat_info->st_mtime == b_dir->stat_info->st_mtime)
@@ -69,6 +71,8 @@ int		sort_file_time(t_list *a, t_list *b)
 
 	a_file = (t_file*)a->content;
 	b_file = (t_file*)b->content;
+	if (!a_file->stat_info || !b_file->stat_info)
+		return (FALSE);
 	if (a_file->stat_info->st_mtime > b_file->stat_info->st_mtime)
 		return (TRUE);
 	if (a_file->stat_info->st_mtime == b_file->stat_info->st_mtime)

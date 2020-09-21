@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/03 15:27:33 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/17 11:29:15 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/21 12:17:09 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ void	find_dir_add_file(t_list **first_directory, t_file *new_file,
 	while (temp_dir_list)
 	{
 		temp_directory = (t_directory*)temp_dir_list->content;
-		if (0 == ft_strcmp(temp_directory->name, ""))
+		if (ft_strequ(temp_directory->name, ""))
 			break ;
 		temp_dir_list = temp_dir_list->next;
 	}
@@ -62,11 +62,7 @@ void	handle_file_param(char *file_name, t_list **first_directory,
 		file_name = ft_strsub_freestr(file_name, 0, ft_strlen(file_name) - 1);
 	stat_buf = (struct stat*)malloc(sizeof(struct stat));
 	if (-1 == lstat(file_name, stat_buf))
-	{
 		print_error(file_name);
-		free(stat_buf);
-		return ;
-	}
 	new_file = (t_file*)malloc(sizeof(t_file));
 	read_file(file_name, new_file, stat_buf);
 	find_dir_add_file(first_directory, new_file, params);
@@ -83,7 +79,7 @@ void	read_stat(char *directory_name, t_params *params,
 	path_filename = ft_strjoin(directory_name, dirent_buf->d_name);
 	if (-1 == lstat(path_filename, stat_buf))
 	{
-		print_error(dirent_buf->d_name);
+		handle_file_error(dirent_buf->d_name, params, first_directory);
 		free(path_filename);
 		free(stat_buf);
 		return ;
@@ -112,7 +108,7 @@ void	read_dirp(struct stat *dir_stat, char *directory_name, t_params *params,
 			handle_file_param(directory_name, first_directory, params);
 			return ;
 		}
-		print_error(directory_name);
+		handle_dir_error(directory_name, first_directory);
 		return ;
 	}
 	add_directory(directory_name, first_directory, dir_stat);

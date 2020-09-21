@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/11 10:23:24 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/17 11:45:42 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/21 13:06:12 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	add_file(t_file *new_file, t_params *params, t_list *first_directory)
 	directory_elem = ft_lstend(first_directory);
 	temp_directory = (t_directory*)directory_elem->content;
 	temp_stat = (struct stat*)new_file->stat_info;
-	if (params->l)
+	if (params->l && temp_stat)
 		check_field_width(temp_stat, temp_directory);
 	ft_lstnewtoend(new_file, sizeof(t_file), &(temp_directory->first_file));
 }
@@ -81,28 +81,6 @@ void	add_to_list(char *name, struct stat *stat_buf, t_params *params,
 	free(new_file);
 }
 
-t_list	*read_argv(int argc, int i, t_params *params, char **argv)
-{
-	char		*directory_name;
-	t_list		*first_directory;
-
-	first_directory = NULL;
-	if (i == argc)
-	{
-		directory_name = ft_strdup(".");
-		read_directory(directory_name, params, &first_directory);
-		free(directory_name);
-	}
-	while (argv[i])
-	{
-		params->multiple_folders++;
-		directory_name = ft_strdup(argv[i++]);
-		read_directory(directory_name, params, &first_directory);
-		free(directory_name);
-	}
-	return (first_directory);
-}
-
 void	read_file(char *file_name, t_file *new_file, struct stat *stat_buf)
 {
 	char	*link_name;
@@ -120,4 +98,29 @@ void	read_file(char *file_name, t_file *new_file, struct stat *stat_buf)
 	}
 	new_file->stat_info = stat_buf;
 	free(link_name);
+}
+
+void	read_directory(char *directory_name, t_params *params,
+		t_list **first_directory)
+{
+	struct stat		*stat_buf;
+
+	stat_buf = (struct stat*)malloc(sizeof(struct stat));
+	if (-1 == lstat(directory_name, stat_buf))
+	{
+		handle_dir_error(directory_name, first_directory);
+		free(stat_buf);
+		return ;
+	}
+	if (params->multiple_folders != -1 && params->l
+	&& S_ISLNK(stat_buf->st_mode))
+	{
+		handle_file_param(directory_name, first_directory, params);
+		free(stat_buf);
+		return ;
+	}
+	if (ft_strlast(directory_name) != '/')
+		directory_name = ft_str_char_join('/', directory_name);
+	read_dirp(stat_buf, directory_name, params, first_directory);
+	free(directory_name);
 }

@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/26 11:53:03 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/17 11:46:09 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/21 13:11:45 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,20 +22,25 @@ void	print_all(t_params *params, t_list *first_directory)
 	while (temp_dirlist)
 	{
 		temp_directory = (t_directory*)temp_dirlist->content;
-		if (!ft_strequ(temp_directory->name, ""))
-			directory_name = ft_strsub(temp_directory->name, 0,
-			ft_strlen(temp_directory->name) - 1);
-		if ((params->rr || (params->multiple_folders > -1)) && temp_dirlist
-		!= first_directory)
-			ft_printf("%s:\n", directory_name);
-		if (params->l && !ft_strequ(temp_directory->name, ""))
-			ft_printf("total %d\n", temp_directory->total);
-		print_filelist(params, temp_directory);
-		if (params->rr || params->multiple_folders > 0)
-			ft_printf("\n");
+		if (!temp_directory->stat_info && !ft_strequ(temp_directory->name, ""))
+			ft_printf("%s:\n", temp_directory->name);
+		else
+		{
+			if (!ft_strequ(temp_directory->name, ""))
+				directory_name = ft_strsub(temp_directory->name, 0,
+				ft_strlen(temp_directory->name) - 1);
+			if ((params->rr || (params->multiple_folders > -1)) && temp_dirlist
+			!= first_directory)
+				ft_printf("%s:\n", directory_name);
+			if (params->l && !ft_strequ(temp_directory->name, ""))
+				ft_printf("total %d\n", temp_directory->total);
+			print_filelist(params, temp_directory);
+			if (params->rr || params->multiple_folders > 0)
+				ft_printf("\n");
+		}
 		temp_dirlist = temp_dirlist->next;
 		params->multiple_folders--;
-		if (!ft_strequ(temp_directory->name, ""))
+		if (!ft_strequ(temp_directory->name, "") && temp_directory->stat_info)
 			free(directory_name);
 	}
 }
@@ -70,29 +75,35 @@ void	sort_directories(t_list **first_directory, t_params *params)
 ** when ever there is R flag given to read all subdirectories as well.
 */
 
-void	read_directory(char *directory_name, t_params *params,
-		t_list **first_directory)
+t_list	*read_argv(int argc, int i, t_params *params, char **argv)
 {
-	struct stat		*stat_buf;
+	char		*directory_name;
+	t_list		*first_directory;
 
-	stat_buf = (struct stat*)malloc(sizeof(struct stat));
-	if (-1 == lstat(directory_name, stat_buf))
+	first_directory = NULL;
+	if (i == argc)
 	{
-		print_error(directory_name);
-		free(stat_buf);
-		return ;
+		directory_name = ft_strdup(".");
+		read_directory(directory_name, params, &first_directory);
+		free(directory_name);
 	}
-	if (params->multiple_folders != -1 && params->l
-	&& S_ISLNK(stat_buf->st_mode))
+	while (argv[i])
 	{
-		handle_file_param(directory_name, first_directory, params);
-		free(stat_buf);
-		return ;
+		params->multiple_folders++;
+		directory_name = ft_strdup(argv[i++]);
+		read_directory(directory_name, params, &first_directory);
+		free(directory_name);
 	}
-	if (ft_strlast(directory_name) != '/')
-		directory_name = ft_str_char_join('/', directory_name);
-	read_dirp(stat_buf, directory_name, params, first_directory);
-	free(directory_name);
+	/*t_list	*temp_directory;
+	temp_directory = first_directory;
+	while(temp_directory)
+	{
+		t_directory *temp_dir = (t_directory*)temp_directory->content;
+		ft_printf("!%s!", temp_dir->name);
+		temp_directory = temp_directory->next;
+	}
+	exit(0);*/
+	return (first_directory);
 }
 
 /*
@@ -147,5 +158,6 @@ int		main(int argc, char **argv)
 	first_directory = read_argv(argc, i, params, argv);
 	sort_directories(&first_directory, params);
 	print_all(params, first_directory);
+	//while(1);
 	return (0);
 }
