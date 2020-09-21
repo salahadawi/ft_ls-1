@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/26 11:53:03 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/21 13:11:45 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/21 20:15:09 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ void	print_all(t_params *params, t_list *first_directory)
 			ft_printf("%s:\n", temp_directory->name);
 		else
 		{
+			//ft_printf("!%s!", temp_directory->name);
 			if (!ft_strequ(temp_directory->name, ""))
 				directory_name = ft_strsub(temp_directory->name, 0,
 				ft_strlen(temp_directory->name) - 1);
@@ -35,7 +36,7 @@ void	print_all(t_params *params, t_list *first_directory)
 			if (params->l && !ft_strequ(temp_directory->name, ""))
 				ft_printf("total %d\n", temp_directory->total);
 			print_filelist(params, temp_directory);
-			if (params->rr || params->multiple_folders > 0)
+			if (params->rr || temp_dirlist->next)
 				ft_printf("\n");
 		}
 		temp_dirlist = temp_dirlist->next;
@@ -92,7 +93,7 @@ t_list	*read_argv(int argc, int i, t_params *params, char **argv)
 		params->multiple_folders++;
 		directory_name = ft_strdup(argv[i++]);
 		read_directory(directory_name, params, &first_directory);
-		free(directory_name);
+		//free(directory_name);
 	}
 	/*t_list	*temp_directory;
 	temp_directory = first_directory;
