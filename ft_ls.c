@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/26 11:53:03 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/21 20:15:09 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/22 11:37:45 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -93,17 +93,7 @@ t_list	*read_argv(int argc, int i, t_params *params, char **argv)
 		params->multiple_folders++;
 		directory_name = ft_strdup(argv[i++]);
 		read_directory(directory_name, params, &first_directory);
-		//free(directory_name);
 	}
-	/*t_list	*temp_directory;
-	temp_directory = first_directory;
-	while(temp_directory)
-	{
-		t_directory *temp_dir = (t_directory*)temp_directory->content;
-		ft_printf("!%s!", temp_dir->name);
-		temp_directory = temp_directory->next;
-	}
-	exit(0);*/
 	return (first_directory);
 }
 

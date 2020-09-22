@@ -1,55 +1,6514 @@
-/private/tmp:
-total 0
-drwxrwxrwt  23 root   wheel  736 Sep  5 12:26 .
-drwxr-xr-x   6 root   wheel  192 Jun  3 10:25 ..
--rwxrwxrwx   1 root   wheel    0 Sep  3 22:05 .TeamViewer.lock
-drwx------   3 helvi  wheel   96 Sep  4 09:26 com.apple.launchd.GCfn0MAy1A
-drwxr-xr-x@  4 helvi  wheel  128 Sep  4 09:27 com.google.Keystone
-drwxrwxrwx@  6 helvi  wheel  192 Sep  4 09:27 dumps
-prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_client_request_861_10
-prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_client_request_861_11
-prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_client_request_861_12
-prwx------   1 helvi  wheel    0 Sep  5 19:57 pipe_client_request_861_9
-prwx------   1 helvi  wheel    0 Sep  5 12:15 pipe_client_response_861_10
-prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_client_response_861_11
-prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_client_response_861_12
-prwx------   1 helvi  wheel    0 Sep  4 14:44 pipe_client_response_861_9
-prwx------   1 helvi  wheel    0 Sep  5 12:15 pipe_server_request_861_10
-prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_server_request_861_11
-prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_server_request_861_12
-prwx------   1 helvi  wheel    0 Sep  4 14:44 pipe_server_request_861_9
-prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_server_response_861_10
-prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_server_response_861_11
-prwx------   1 helvi  wheel    0 Sep  5 12:21 pipe_server_response_861_12
-prwx------   1 helvi  wheel    0 Sep  5 19:57 pipe_server_response_861_9
-drwxr-xr-x   2 root   wheel   64 Sep  3 22:05 powerlog
+Kauko
+Opinnäytetyö_Helvi_Toivola_esitarkastukseen.doc
+Talo
+Terminal Saved Output
+codes
+hive
+kasaripelit.pages
+mainos_avoimetovet.jpg
+make debug
+muut
 
-/private/var:
-total 0
-drwxr-xr-x   27 root          wheel           864 Jun  3 10:31 .
-drwxr-xr-x    6 root          wheel           192 Jun  3 10:25 ..
-drwx------    2 root          wheel            64 Aug 24  2019 agentx
-drwxr-xr-x    8 daemon        wheel           256 Oct 24  2019 at
-drwx------  906 root          wheel         28992 Sep  3 22:05 audit
-drwx------    2 root          wheel            64 Oct 18  2019 backups
-drwxr-xr-x  106 root          wheel          3392 Aug 28 00:21 db
-drwxr-xr-x    2 root          sys              64 Oct 18  2019 empty
-drwxr-xr-x    6 root          wheel           192 Jan 13  2014 folders
-drwx------    2 root          wheel            64 Aug 28 00:18 install
-drwxr-x---    2 _jabber       _jabber          64 Aug 24  2019 jabberd
-drwxr-xr-x    3 root          wheel            96 Sep 19  2019 lib
-drwxr-xr-x   46 root          wheel          1472 Sep  5 01:28 log
-drwxr-x---    2 _mobileasset  _mobileasset     64 Oct 18  2019 ma
-drwxrwxr-x    2 root          mail             64 Oct 18  2019 mail
-drwxr-xr-x    3 root          wheel            96 Oct 18  2019 msgs
-drwxr-xr-x    2 root          wheel            64 Oct 18  2019 netboot
-drwxr-xr-x    6 _networkd     _networkd       192 Jun  3 10:29 networkd
-drwxr-x---    7 root          wheel           224 Mar 12  2019 root
-drwxr-xr-x    4 root          wheel           128 Oct 18  2019 rpc
-drwxrwxr-x   33 root          daemon         1056 Sep  5 19:56 run
-drwxr-xr-x    2 daemon        wheel            64 Oct 18  2019 rwho
-drwxr-xr-x    3 root          wheel            96 Nov 29  2019 select
-drwxr-xr-x    6 root          wheel           192 Oct 24  2019 spool
-drwxrwxrwt    6 root          wheel           192 Sep  4 09:26 tmp
-drwxr-xr-x    5 root          wheel           160 Sep  4 16:35 vm
-drwxr-xr-x    4 root          wheel           128 Jun  3 10:29 yp
+/Users/helvi/Documents/Kauko:
+01.Sign_in.png
+1.10.Kids_Instruction – 8.png
+1.11.Kids-Instruction – 9.png
+1.12.Kids-Instruction – 10.png
+1.13.kids-Instruction – 11.png
+1.14.kids-Play_video to watch.png
+1.15.kids-watching video.png
+1.16.Kids-add finished task.png
+1.17.Kids-sent completed assignments.png
+1.18.Kids-motivate.png
+1.19.Kids-got coins.png
+1.20.Kids-Share.png
+1.21.Kids_shar_assignmt.png
+1.22.Kids_assignment sent to friend.png
+1.23.Kids-Classes_view friends work.png
+1.24.Kids-Classes – call for peer review.png
+1.25-Kids-video call_friends_peer_review through video.png
+1.2Kids view-Classes – 1.png
+1.3.kids-Instruction – 1.png
+1.4.Kids-Instruction_2.png
+1.5.Kids-Instruction – 3.png
+1.6.Kids – 4.png
+1.7.Kids – 5.png
+1.8.Kids – 6.png
+1.9.kids-Instruction – 7.png
+2.Pre-school _teacher _After signing_1.png
+3.Pre-school _teacher _databank_2.png
+4.Preschool_teacher_upload file_3.png
+final10Artboard 1.png
+final1Artboard 1.png
+final2-1Artboard 1.png
+final2-2Artboard 1.png
+final3Artboard 1.png
+final4Artboard 1.png
+final5Artboard 1.png
+final8Artboard 1.png
+
+/Users/helvi/Documents/Talo:
+Aihiolta
+Ikea
+Ikkunakaaviot
+LVI
+Laskut
+Luonnoksia
+MML
+avatar.jpg
+blogikuvat
+budjetti
+final
+geopalvelu
+huonekalut
+laina
+muutokset1.pages
+owncloud_päivitys
+pääpiirrustukset
+perskikset_201502
+perustukset
+piha
+pinnat-kaapit-kalusteet.pages
+rakennuslupa
+sastamalan_vesi
+sähkösuunnitelmat
+sisustus
+sopimus
+talo_toivola_tarjoukset
+tulisijat
+tulisijat_arvio.pages
+uusi ainola
+uusi paikka
+virtuaalimalli_201502
+
+/Users/helvi/Documents/Talo/Aihiolta:
+Pääpiirustukset
+
+/Users/helvi/Documents/Talo/Aihiolta/Pääpiirustukset:
+001 Asemapiirustus.dwg
+002 Pohjapiirustukset.dwg
+003 Leikkaus A-A.dwg
+004 Julkisivupiirustukset.dwg
+005 Rakenneleikkaus.dwg
+02 PÄÄPIIRUSTUKSET 1.2.2015.pdf
+02 PÄÄPIIRUSTUKSET 25.5.2015.pdf
+02 PÄÄPIIRUSTUKSET.pdf
+03 TYÖPIIRUSTUKSET.pdf
+201 Pohjapiirustus 1.kerros.dwg
+201 Pohjapiirustus 1.kerros_autocad.dwg
+202 Pohjapiirustus 2.kerros.dwg
+203 Leikkaus A-A.dwg
+204 Leikkaus B-B.dwg
+talo_toivola_1kerros.zip
+
+/Users/helvi/Documents/Talo/Ikea:
+Tilausvahvistus.pdf
+keittio
+khh
+lasten_liukuovi_pax.pdf
+pax-kaapisto.pdf
+työhuoneen_keittiö
+
+/Users/helvi/Documents/Talo/Ikea/keittio:
+IMG_2016-10-04 09:03:43.jpg
+keittio_pohjakuva.jpg
+keittiö_allasseinä.jpg
+keittiö_ikkunaseinä.jpg
+keittiö_saarreke.jpg
+nakyma.jpg
+nakyma2.jpg
+paivitetty
+
+/Users/helvi/Documents/Talo/Ikea/keittio/paivitetty:
+IKEA-suunnitteluohjelman tuloste.pdf
+allasseina.jpg
+ikkunaseina.jpg
+index.jpg
+pohjakuva.jpg
+saarreke.jpg
+
+/Users/helvi/Documents/Talo/Ikea/khh:
+IKEA-suunnitteluohjelman tuloste.pdf
+khh_2_altaat.jpg
+khh_2_pohja.jpg
+khh_2_pyykkikoneet.jpg
+khh_allasseina.jpg
+kph_pohjakuva.jpg
+pesukoneet.jpg
+
+/Users/helvi/Documents/Talo/Ikea/työhuoneen_keittiö:
+pikkukeittiö.jpg
+pikkukeittiö_pohjakuva.jpg
+
+/Users/helvi/Documents/Talo/Ikkunakaaviot:
+
+/Users/helvi/Documents/Talo/LVI:
+1krs_IV.pdf
+1krs_VV.pdf
+2krs_IV.pdf
+2krs_VV.pdf
+Asemapiirros_Toivola.pdf
+asemapiirros_zoom_a3.pdf
+
+/Users/helvi/Documents/Talo/Laskut:
+LASKU 647, Toivola Mikko ja Helvi, 1-erä M.pdf
+LASKU 652, Toivola Mikko ja Helvi, 2-erä.pdf
+LASKU 660, Toivola Mikko ja Helvi, 3-erä.pdf
+LASKU 674, Toivola Mikko ja Helvi, 4-erä.pdf
+LASKU 683, Toivola Mikko ja Helvi, 5-erä.pdf
+LASKU 687, Toivola Mikko ja Helvi, 6-erä.pdf
+LASKU 692, Toivola Mikko ja Helvi, 7-erä.pdf
+LASKU 695, Toivola Mikko ja Helvi, 8-erä.pdf
+LASKU 703, Toivola Mikko ja Helvi, 9-erä.pdf
+Scan0002.pdf
+TOIVOLA, kopio valmiusastetodistus 11-12-2015.pdf
+TOIVOLA, valmiusastetodistus 20-11-2015.pdf
+TOIVOLA, valmiusastetodistus 27-07-2015-2.pdf
+TOIVOLA, valmiusastetodistus 28-09-2015.pdf
+Valmiusastetodistus 24-06-2015.pdf
+laskut.ods
+
+/Users/helvi/Documents/Talo/Luonnoksia:
+Helvin_luonnos.pdf
+Talo Toivola pohja 10.4.2014.pdf
+tulisijat.PDF
+
+/Users/helvi/Documents/Talo/MML:
+790-421-2-15-kiinteistorekisteriote-72770998343149967606178640767325679688.pdf
+790-421-2-15-lainhuutotodistus-8704771959161763794719485608429334548.pdf
+790-421-2-15-rasitustodistus-91172384562225741257846627645511143015.pdf
+Avoimen_tietoaineiston_lisenssi_versio1.pdf
+v2
+vesioikeus_kartat.pdf
+
+/Users/helvi/Documents/Talo/MML/v2:
+Siirtotiedosto.dwg
+krk_dwg.zip
+ma_mtk_pral.dwg
+mk_mtk_prea.dwg
+mtk_pral.dwg.zip
+mtk_prea.dwg.zip
+toivola.dwg
+toivola.zip
+
+/Users/helvi/Documents/Talo/blogikuvat:
+20150615-IMG_4998.jpg
+20150615-IMG_5001.jpg
+20150623-IMG_6231.jpg
+20150623-IMG_6243.jpg
+20150623-IMG_6245.jpg
+cello_aspen.jpg
+cello_aspen_tammi.jpg
+kippis.jpg
+kylpyhuone.jpg
+laminaatti_ja_laatta.jpg
+
+/Users/helvi/Documents/Talo/budjetti:
+Lainatarvebudjetti.ods
+Lainatarvebudjetti.pdf
+pankille.ods
+
+/Users/helvi/Documents/Talo/final:
+02 PÄÄPIIRUSTUKSET 08112014.pdf
+02 PÄÄPIIRUSTUKSET 15112014.pdf
+02 PÄÄPIIRUSTUKSET.pdf
+02 PÄÄPIIRUSTUKSET_A3.pdf
+Talo Toivola 1.pdf
+Talo Toivola 2.pdf
+Talo Toivola assari.pdf
+Toivola_DWG
+Toivola_DWG.zip
+ak.jpg
+alakerta.jpg
+alakerta_a3.pdf
+alakerta_a4.pdf
+assari.jpg
+yk.jpg
+ylakerta.jpg
+yläkerta_a4.pdf
+
+/Users/helvi/Documents/Talo/final/Toivola_DWG:
+001 Asemapiirustus.dwg
+002 Pohjapiirustukset.dwg
+003 Leikkaus A-A.dwg
+004 Julkisivupiirustukset.dwg
+005 Rakenneleikkaus.dwg
+
+/Users/helvi/Documents/Talo/geopalvelu:
+Ok-talo Toivola
+Ok-talo Toivola.zip
+
+/Users/helvi/Documents/Talo/geopalvelu/Ok-talo Toivola:
+001-PV-PTAP-10.12.2014.dwg
+001-PV-PTAP.pdf
+002-Leikkaukset-10.12.2014.dwg
+002-Leikkaus.pdf
+003-Leikkaus.pdf
+14222-Pohjarakennesuunnitelma.pdf
+Perustamisolosuhdeselvitys.pdf
+
+/Users/helvi/Documents/Talo/huonekalut:
+snekkersten-matto-matala-nukka-harmaa__0217342_PE373599_S4.JPG
+
+/Users/helvi/Documents/Talo/laina:
+Nordea_hakemusyhteenveto.pdf
+Supermikko tilinpäätös 2014.pdf
+kuluttajaluottotieto.pdf
+luottohakemus_op.pdf
+tarjous.pdf
+
+/Users/helvi/Documents/Talo/muutokset1.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/Talo/muutokset1.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/Talo/muutokset1.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/Talo/owncloud_päivitys:
+
+/Users/helvi/Documents/Talo/pääpiirrustukset:
+02 PÄÄPIIRUSTUKSET 1.2.2015.pdf
+02 PÄÄPIIRUSTUKSET 25.5.2015.pdf
+02 PÄÄPIIRUSTUKSET 8.4.2015.pdf
+03 TYÖPIIRUSTUKSET.pdf
+1-75pohjakuva.png
+1krs.pdf
+1krs_2x.pdf
+TaloToivola muutokset 21.5.15_iso.pdf
+TaloToivola muutokset 21.5.15_kkh_iso.jpg
+lattialämmitys
+piha_a4.jpg
+piha_a4.pdf
+pohjakuva.jpg
+sähköt
+uusi_pohja_a4.jpg
+
+/Users/helvi/Documents/Talo/pääpiirrustukset/lattialämmitys:
+W15112HA.pdf
+W15112HB.pdf
+
+/Users/helvi/Documents/Talo/pääpiirrustukset/sähköt:
+1. kerros_1.pdf
+1TOIVOLA.dwg
+1TOIVOLA_muutokset.pdf
+2. kerros_1.pdf
+2TOIVOLA.dwg
+AS_TOIVO.dwg
+Asema_1.pdf
+kalustekuvat
+kalustekuvat.zip
+muutokset.pdf
+muutokset_a3.pdf
+
+/Users/helvi/Documents/Talo/pääpiirrustukset/sähköt/kalustekuvat:
+keittio
+khh
+
+/Users/helvi/Documents/Talo/pääpiirrustukset/sähköt/kalustekuvat/keittio:
+keittio_pohjakuva.jpg
+keittiö_allasseinä.jpg
+keittiö_ikkunaseinä.jpg
+keittiö_saarreke.jpg
+nakyma.jpg
+
+/Users/helvi/Documents/Talo/pääpiirrustukset/sähköt/kalustekuvat/khh:
+khh_2_altaat.jpg
+khh_2_pohja.jpg
+khh_2_pyykkikoneet.jpg
+
+/Users/helvi/Documents/Talo/perskikset_201502:
+Talo Toivola 01022015_View 1_1.jpg
+Talo Toivola 01022015_View 1_3.jpg
+Talo Toivola 01022015_View 1_4.jpg
+Talo Toivola 01022015_View 1_5.jpg
+TaloToivolaVIOLETTIOVI.jpg
+
+/Users/helvi/Documents/Talo/perustukset:
+Perustusten tasokuva.pdf
+Perustusten tasokuva_2.pdf
+
+/Users/helvi/Documents/Talo/piha:
+tsi_kartta.jpg
+
+/Users/helvi/Documents/Talo/pinnat-kaapit-kalusteet.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/Talo/pinnat-kaapit-kalusteet.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/Talo/pinnat-kaapit-kalusteet.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/Talo/rakennuslupa:
+liitteet
+lupa
+lupahakemus.pdf
+lupahakemus_tiedot.pdf
+
+/Users/helvi/Documents/Talo/rakennuslupa/liitteet:
+3362_suunnittelutarve.pdf
+3362_suunnittelutarve_tiedoilla.pdf
+790-421-2-15-kiinteistorekisteriote-72770998343149967606178640767325679688.pdf
+790-421-2-15-lainhuutotodistus-8704771959161763794719485608429334548.pdf
+790-421-2-15-rasitustodistus-91172384562225741257846627645511143015.pdf
+RH1-sastamala.pdf
+RH1.pdf
+RH1_tiedot.pdf
+Rakennuslupahakemus.pdf
+energiatodistus
+kartta_kaupunki.pdf
+kauppakirja1.pdf
+kauppakirja2.pdf
+kauppakirja3.pdf
+kauppakirja4.pdf
+kauppakirja5.pdf
+kauppakirja6.pdf
+kauppakirja7.pdf
+kauppakirja_kaikkisivut.pdf
+
+/Users/helvi/Documents/Talo/rakennuslupa/liitteet/energiatodistus:
+E-lukulaskelma Toivola.pdf
+Energiaselvityksen päätiedot Toivola.pdf
+Energiatodistuksen lukuohje, uudisrakennukset (ID 180721).pdf
+Energiatodistus Toivola.pdf
+Laskennan lähtötiedot Toivola.pdf
+Tasauslaskelma Toivola.pdf
+
+/Users/helvi/Documents/Talo/rakennuslupa/lupa:
+rakennuslupa_toivola.pdf
+
+/Users/helvi/Documents/Talo/sastamalan_vesi:
+KETUNKYLÄ 2_15.pdf
+
+/Users/helvi/Documents/Talo/sähkösuunnitelmat:
+1. kerros_1.pdf
+2. kerros_1.pdf
+Asema_1.pdf
+
+/Users/helvi/Documents/Talo/sisustus:
+14030796_1400971483296221_1505984053_n.jpg
+14030958_1400971473296222_1827708740_n.jpg
+14031095_1400971456629557_2008660256_n.jpg
+14055579_1400971459962890_173465696_n.jpg
+ostoslista.pages
+
+/Users/helvi/Documents/Talo/sisustus/ostoslista.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/Talo/sisustus/ostoslista.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/Talo/sisustus/ostoslista.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/Talo/sopimus:
+CARUNA_Sopimus 5385259.pdf
+CARUNA_Sopimus 5385259_alle.pdf
+SF_rakentajat_sopimus.pdf
+
+/Users/helvi/Documents/Talo/talo_toivola_tarjoukset:
+honka
+jukka
+tyyli
+
+/Users/helvi/Documents/Talo/talo_toivola_tarjoukset/honka:
+Pystytystarjous Toivola yläk.var..pdf
+Tarjous yläkertavarauksella.pdf
+Toimitustapaseloste Toivola yläk.var..pdf
+
+/Users/helvi/Documents/Talo/talo_toivola_tarjoukset/jukka:
+458930Tarj.pdf
+458930Tts.pdf
+Tarjous JukkaTalosta Toivola.pdf
+
+/Users/helvi/Documents/Talo/talo_toivola_tarjoukset/tyyli:
+Tarjous       10.11.docx
+
+/Users/helvi/Documents/Talo/tulisijat:
+SO16901.pdf
+SO16923.pdf
+talo Toivola puuliesi leivinuunilla.pdf
+
+/Users/helvi/Documents/Talo/tulisijat_arvio.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/Talo/tulisijat_arvio.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/Talo/tulisijat_arvio.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/Talo/uusi ainola:
+02 PÄÄPIIRUSTUKSET 15112014.pdf
+02 PÄÄPIIRUSTUKSET.pdf
+Ok-talo Toivola
+Pohjatutkimukset
+Talo Toivola 1.jpg
+Talo Toivola 1.pdf
+Talo Toivola 2.jpg
+Talo Toivola 2.pdf
+Talo Toivola assari.jpg
+Talo Toivola assari.pdf
+Talo Toivola ve4.jpg
+Talo Toivola ve4.pdf
+Talo Toivola ve4_iso.jpg
+Toivola_DWG
+budjetti.ods
+kantakartta.jpg
+näkymät
+rakennuslupahakemuksen liitteet
+suunnittelumuistiinpanot.pages
+suunnittelumuistiinpanot.pdf
+vesioikeus_kartat.pdf
+
+/Users/helvi/Documents/Talo/uusi ainola/Ok-talo Toivola:
+
+/Users/helvi/Documents/Talo/uusi ainola/Pohjatutkimukset:
+001-PV-PTAP-10.12.2014.dwg
+001-PV-PTAP.pdf
+002-Leikkaukset-10.12.2014.dwg
+002-Leikkaus.pdf
+003-Leikkaus.pdf
+14222-Pohjarakennesuunnitelma.pdf
+Perustamisolosuhdeselvitys.pdf
+
+/Users/helvi/Documents/Talo/uusi ainola/Toivola_DWG:
+001 Asemapiirustus.dwg
+002 Pohjapiirustukset.dwg
+003 Leikkaus A-A.dwg
+004 Julkisivupiirustukset.dwg
+005 Rakenneleikkaus.dwg
+
+/Users/helvi/Documents/Talo/uusi ainola/näkymät:
+Talo Toivola2 keltamulta_View 1_3.jpg
+Talo Toivola2 keltamulta_View 1_5.jpg
+Talo Toivola2_View 1_5.jpg
+Talo Toivola_View 1_3.jpg
+
+/Users/helvi/Documents/Talo/uusi ainola/rakennuslupahakemuksen liitteet:
+790-421-2-15-kiinteistorekisteriote-72770998343149967606178640767325679688.pdf
+790-421-2-15-lainhuutotodistus-8704771959161763794719485608429334548.pdf
+790-421-2-15-rasitustodistus-91172384562225741257846627645511143015.pdf
+Rakennuslupahakemus.pdf
+kartta_kaupunki.pdf
+kauppakirja1.pdf
+kauppakirja2.pdf
+kauppakirja3.pdf
+kauppakirja4.pdf
+kauppakirja5.pdf
+kauppakirja6.pdf
+kauppakirja7.pdf
+
+/Users/helvi/Documents/Talo/uusi ainola/suunnittelumuistiinpanot.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/Talo/uusi ainola/suunnittelumuistiinpanot.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/Talo/uusi ainola/suunnittelumuistiinpanot.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/Talo/uusi paikka:
+kartta 1.pdf
+kartta 2.pdf
+
+/Users/helvi/Documents/Talo/virtuaalimalli_201502:
+
+/Users/helvi/Documents/codes:
+roomalaiset
+
+/Users/helvi/Documents/codes/roomalaiset:
+Makefile
+libft
+main.c
+
+/Users/helvi/Documents/codes/roomalaiset/libft:
+Makefile
+README.md
+includes
+libft
+libft.a
+libft.en.pdf
+printf
+
+/Users/helvi/Documents/codes/roomalaiset/libft/includes:
+ft_printf.h
+ft_printf.h.gch
+libft.h
+libft.h.gch
+
+/Users/helvi/Documents/codes/roomalaiset/libft/libft:
+Makefile
+author
+ft_addstr.c
+ft_atoi.c
+ft_bzero.c
+ft_char_str_join.c
+ft_define_length.c
+ft_dynamic_string.c
+ft_is_whitespace.c
+ft_isalnum.c
+ft_isalpha.c
+ft_isascii.c
+ft_isdigit.c
+ft_isprint.c
+ft_itoa.c
+ft_itoa_base.c
+ft_itoa_float.c
+ft_itoa_hexa.c
+ft_itoa_uint.c
+ft_lst_length.c
+ft_lst_merge_sort.c
+ft_lst_reverse.c
+ft_lst_sorted_merge.c
+ft_lst_split.c
+ft_lstadd.c
+ft_lstaddafter.c
+ft_lstdel.c
+ft_lstdellast.c
+ft_lstdelone.c
+ft_lstend.c
+ft_lstiter.c
+ft_lstmap.c
+ft_lstnew.c
+ft_lstnewtoend.c
+ft_lstsrc.c
+ft_memalloc.c
+ft_memccpy.c
+ft_memchr.c
+ft_memcmp.c
+ft_memcpy.c
+ft_memdel.c
+ft_memmove.c
+ft_memset.c
+ft_putchar.c
+ft_putchar_fd.c
+ft_putendl.c
+ft_putendl_fd.c
+ft_putnbr.c
+ft_putnbr_fd.c
+ft_putstr.c
+ft_putstr_fd.c
+ft_str_char_join.c
+ft_str_realloc.c
+ft_strcat.c
+ft_strchr.c
+ft_strclr.c
+ft_strcmp.c
+ft_strcpy.c
+ft_strdel.c
+ft_strdup.c
+ft_strequ.c
+ft_striter.c
+ft_striteri.c
+ft_strjoin.c
+ft_strjoin_frees1.c
+ft_strjoin_frees2.c
+ft_strlast.c
+ft_strlcat.c
+ft_strlen.c
+ft_strmap.c
+ft_strmapi.c
+ft_strncat.c
+ft_strncmp.c
+ft_strncpy.c
+ft_strnequ.c
+ft_strnew.c
+ft_strnstr.c
+ft_strpaste.c
+ft_strpaste_digits.c
+ft_strpaste_end.c
+ft_strrchr.c
+ft_strset.c
+ft_strsplit.c
+ft_strstr.c
+ft_strsub.c
+ft_strsub_freestr.c
+ft_strtrim.c
+ft_tolower.c
+ft_toupper.c
+get_next_line.c
+libft.a
+
+/Users/helvi/Documents/codes/roomalaiset/libft/printf:
+Makefile
+author
+float_trim_and_round.c
+ft_printf.c
+helper_functions.c
+print_c.c
+print_d.c
+print_f.c
+print_o.c
+print_p.c
+print_s.c
+print_u.c
+print_x.c
+set_command_values.c
+va_arg_reader_functions.c
+
+/Users/helvi/Documents/hive:
+42FileChecker
+fillit
+fillit_tests
+ft_ls
+ft_ls.c
+ft_ls.h
+get_started1.c
+get_started2.c
+junction
+libft
+libftest
+ls_remove
+old_libdtest
+printf
+printf_tests
+reaktor_puzzle
+submission_to_junction2019
+test
+test2
+
+/Users/helvi/Documents/hive/42FileChecker:
+42FileChecker.sh
+LICENCE
+README.md
+assets
+error.log
+includes
+libft-unit-test
+maintest
+moulitest_42projects
+pft
+srcs
+tmp
+
+/Users/helvi/Documents/hive/42FileChecker/assets:
+42FileChecker.ascii
+42FileChecker.png
+42FileChecker_250x250.png
+42FileChecker_416x416.png
+42FileChecker_cropped.png
+README.md
+
+/Users/helvi/Documents/hive/42FileChecker/includes:
+display
+external_repositories
+main.sh
+projects
+utils
+
+/Users/helvi/Documents/hive/42FileChecker/includes/display:
+display_center.sh
+display_credits.sh
+display_error.sh
+display_header.sh
+display_leftandright.sh
+display_menu.sh
+display_spinner.sh
+display_splash_screen.sh
+display_success.sh
+display_top.sh
+
+/Users/helvi/Documents/hive/42FileChecker/includes/external_repositories:
+external_repository_42shelltester.sh
+external_repository_fillit_checker.sh
+external_repository_libftunittest.sh
+external_repository_maintest.sh
+external_repository_moulitest.sh
+external_repository_pft.sh
+
+/Users/helvi/Documents/hive/42FileChecker/includes/projects:
+fillit
+ft_ls
+ft_printf
+generic_tests
+gnl
+libft
+libftasm
+minishell
+
+/Users/helvi/Documents/hive/42FileChecker/includes/projects/fillit:
+fillit_main.sh
+
+/Users/helvi/Documents/hive/42FileChecker/includes/projects/ft_ls:
+ft_ls_main.sh
+
+/Users/helvi/Documents/hive/42FileChecker/includes/projects/ft_printf:
+ft_printf_list.sh
+ft_printf_main.sh
+
+/Users/helvi/Documents/hive/42FileChecker/includes/projects/generic_tests:
+generic_tests_main.sh
+
+/Users/helvi/Documents/hive/42FileChecker/includes/projects/gnl:
+get_next_line_main.sh
+
+/Users/helvi/Documents/hive/42FileChecker/includes/projects/libft:
+libft_main.sh
+
+/Users/helvi/Documents/hive/42FileChecker/includes/projects/libftasm:
+libftasm_list.sh
+libftasm_main.sh
+
+/Users/helvi/Documents/hive/42FileChecker/includes/projects/minishell:
+minishell_main.sh
+
+/Users/helvi/Documents/hive/42FileChecker/includes/utils:
+utils.sh
+utils_auteur.sh
+utils_authorized_functions.sh
+utils_configure.sh
+utils_exit.sh
+utils_fileexists.sh
+utils_forbidden_functions.sh
+utils_get_inode.sh
+utils_launch_tests.sh
+utils_leaks.sh
+utils_makefile.sh
+utils_norme.sh
+utils_signals.sh
+utils_speedtest.sh
+utils_update.sh
+
+/Users/helvi/Documents/hive/42FileChecker/libft-unit-test:
+Makefile
+README.md
+assets
+hardcore-mode
+include
+libft 10.so
+libft 11.so
+libft 2.so
+libft 3.so
+libft 4.so
+libft 5.so
+libft 6.so
+libft 7.so
+libft 8.so
+libft 9.so
+libft.so
+obj
+result.log
+run_test
+run_test 10
+run_test 2
+run_test 3
+run_test 4
+run_test 5
+run_test 6
+run_test 7
+run_test 8
+run_test 9
+src
+
+/Users/helvi/Documents/hive/42FileChecker/libft-unit-test/assets:
+libtests
+libtests 10
+libtests 2
+libtests 3
+libtests 4
+libtests 5
+libtests 6
+libtests 7
+libtests 8
+libtests 9
+malloc 10.dylib
+malloc 2.dylib
+malloc 3.dylib
+malloc 4.dylib
+malloc 5.dylib
+malloc 6.dylib
+malloc 7.dylib
+malloc 8.dylib
+malloc 9.dylib
+malloc.c
+malloc.dylib
+tmp
+wrapper.c
+
+/Users/helvi/Documents/hive/42FileChecker/libft-unit-test/assets/tmp:
+__.SYMDEF SORTED
+ft_addstr.o
+ft_atoi.o
+ft_bzero.o
+ft_char_str_join.o
+ft_define_base_length.o
+ft_define_length.o
+ft_dynamic_string.o
+ft_is_whitespace.o
+ft_isalnum.o
+ft_isalpha.o
+ft_isascii.o
+ft_isdigit.o
+ft_isprint.o
+ft_itoa.o
+ft_itoa_base.o
+ft_itoa_float.o
+ft_itoa_hexa.o
+ft_itoa_uint.o
+ft_lst_length.o
+ft_lst_merge_sort.o
+ft_lst_reverse.o
+ft_lst_sorted_merge.o
+ft_lst_split.o
+ft_lstadd.o
+ft_lstaddafter.o
+ft_lstdel.o
+ft_lstdelone.o
+ft_lstend.o
+ft_lstiter.o
+ft_lstmap.o
+ft_lstnew.o
+ft_lstnewtoend.o
+ft_lstsrc.o
+ft_memalloc.o
+ft_memccpy.o
+ft_memchr.o
+ft_memcmp.o
+ft_memcpy.o
+ft_memdel.o
+ft_memmove.o
+ft_memset.o
+ft_putchar.o
+ft_putchar_fd.o
+ft_putendl.o
+ft_putendl_fd.o
+ft_putnbr.o
+ft_putnbr_fd.o
+ft_putstr.o
+ft_putstr_fd.o
+ft_str_char_join.o
+ft_str_realloc.o
+ft_strcat.o
+ft_strchr.o
+ft_strclr.o
+ft_strcmp.o
+ft_strcpy.o
+ft_strdel.o
+ft_strdup.o
+ft_strequ.o
+ft_striter.o
+ft_striteri.o
+ft_strjoin.o
+ft_strjoin_frees1.o
+ft_strjoin_frees2.o
+ft_strlast.o
+ft_strlcat.o
+ft_strlen.o
+ft_strmap.o
+ft_strmapi.o
+ft_strncat.o
+ft_strncmp.o
+ft_strncpy.o
+ft_strnequ.o
+ft_strnew.o
+ft_strnstr.o
+ft_strpaste.o
+ft_strpaste_digits.o
+ft_strpaste_end.o
+ft_strrchr.o
+ft_strset.o
+ft_strsplit.o
+ft_strstr.o
+ft_strsub.o
+ft_strsub_freestr.o
+ft_strtrim.o
+ft_tolower.o
+ft_toupper.o
+get_next_line.o
+
+/Users/helvi/Documents/hive/42FileChecker/libft-unit-test/hardcore-mode:
+ascii.h
+box.txt
+error.c
+hardcore-main.c
+ncurses-display.c
+test-init.c
+test-memccpy.c
+test-memchr.c
+test-memcmp.c
+test-memcpy.c
+test-memmove.c
+test-memset.c
+test-strcat.c
+test-strchr.c
+test-strcmp.c
+test-strcpy.c
+test-strlen.c
+test-strncat.c
+test-strncmp.c
+test-strncpy.c
+test-strrchr.c
+test-strstr.c
+test-utils.c
+utils.h
+
+/Users/helvi/Documents/hive/42FileChecker/libft-unit-test/include:
+libft_test.h
+
+/Users/helvi/Documents/hive/42FileChecker/libft-unit-test/obj:
+hardcore-mode
+src
+
+/Users/helvi/Documents/hive/42FileChecker/libft-unit-test/obj/hardcore-mode:
+error 10.o
+error 11.o
+error 2.o
+error 3.o
+error 4.o
+error 5.o
+error 6.o
+error 7.o
+error 8.o
+error 9.o
+error.o
+hardcore-main 10.o
+hardcore-main 2.o
+hardcore-main 3.o
+hardcore-main 4.o
+hardcore-main 5.o
+hardcore-main 6.o
+hardcore-main 7.o
+hardcore-main 8.o
+hardcore-main 9.o
+hardcore-main.o
+ncurses-display 10.o
+ncurses-display 2.o
+ncurses-display 3.o
+ncurses-display 4.o
+ncurses-display 5.o
+ncurses-display 6.o
+ncurses-display 7.o
+ncurses-display 8.o
+ncurses-display 9.o
+ncurses-display.o
+test-init 10.o
+test-init 2.o
+test-init 3.o
+test-init 4.o
+test-init 5.o
+test-init 6.o
+test-init 7.o
+test-init 8.o
+test-init 9.o
+test-init.o
+test-memccpy 10.o
+test-memccpy 2.o
+test-memccpy 3.o
+test-memccpy 4.o
+test-memccpy 5.o
+test-memccpy 6.o
+test-memccpy 7.o
+test-memccpy 8.o
+test-memccpy 9.o
+test-memccpy.o
+test-memchr 10.o
+test-memchr 2.o
+test-memchr 3.o
+test-memchr 4.o
+test-memchr 5.o
+test-memchr 6.o
+test-memchr 7.o
+test-memchr 8.o
+test-memchr 9.o
+test-memchr.o
+test-memcmp 10.o
+test-memcmp 2.o
+test-memcmp 3.o
+test-memcmp 4.o
+test-memcmp 5.o
+test-memcmp 6.o
+test-memcmp 7.o
+test-memcmp 8.o
+test-memcmp 9.o
+test-memcmp.o
+test-memcpy 10.o
+test-memcpy 2.o
+test-memcpy 3.o
+test-memcpy 4.o
+test-memcpy 5.o
+test-memcpy 6.o
+test-memcpy 7.o
+test-memcpy 8.o
+test-memcpy 9.o
+test-memcpy.o
+test-memmove 10.o
+test-memmove 2.o
+test-memmove 3.o
+test-memmove 4.o
+test-memmove 5.o
+test-memmove 6.o
+test-memmove 7.o
+test-memmove 8.o
+test-memmove 9.o
+test-memmove.o
+test-memset 10.o
+test-memset 2.o
+test-memset 3.o
+test-memset 4.o
+test-memset 5.o
+test-memset 6.o
+test-memset 7.o
+test-memset 8.o
+test-memset 9.o
+test-memset.o
+test-strcat 10.o
+test-strcat 2.o
+test-strcat 3.o
+test-strcat 4.o
+test-strcat 5.o
+test-strcat 6.o
+test-strcat 7.o
+test-strcat 8.o
+test-strcat 9.o
+test-strcat.o
+test-strchr 10.o
+test-strchr 2.o
+test-strchr 3.o
+test-strchr 4.o
+test-strchr 5.o
+test-strchr 6.o
+test-strchr 7.o
+test-strchr 8.o
+test-strchr 9.o
+test-strchr.o
+test-strcmp 10.o
+test-strcmp 2.o
+test-strcmp 3.o
+test-strcmp 4.o
+test-strcmp 5.o
+test-strcmp 6.o
+test-strcmp 7.o
+test-strcmp 8.o
+test-strcmp 9.o
+test-strcmp.o
+test-strcpy 10.o
+test-strcpy 2.o
+test-strcpy 3.o
+test-strcpy 4.o
+test-strcpy 5.o
+test-strcpy 6.o
+test-strcpy 7.o
+test-strcpy 8.o
+test-strcpy 9.o
+test-strcpy.o
+test-strlen 10.o
+test-strlen 2.o
+test-strlen 3.o
+test-strlen 4.o
+test-strlen 5.o
+test-strlen 6.o
+test-strlen 7.o
+test-strlen 8.o
+test-strlen 9.o
+test-strlen.o
+test-strncat 10.o
+test-strncat 2.o
+test-strncat 3.o
+test-strncat 4.o
+test-strncat 5.o
+test-strncat 6.o
+test-strncat 7.o
+test-strncat 8.o
+test-strncat 9.o
+test-strncat.o
+test-strncmp 10.o
+test-strncmp 2.o
+test-strncmp 3.o
+test-strncmp 4.o
+test-strncmp 5.o
+test-strncmp 6.o
+test-strncmp 7.o
+test-strncmp 8.o
+test-strncmp 9.o
+test-strncmp.o
+test-strncpy 10.o
+test-strncpy 2.o
+test-strncpy 3.o
+test-strncpy 4.o
+test-strncpy 5.o
+test-strncpy 6.o
+test-strncpy 7.o
+test-strncpy 8.o
+test-strncpy 9.o
+test-strncpy.o
+test-strrchr 10.o
+test-strrchr 2.o
+test-strrchr 3.o
+test-strrchr 4.o
+test-strrchr 5.o
+test-strrchr 6.o
+test-strrchr 7.o
+test-strrchr 8.o
+test-strrchr 9.o
+test-strrchr.o
+test-strstr 10.o
+test-strstr 2.o
+test-strstr 3.o
+test-strstr 4.o
+test-strstr 5.o
+test-strstr 6.o
+test-strstr 7.o
+test-strstr 8.o
+test-strstr 9.o
+test-strstr.o
+test-utils 10.o
+test-utils 2.o
+test-utils 3.o
+test-utils 4.o
+test-utils 5.o
+test-utils 6.o
+test-utils 7.o
+test-utils 8.o
+test-utils 9.o
+test-utils.o
+
+/Users/helvi/Documents/hive/42FileChecker/libft-unit-test/obj/src:
+additional_functions 10.o
+additional_functions 11.o
+additional_functions 2.o
+additional_functions 3.o
+additional_functions 4.o
+additional_functions 5.o
+additional_functions 6.o
+additional_functions 7.o
+additional_functions 8.o
+additional_functions 9.o
+additional_functions.o
+bench_functions 10.o
+bench_functions 11.o
+bench_functions 2.o
+bench_functions 3.o
+bench_functions 4.o
+bench_functions 5.o
+bench_functions 6.o
+bench_functions 7.o
+bench_functions 8.o
+bench_functions 9.o
+bench_functions.o
+display_test_result 10.o
+display_test_result 2.o
+display_test_result 3.o
+display_test_result 4.o
+display_test_result 5.o
+display_test_result 6.o
+display_test_result 7.o
+display_test_result 8.o
+display_test_result 9.o
+display_test_result.o
+main 10.o
+main 11.o
+main 2.o
+main 3.o
+main 4.o
+main 5.o
+main 6.o
+main 7.o
+main 8.o
+main 9.o
+main.o
+sandbox 10.o
+sandbox 2.o
+sandbox 3.o
+sandbox 4.o
+sandbox 5.o
+sandbox 6.o
+sandbox 7.o
+sandbox 8.o
+sandbox 9.o
+sandbox.o
+signal 10.o
+signal 2.o
+signal 3.o
+signal 4.o
+signal 5.o
+signal 6.o
+signal 7.o
+signal 8.o
+signal 9.o
+signal.o
+test_functions 10.o
+test_functions 2.o
+test_functions 3.o
+test_functions 4.o
+test_functions 5.o
+test_functions 6.o
+test_functions 7.o
+test_functions 8.o
+test_functions 9.o
+test_functions.o
+
+/Users/helvi/Documents/hive/42FileChecker/libft-unit-test/src:
+additional_functions.c
+bench_functions.c
+display_test_result.c
+init.c
+main.c
+sandbox.c
+signal.c
+test_functions.c
+
+/Users/helvi/Documents/hive/42FileChecker/maintest:
+README.md
+ft_ls
+getnextline
+libft
+
+/Users/helvi/Documents/hive/42FileChecker/maintest/ft_ls:
+diff_me.sh
+t_dir
+
+/Users/helvi/Documents/hive/42FileChecker/maintest/ft_ls/t_dir:
+42
+couloir
+ln_couloir
+
+/Users/helvi/Documents/hive/42FileChecker/maintest/getnextline:
+cmp.txt
+main.c
+
+/Users/helvi/Documents/hive/42FileChecker/maintest/libft:
+main.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects:
+Makefile
+README.md
+config.ini
+config.ini.template
+ft_ls_tests
+ft_printf_tests
+get_next_line_tests
+libft_tests
+libftasm_tests
+template_tests
+testframework
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/ft_ls_tests:
+Makefile
+Makefile_cfg.mk
+main.c
+project.h
+tests
+utils.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/ft_ls_tests/tests:
+00_test_without_opt.spec.c
+01_test_opt_R.spec.c
+02_test_sorted.spec.c
+03_test_multiple_dir.spec.c
+04_test_opt_a.spec.c
+05_test_opt_r.spec.c
+06_test_opt_rR.spec.c
+07_test_opt_t.spec.c
+07_test_opt_tR_bis.spec.c
+08_test_opt_l.spec.c
+09_test_opt_aR.spec.c
+10_test_opt_aRl.spec.c
+11_test_single_file.spec.c
+12_test_permissions.spec.c
+13_test_hyphen_hard.spec.c
+14_test_hyphen_harder.spec.c
+20_test_error_handling.spec.c
+21_test_symlink.spec.c
+22_test_no_username.spec.c
+23_test_no_groupname.spec.c
+24_test_multiple_files.spec.c
+25_perm_special_bits.spec.c
+26_perm_special_bits_dir.spec.c
+30_test_opt_mix.spec.c
+bonus_01_test_opt_d.spec.c
+bonus_02_test_opt_p.spec.c
+bonus_03_test_opt_U.spec.c
+bonus_04_test_opt_c.spec.c
+bonus_05_test_opt_S.spec.c
+bonus_06_test_opt_u.spec.c
+bonus_07_test_opt_A.spec.c
+bonus_08_test_opt_1.spec.c
+bonus_09_test_opt_f.spec.c
+bonus_10_test_opt_T.spec.c
+bonus_11_test_opt_g.spec.c
+bonus_12_test_opt_o_og.spec.c
+bonus_13_test_opt_F_Fp.spec.c
+bonus_20_test_opt_comb_aA.spec.c
+bonus_21_test_opt_mix_sort.spec.c
+bonus_22_test_sort_comb.spec.c
+bonus_30_test_xattr.spec.c
+bonus_31_test_usr_xattr.spec.c
+bonus_32_test_ACL.spec.c
+bonus_34_test_redis.spec.c
+bonus_40_dir_root.spec.c
+buggy_ls_behaviors.c
+sys_00_test_user_bin.spec.c
+sys_01_test_dev.spec.c
+sys_02_test_etc.spec.c
+sys_03_test_many_files.spec.c
+sys_04_test_var_run.spec.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/ft_printf_tests:
+Makefile
+Makefile_cfg.mk
+ft_printf_test
+ft_printf_test 10
+ft_printf_test 11
+ft_printf_test 12
+ft_printf_test 13
+ft_printf_test 2
+ft_printf_test 3
+ft_printf_test 4
+ft_printf_test 5
+ft_printf_test 6
+ft_printf_test 7
+ft_printf_test 8
+ft_printf_test 9
+main.c
+project.h
+tests
+utils.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/ft_printf_tests/tests:
+00_no_conv.spec.c
+01_conv_s_simple.spec.c
+02_conv_s_multiple.spec.c
+03_conv_d.spec.c
+04_conv_p.spec.c
+05_percent_escape.spec.c
+06_mix_sdp_percent.spec.c
+07_conv_S.spec.disabled.c
+08_conv_D.spec.disabled.c
+09_conv_i.spec.c
+10_conv_o.spec.c
+11_conv_O.spec.disabled.c
+12_conv_u.spec.c
+13_conv_U.spec.disabled.c
+14_conv_x.spec.c
+15_conv_X.spec.c
+16_conv_c.spec.c
+17_conv_C.spec.disabled.c
+18_mix_all_previous.spec.c
+40_length_modif_l.spec.c
+41_length_modif_ll.spec.c
+42_length_modif_h.spec.c
+43_length_modif_hh.spec.c
+43_length_modif_j.spec.disabled.c
+44_length_modif_z.spec.disabled.c
+45_length_modif_edge_cases.spec.disabled.c
+50_min_width.spec.c
+51_min_width_flag_minus.spec.c
+52_min_width_flag_zero.spec.c
+53_min_width_non_valid_conv.spec.disabled.c
+60_flag_sharp.spec.c
+61_flag_plus.spec.c
+62_flag_space.spec.c
+69_flag_mix.spec.c
+70_precision_for_diu.spec.c
+71_precision_for_oOxX.spec.c
+72_precision_for_sS.spec.c
+73_precision_for_cC.spec.c
+74_precision_for_p.spec.c
+75_precision_for_percent.spec.disabled.c
+79_precision_mixed_with_flags.spec.c
+90_incomptbl_values_sdpi.spec.c
+91_incomptbl_values_uUSDcC.spec.c
+92_incomptbl_values_oOxX.spec.c
+93_conv_f.spec.c
+bonus_01_wildcard.spec.c
+bonus_02_wildcard_multi.spec.c
+bonus_03_wildcard_flag_mix.spec.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/get_next_line_tests:
+Makefile
+Makefile_cfg.mk
+main.c
+project.h
+tests
+utils.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/get_next_line_tests/tests:
+01_test_simple.spec.c
+02_test_eof_with_close.spec.c
+03_test_medium_string.spec.c
+04_test_return_values.spec.c
+05_test_error_handling.spec.c
+06_test_line_of_08.spec.c
+07_test_two_lines_of_08.spec.c
+08_test_few_lines_of_08.spec.c
+09_test_line_of_16.spec.c
+10_test_two_lines_of_16.spec.c
+11_test_few_lines_of_16.spec.c
+12_test_line_of_4.spec.c
+13_test_two_lines_of_4.spec.c
+14_test_few_lines_of_4.spec.c
+15_test_line_without_nl.spec.c
+16_test_line_of_8_without_nl.spec.c
+17_test_line_of_16_without_nl.spec.c
+30_bonus_multiple_fd.spec.c
+40_hard_test_medium_string.spec.c
+41_hard_test_large_file.spec.c
+42_hard_test_one_big_fat_line.spec.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/libft_tests:
+Makefile
+Makefile_cfg.mk
+libft_tests
+libft_tests 10
+libft_tests 11
+libft_tests 2
+libft_tests 3
+libft_tests 4
+libft_tests 5
+libft_tests 6
+libft_tests 7
+libft_tests 8
+libft_tests 9
+libft_tests.dSYM
+main.c
+project.h
+tests
+utils.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/libft_tests/libft_tests.dSYM:
+Contents
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/libft_tests/libft_tests.dSYM/Contents:
+Info.plist
+Resources
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/libft_tests/libft_tests.dSYM/Contents/Resources:
+DWARF
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/libft_tests/libft_tests.dSYM/Contents/Resources/DWARF:
+libft_tests
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/libft_tests/tests:
+00_part1_ft_atoi.spec.c
+00_part1_ft_bzero.spec.c
+00_part1_ft_isalnum.spec.c
+00_part1_ft_isalpha.spec.c
+00_part1_ft_isascii.spec.c
+00_part1_ft_isdigit.spec.c
+00_part1_ft_isprint.spec.c
+00_part1_ft_memccpy.spec.c
+00_part1_ft_memchr.spec.c
+00_part1_ft_memcmp.spec.c
+00_part1_ft_memcpy.spec.c
+00_part1_ft_memmove.spec.c
+00_part1_ft_memset.spec.c
+00_part1_ft_strcat.spec.c
+00_part1_ft_strchr.spec.c
+00_part1_ft_strcmp.spec.c
+00_part1_ft_strcpy.spec.c
+00_part1_ft_strdup.spec.c
+00_part1_ft_strlcat.spec.c
+00_part1_ft_strlen.spec.c
+00_part1_ft_strncat.spec.c
+00_part1_ft_strncmp.spec.c
+00_part1_ft_strncpy.spec.c
+00_part1_ft_strnstr.spec.c
+00_part1_ft_strrchr.spec.c
+00_part1_ft_strstr.spec.c
+00_part1_ft_tolower.spec.c
+00_part1_ft_toupper.spec.c
+01_part2_ft_itoa.spec.c
+01_part2_ft_memalloc.spec.c
+01_part2_ft_memdel.spec.c
+01_part2_ft_putchar.spec.c
+01_part2_ft_putchar_fd.spec.c
+01_part2_ft_putendl.spec.c
+01_part2_ft_putendl_fd.spec.c
+01_part2_ft_putnbr.spec.c
+01_part2_ft_putnbr_fd.spec.c
+01_part2_ft_putstr.spec.c
+01_part2_ft_putstr_fd.spec.c
+01_part2_ft_strclr.spec.c
+01_part2_ft_strdel.spec.c
+01_part2_ft_strequ.spec.c
+01_part2_ft_striter.spec.c
+01_part2_ft_striteri.spec.c
+01_part2_ft_strjoin.spec.c
+01_part2_ft_strmap.spec.c
+01_part2_ft_strmapi.spec.c
+01_part2_ft_strnequ.spec.c
+01_part2_ft_strnew.spec.c
+01_part2_ft_strsplit.spec.c
+01_part2_ft_strsub.spec.c
+01_part2_ft_strtrim.spec.c
+02_bonus_ft_lstadd.spec.c
+02_bonus_ft_lstdel.spec.c
+02_bonus_ft_lstdelone.spec.c
+02_bonus_ft_lstiter.spec.c
+02_bonus_ft_lstmap.spec.c
+02_bonus_ft_lstnew.spec.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/libftasm_tests:
+Makefile
+Makefile_cfg.mk
+main.c
+project.h
+tests
+utils.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/libftasm_tests/tests:
+01_part1_ft_bzero.spec.c
+01_part1_ft_isalnum.spec.c
+01_part1_ft_isalpha.spec.c
+01_part1_ft_isascii.spec.c
+01_part1_ft_isdigit.spec.c
+01_part1_ft_isprint.spec.c
+01_part1_ft_tolower.spec.c
+01_part1_ft_toupper.spec.c
+02_part2_ft_memcpy.spec.c
+02_part2_ft_memset.spec.c
+02_part2_ft_puts.spec.c
+02_part2_ft_strcat.spec.c
+02_part2_ft_strdup.spec.c
+02_part2_ft_strlen.spec.c
+03_part3_ft_cat.spec.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/template_tests:
+Makefile
+Makefile_cfg.mk
+main.c
+project.h
+tests
+utils.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/template_tests/tests:
+00_no_conv.spec.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework:
+fake_rendu
+v2
+v3
+v3_templates
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/fake_rendu:
+ft_ls
+ft_printf
+ft_printf_with_libft
+get_next_line
+get_next_line_with_libft
+libft
+libft_part1
+libft_part2
+libft_to_be_symliked
+makefile_templates
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/fake_rendu/ft_ls:
+Makefile
+Makefile_cfg.mk
+main.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/fake_rendu/ft_printf:
+Makefile
+Makefile_cfg.mk
+ft_printf.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/fake_rendu/ft_printf_with_libft:
+Makefile
+Makefile_cfg.mk
+ft_printf.c
+libft
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/fake_rendu/get_next_line:
+get_next_line.c
+get_next_line.h
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/fake_rendu/get_next_line_with_libft:
+get_next_line.c
+get_next_line.h
+libft
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/fake_rendu/libft:
+Makefile
+Makefile_cfg.mk
+ft_atoi.c
+ft_bzero.c
+ft_isalnum.c
+ft_isalpha.c
+ft_isascii.c
+ft_isblank.c
+ft_isdigit.c
+ft_islower.c
+ft_isprint.c
+ft_isspace.c
+ft_isupper.c
+ft_itoa.c
+ft_lstadd.c
+ft_lstdel.c
+ft_lstdelone.c
+ft_lstiter.c
+ft_lstmap.c
+ft_lstnew.c
+ft_memalloc.c
+ft_memccpy.c
+ft_memchr.c
+ft_memcmp.c
+ft_memcpy.c
+ft_memdel.c
+ft_memmove.c
+ft_memset.c
+ft_putchar.c
+ft_putchar_fd.c
+ft_putendl.c
+ft_putendl_fd.c
+ft_putnbr.c
+ft_putnbr_fd.c
+ft_putnendl.c
+ft_putnstr.c
+ft_putstr.c
+ft_putstr_fd.c
+ft_strcat.c
+ft_strchr.c
+ft_strclr.c
+ft_strcmp.c
+ft_strcpy.c
+ft_strdel.c
+ft_strdup.c
+ft_strequ.c
+ft_striter.c
+ft_striteri.c
+ft_strjoin.c
+ft_strlcat.c
+ft_strlen.c
+ft_strlowcase.c
+ft_strmap.c
+ft_strmapi.c
+ft_strncat.c
+ft_strncmp.c
+ft_strncpy.c
+ft_strnequ.c
+ft_strnew.c
+ft_strnstr.c
+ft_strrchr.c
+ft_strrev.c
+ft_strsplit.c
+ft_strstr.c
+ft_strsub.c
+ft_strtrim.c
+ft_strupcase.c
+ft_tolower.c
+ft_toupper.c
+libft.h
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/fake_rendu/libft_part1:
+Makefile
+Makefile_cfg.mk
+ft_atoi.c
+ft_bzero.c
+ft_isalnum.c
+ft_isalpha.c
+ft_isascii.c
+ft_isblank.c
+ft_isdigit.c
+ft_islower.c
+ft_isprint.c
+ft_isspace.c
+ft_isupper.c
+ft_itoa.c
+ft_lstadd.c
+ft_lstdel.c
+ft_lstdelone.c
+ft_lstiter.c
+ft_lstmap.c
+ft_lstnew.c
+ft_memalloc.c
+ft_memccpy.c
+ft_memchr.c
+ft_memcmp.c
+ft_memcpy.c
+ft_memdel.c
+ft_memmove.c
+ft_memset.c
+ft_putchar.c
+ft_putchar_fd.c
+ft_putendl.c
+ft_putendl_fd.c
+ft_putnbr.c
+ft_putnbr_fd.c
+ft_putnendl.c
+ft_putnstr.c
+ft_putstr.c
+ft_putstr_fd.c
+ft_strcat.c
+ft_strchr.c
+ft_strclr.c
+ft_strcmp.c
+ft_strcpy.c
+ft_strdel.c
+ft_strdup.c
+ft_strequ.c
+ft_striter.c
+ft_striteri.c
+ft_strjoin.c
+ft_strlcat.c
+ft_strlen.c
+ft_strlowcase.c
+ft_strmap.c
+ft_strmapi.c
+ft_strncat.c
+ft_strncmp.c
+ft_strncpy.c
+ft_strnequ.c
+ft_strnew.c
+ft_strnstr.c
+ft_strrchr.c
+ft_strrev.c
+ft_strsplit.c
+ft_strstr.c
+ft_strsub.c
+ft_strtrim.c
+ft_strupcase.c
+ft_tolower.c
+ft_toupper.c
+libft.h
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/fake_rendu/libft_part2:
+Makefile
+Makefile_cfg.mk
+ft_atoi.c
+ft_bzero.c
+ft_isalnum.c
+ft_isalpha.c
+ft_isascii.c
+ft_isblank.c
+ft_isdigit.c
+ft_islower.c
+ft_isprint.c
+ft_isspace.c
+ft_isupper.c
+ft_itoa.c
+ft_lstadd.c
+ft_lstdel.c
+ft_lstdelone.c
+ft_lstiter.c
+ft_lstmap.c
+ft_lstnew.c
+ft_memalloc.c
+ft_memccpy.c
+ft_memchr.c
+ft_memcmp.c
+ft_memcpy.c
+ft_memdel.c
+ft_memmove.c
+ft_memset.c
+ft_putchar.c
+ft_putchar_fd.c
+ft_putendl.c
+ft_putendl_fd.c
+ft_putnbr.c
+ft_putnbr_fd.c
+ft_putnendl.c
+ft_putnstr.c
+ft_putstr.c
+ft_putstr_fd.c
+ft_strcat.c
+ft_strchr.c
+ft_strclr.c
+ft_strcmp.c
+ft_strcpy.c
+ft_strdel.c
+ft_strdup.c
+ft_strequ.c
+ft_striter.c
+ft_striteri.c
+ft_strjoin.c
+ft_strlcat.c
+ft_strlen.c
+ft_strlowcase.c
+ft_strmap.c
+ft_strmapi.c
+ft_strncat.c
+ft_strncmp.c
+ft_strncpy.c
+ft_strnequ.c
+ft_strnew.c
+ft_strnstr.c
+ft_strrchr.c
+ft_strrev.c
+ft_strsplit.c
+ft_strstr.c
+ft_strsub.c
+ft_strtrim.c
+ft_strupcase.c
+ft_tolower.c
+ft_toupper.c
+libft.h
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/fake_rendu/libft_to_be_symliked:
+Makefile
+Makefile_cfg.mk
+ft_strcat.c
+includes
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/fake_rendu/libft_to_be_symliked/includes:
+libft.h
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/fake_rendu/makefile_templates:
+Makefile
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/v2:
+testframework.c
+testframework.h
+utils.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/v3:
+Makefile
+capture.o
+includes
+libmt_framework.a
+mt_count_failed_suites.o
+mt_count_failed_tests.o
+mt_count_tests.o
+mt_create.o
+mt_del.o
+mt_exec.o
+mt_lst__link.o
+mt_lst_count.o
+mt_lst_create_elem.o
+mt_lst_del.o
+mt_lst_del_elem.o
+mt_lst_find.o
+mt_lst_find_by_value.o
+mt_lst_get.o
+mt_lst_init.o
+mt_lst_iter.o
+mt_lst_len.o
+mt_lst_map.o
+mt_lst_pop.o
+mt_lst_push.o
+mt_lst_reduce.o
+mt_lst_reducei.o
+mt_lstelem_del.o
+mt_xstdio_isempty.o
+srcs
+suite_count_failed_tests.o
+suite_count_tests.o
+suite_create.o
+suite_del.o
+suite_exec.o
+suite_filter_failed.o
+test_assert.o
+test_assert_prep.o
+test_create.o
+test_del.o
+test_exec.o
+test_filter_failed.o
+test_get_failure_type.o
+test_print.o
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/v3/includes:
+capture.h
+color.h
+fw.h
+mt.h
+mt_lst.h
+mt_xstdio.h
+suite.h
+test.h
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/v3/srcs:
+capture
+mt
+mt_lst
+mt_xstdio
+suite
+test
+utils
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/v3/srcs/capture:
+capture.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/v3/srcs/mt:
+mt_count_failed_suites.c
+mt_count_failed_tests.c
+mt_count_tests.c
+mt_create.c
+mt_del.c
+mt_exec.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/v3/srcs/mt_lst:
+mt_lst__link.c
+mt_lst_count.c
+mt_lst_create_elem.c
+mt_lst_del.c
+mt_lst_del_elem.c
+mt_lst_find.c
+mt_lst_find_by_value.c
+mt_lst_get.c
+mt_lst_init.c
+mt_lst_iter.c
+mt_lst_len.c
+mt_lst_map.c
+mt_lst_pop.c
+mt_lst_push.c
+mt_lst_reduce.c
+mt_lst_reducei.c
+mt_lstelem_del.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/v3/srcs/mt_xstdio:
+mt_xstdio_isempty.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/v3/srcs/suite:
+suite_count_failed_tests.c
+suite_count_tests.c
+suite_create.c
+suite_del.c
+suite_exec.c
+suite_filter_failed.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/v3/srcs/test:
+test_assert.c
+test_assert_prep.c
+test_create.c
+test_del.c
+test_exec.c
+test_filter_failed.c
+test_get_failure_type.c
+test_print.c
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/v3/srcs/utils:
+utils.h
+
+/Users/helvi/Documents/hive/42FileChecker/moulitest_42projects/testframework/v3_templates:
+Makefile_template.mk
+
+/Users/helvi/Documents/hive/42FileChecker/pft:
+Makefile
+README.md
+configurations
+disable-test
+enable-test
+options-config.ini
+options-config.ini.override
+reset-to-default-enabled-tests
+show-disabled-tests
+src
+test
+test 10
+test 10.dSYM
+test 11
+test 11.dSYM
+test 2
+test 2.dSYM
+test 3
+test 3.dSYM
+test 4
+test 4.dSYM
+test 5
+test 5.dSYM
+test 6
+test 6.dSYM
+test 7
+test 7.dSYM
+test 8
+test 8.dSYM
+test 9
+test 9.dSYM
+test.dSYM
+test_pipes.sh
+unit_tests.42fc.c
+unit_tests.c
+
+/Users/helvi/Documents/hive/42FileChecker/pft/configurations:
+42fc
+
+/Users/helvi/Documents/hive/42FileChecker/pft/configurations/42fc:
+42fc.conf
+42fc_enable_disable.sh
+configure_42fc.php
+unit_tests.42fc.c
+
+/Users/helvi/Documents/hive/42FileChecker/pft/src:
+create_index.php
+help.c
+help.h
+help_conf.c
+history.c
+legacy
+main.c
+options.c
+print.c
+select_history.php
+select_numeric.php
+select_query.php
+select_router.php
+show_disabled_postprocess
+show_disabled_postprocess 10
+show_disabled_postprocess 2
+show_disabled_postprocess 3
+show_disabled_postprocess 4
+show_disabled_postprocess 5
+show_disabled_postprocess 6
+show_disabled_postprocess 7
+show_disabled_postprocess 8
+show_disabled_postprocess 9
+show_disabled_postprocess.c
+test.c
+test.h
+unit_tests_indexed 10.c
+unit_tests_indexed 11.c
+unit_tests_indexed 2.c
+unit_tests_indexed 3.c
+unit_tests_indexed 4.c
+unit_tests_indexed 5.c
+unit_tests_indexed 6.c
+unit_tests_indexed 7.c
+unit_tests_indexed 8.c
+unit_tests_indexed 9.c
+unit_tests_indexed.c
+usage_statistics.php
+usage_statistics_installed.txt
+utils.c
+
+/Users/helvi/Documents/hive/42FileChecker/pft/src/legacy:
+disable-test
+enable-test
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 10.dSYM:
+Contents
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 10.dSYM/Contents:
+Info.plist
+Resources
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 10.dSYM/Contents/Resources:
+DWARF
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 10.dSYM/Contents/Resources/DWARF:
+test
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 11.dSYM:
+Contents
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 11.dSYM/Contents:
+Info.plist
+Resources
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 11.dSYM/Contents/Resources:
+DWARF
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 11.dSYM/Contents/Resources/DWARF:
+test
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 2.dSYM:
+Contents
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 2.dSYM/Contents:
+Info.plist
+Resources
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 2.dSYM/Contents/Resources:
+DWARF
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 2.dSYM/Contents/Resources/DWARF:
+test
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 3.dSYM:
+Contents
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 3.dSYM/Contents:
+Info.plist
+Resources
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 3.dSYM/Contents/Resources:
+DWARF
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 3.dSYM/Contents/Resources/DWARF:
+test
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 4.dSYM:
+Contents
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 4.dSYM/Contents:
+Info.plist
+Resources
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 4.dSYM/Contents/Resources:
+DWARF
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 4.dSYM/Contents/Resources/DWARF:
+test
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 5.dSYM:
+Contents
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 5.dSYM/Contents:
+Info.plist
+Resources
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 5.dSYM/Contents/Resources:
+DWARF
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 5.dSYM/Contents/Resources/DWARF:
+test
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 6.dSYM:
+Contents
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 6.dSYM/Contents:
+Info.plist
+Resources
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 6.dSYM/Contents/Resources:
+DWARF
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 6.dSYM/Contents/Resources/DWARF:
+test
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 7.dSYM:
+Contents
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 7.dSYM/Contents:
+Info.plist
+Resources
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 7.dSYM/Contents/Resources:
+DWARF
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 7.dSYM/Contents/Resources/DWARF:
+test
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 8.dSYM:
+Contents
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 8.dSYM/Contents:
+Info.plist
+Resources
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 8.dSYM/Contents/Resources:
+DWARF
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 8.dSYM/Contents/Resources/DWARF:
+test
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 9.dSYM:
+Contents
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 9.dSYM/Contents:
+Info.plist
+Resources
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 9.dSYM/Contents/Resources:
+DWARF
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test 9.dSYM/Contents/Resources/DWARF:
+test
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test.dSYM:
+Contents
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test.dSYM/Contents:
+Info.plist
+Resources
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test.dSYM/Contents/Resources:
+DWARF
+
+/Users/helvi/Documents/hive/42FileChecker/pft/test.dSYM/Contents/Resources/DWARF:
+test
+
+/Users/helvi/Documents/hive/42FileChecker/srcs:
+get_inode
+gnl
+libftasm
+printf
+
+/Users/helvi/Documents/hive/42FileChecker/srcs/get_inode:
+Makefile
+get_inode
+main.c
+obj
+
+/Users/helvi/Documents/hive/42FileChecker/srcs/get_inode/obj:
+main.o
+
+/Users/helvi/Documents/hive/42FileChecker/srcs/gnl:
+gnl10.c
+gnl10.txt
+gnl11.c
+gnl11_1.txt
+gnl11_2.txt
+gnl1_1.c
+gnl1_1.txt
+gnl1_2.c
+gnl1_2.txt
+gnl1_3.c
+gnl1_3.txt
+gnl2_1.c
+gnl2_2.c
+gnl2_3.c
+gnl3_1.c
+gnl3_1.txt
+gnl3_2.c
+gnl3_2.txt
+gnl3_3.c
+gnl3_3.txt
+gnl4_1.c
+gnl4_2.c
+gnl4_3.c
+gnl5_1.c
+gnl5_1.txt
+gnl5_2.c
+gnl5_2.txt
+gnl5_3.c
+gnl5_3.txt
+gnl6_1.c
+gnl6_2.c
+gnl6_3.c
+gnl7_1.c
+gnl7_1.txt
+gnl7_2.c
+gnl7_2.txt
+gnl7_3.c
+gnl7_3.txt
+gnl8_1.c
+gnl8_2.c
+gnl8_3.c
+gnl9_1.c
+gnl9_2.c
+gnl9_2.txt
+gnl_to_free_or_not_to_free.c
+gnl_to_free_or_not_to_free.txt
+
+/Users/helvi/Documents/hive/42FileChecker/srcs/libftasm:
+atoi.c
+bzero.c
+cat.c
+ft_atoi.c
+ft_bzero.c
+ft_cat.c
+ft_cat.txt
+ft_is.c
+ft_isdigit.c
+ft_islower.c
+ft_isnumber.c
+ft_isspace.c
+ft_isupper.c
+ft_memalloc.c
+ft_memchr.c
+ft_memcmp.c
+ft_memcpy.c
+ft_memset.c
+ft_puts.c
+ft_strcat.c
+ft_strchr.c
+ft_strdup.c
+ft_strlen.c
+ft_strrchr.c
+is.c
+isdigit.c
+islower.c
+isnumber.c
+isspace.c
+isupper.c
+memalloc.c
+memchr.c
+memcmp.c
+memcpy.c
+memset.c
+puts.c
+strcat.c
+strchr.c
+strdup.c
+strlen.c
+strrchr.c
+
+/Users/helvi/Documents/hive/42FileChecker/srcs/printf:
+ft_printf_0.c
+ft_printf_d.c
+ft_printf_f.c
+ft_printf_leaks.c
+ft_printf_o.c
+ft_printf_s.c
+ft_printf_u.c
+ft_printf_x.c
+printf_0.c
+printf_d.c
+printf_f.c
+printf_o.c
+printf_s.c
+printf_u.c
+printf_x.c
+speedtest_ft_printf.c
+speedtest_printf.c
+
+/Users/helvi/Documents/hive/42FileChecker/tmp:
+ft_printf_speedtest
+printf_speedtest
+
+/Users/helvi/Documents/hive/fillit:
+Makefile
+adders.c
+adders.o
+author
+fillit
+fillit.h
+libft
+list 2.o
+list.c
+list.o
+main.c
+main.o
+map_op.c
+map_op.o
+solver.c
+solver.o
+tetri_11
+tetri_13
+tetri_25
+tetri_26
+tetri_3
+tetri_5fail
+tetri_9
+validate 2.o
+validate.c
+validate.o
+
+/Users/helvi/Documents/hive/fillit/libft:
+Makefile
+ft_addstr 2.o
+ft_addstr.c
+ft_addstr.o
+ft_atoi.c
+ft_atoi.o
+ft_bzero.c
+ft_bzero.o
+ft_define_length.c
+ft_define_length.o
+ft_is_whitespace.c
+ft_is_whitespace.o
+ft_isalnum.c
+ft_isalnum.o
+ft_isalpha.c
+ft_isalpha.o
+ft_isascii.c
+ft_isascii.o
+ft_isdigit.c
+ft_isdigit.o
+ft_isprint.c
+ft_isprint.o
+ft_itoa.c
+ft_itoa.o
+ft_lstadd.c
+ft_memalloc.c
+ft_memalloc.o
+ft_memccpy.c
+ft_memccpy.o
+ft_memchr.c
+ft_memchr.o
+ft_memcmp.c
+ft_memcmp.o
+ft_memcpy.c
+ft_memcpy.o
+ft_memdel.c
+ft_memdel.o
+ft_memmove.c
+ft_memmove.o
+ft_memset.c
+ft_memset.o
+ft_putchar.c
+ft_putchar.o
+ft_putchar_fd.c
+ft_putchar_fd.o
+ft_putendl.c
+ft_putendl.o
+ft_putendl_fd.c
+ft_putendl_fd.o
+ft_putnbr.c
+ft_putnbr.o
+ft_putnbr_fd.c
+ft_putnbr_fd.o
+ft_putstr.c
+ft_putstr.o
+ft_putstr_fd.c
+ft_putstr_fd.o
+ft_strcat.c
+ft_strcat.o
+ft_strchr.c
+ft_strchr.o
+ft_strclr.c
+ft_strclr.o
+ft_strcmp.c
+ft_strcmp.o
+ft_strcpy.c
+ft_strcpy.o
+ft_strdel.c
+ft_strdel.o
+ft_strdup.c
+ft_strdup.o
+ft_strequ 2.o
+ft_strequ.c
+ft_strequ.o
+ft_striter.c
+ft_striter.o
+ft_striteri.c
+ft_striteri.o
+ft_strjoin 2.o
+ft_strjoin.c
+ft_strjoin.o
+ft_strlcat.c
+ft_strlcat.o
+ft_strlen.c
+ft_strlen.o
+ft_strmap.c
+ft_strmap.o
+ft_strmapi.c
+ft_strmapi.o
+ft_strncat.c
+ft_strncat.o
+ft_strncmp.c
+ft_strncmp.o
+ft_strncpy.c
+ft_strncpy.o
+ft_strnequ 2.o
+ft_strnequ.c
+ft_strnequ.o
+ft_strnew.c
+ft_strnew.o
+ft_strnstr.c
+ft_strnstr.o
+ft_strrchr.c
+ft_strrchr.o
+ft_strsplit 2.o
+ft_strsplit.c
+ft_strsplit.o
+ft_strstr.c
+ft_strstr.o
+ft_strsub 2.o
+ft_strsub.c
+ft_strsub.o
+ft_strtrim 2.o
+ft_strtrim.c
+ft_strtrim.o
+ft_tolower.c
+ft_tolower.o
+ft_toupper.c
+ft_toupper.o
+get_next_line 2.o
+get_next_line.c
+get_next_line.o
+libft 2.a
+libft.a
+libft.h
+
+/Users/helvi/Documents/hive/fillit_tests:
+
+/Users/helvi/Documents/hive/ft_ls:
+Makefile
+author
+ft.txt
+ft_ls
+ft_ls.c
+ft_ls.dSYM
+ft_ls.txt
+includes
+libft
+ls.txt
+ls_dirlist.c
+ls_dirlist2.c
+ls_helpers.c
+ls_print.c
+ls_print_helpers.c
+ls_sort.c
+testi
+testi2
+
+/Users/helvi/Documents/hive/ft_ls/ft_ls.dSYM:
+Contents
+
+/Users/helvi/Documents/hive/ft_ls/ft_ls.dSYM/Contents:
+Info.plist
+Resources
+
+/Users/helvi/Documents/hive/ft_ls/ft_ls.dSYM/Contents/Resources:
+DWARF
+
+/Users/helvi/Documents/hive/ft_ls/ft_ls.dSYM/Contents/Resources/DWARF:
+ft_ls
+
+/Users/helvi/Documents/hive/ft_ls/includes:
+ft_ls.h
+
+/Users/helvi/Documents/hive/ft_ls/libft:
+Makefile
+README.md
+includes
+libft
+libft 2.a
+libft.a
+libft.en.pdf
+printf
+
+/Users/helvi/Documents/hive/ft_ls/libft/includes:
+ft_printf.h
+ft_printf.h.gch
+libft.h
+libft.h.gch
+
+/Users/helvi/Documents/hive/ft_ls/libft/libft:
+Makefile
+author
+ft_addstr.c
+ft_atoi.c
+ft_bzero.c
+ft_char_str_join.c
+ft_define_length.c
+ft_dynamic_string.c
+ft_is_whitespace.c
+ft_isalnum.c
+ft_isalpha.c
+ft_isascii.c
+ft_isdigit.c
+ft_isprint.c
+ft_itoa.c
+ft_itoa_base.c
+ft_itoa_float.c
+ft_itoa_hexa.c
+ft_itoa_uint.c
+ft_lst_addtoend.c
+ft_lst_length.c
+ft_lst_merge_sort.c
+ft_lst_reverse.c
+ft_lst_sorted_merge.c
+ft_lst_split.c
+ft_lstadd.c
+ft_lstaddafter.c
+ft_lstdel.c
+ft_lstdellast.c
+ft_lstdelone.c
+ft_lstend.c
+ft_lstiter.c
+ft_lstmap.c
+ft_lstnew.c
+ft_lstnewtoend.c
+ft_lstsrc.c
+ft_memalloc.c
+ft_memccpy.c
+ft_memchr.c
+ft_memcmp.c
+ft_memcpy.c
+ft_memdel.c
+ft_memmove.c
+ft_memset.c
+ft_putchar.c
+ft_putchar_fd.c
+ft_putendl.c
+ft_putendl_fd.c
+ft_putnbr.c
+ft_putnbr_fd.c
+ft_putstr.c
+ft_putstr_fd.c
+ft_str_char_join.c
+ft_str_realloc.c
+ft_strcat.c
+ft_strchr.c
+ft_strclr.c
+ft_strcmp.c
+ft_strcpy.c
+ft_strdel.c
+ft_strdup.c
+ft_strequ.c
+ft_striter.c
+ft_striteri.c
+ft_strjoin.c
+ft_strjoin_frees1.c
+ft_strjoin_frees2.c
+ft_strlast.c
+ft_strlcat.c
+ft_strlen.c
+ft_strmap.c
+ft_strmapi.c
+ft_strncat.c
+ft_strncmp.c
+ft_strncpy.c
+ft_strnequ.c
+ft_strnew.c
+ft_strnstr.c
+ft_strpaste.c
+ft_strpaste_digits.c
+ft_strpaste_end.c
+ft_strrchr.c
+ft_strset.c
+ft_strsplit.c
+ft_strstr.c
+ft_strsub.c
+ft_strsub_freestr.c
+ft_strtrim.c
+ft_tolower.c
+ft_toupper.c
+get_next_line.c
+libft.a
+
+/Users/helvi/Documents/hive/ft_ls/libft/printf:
+Makefile
+author
+float_trim_and_round.c
+ft_printf.c
+helper_functions.c
+print_c.c
+print_d.c
+print_f.c
+print_o.c
+print_p.c
+print_s.c
+print_u.c
+print_x.c
+set_command_values.c
+va_arg_reader_functions.c
+
+/Users/helvi/Documents/hive/ft_ls/testi:
+file1
+file3
+link1
+link2
+sticky1
+sticky2
+stickydir
+testi2
+
+/Users/helvi/Documents/hive/ft_ls/testi/stickydir:
+sticky1
+
+/Users/helvi/Documents/hive/ft_ls/testi/testi2:
+file2
+
+/Users/helvi/Documents/hive/ft_ls/testi2:
+
+/Users/helvi/Documents/hive/junction:
+README.md
+banner.jpg
+cartlila.png
+dropdown.js
+example2.png
+flower.jpg
+health.png
+health2.png
+index.html
+kchallenge.css
+kirjaudu.png
+logo.png
+logolila.png
+reduce.png
+reduce2.png
+rose.jpg
+seasonal.png
+seasonal2.png
+
+/Users/helvi/Documents/hive/libft:
+Makefile
+author
+ft_addstr.c
+ft_atoi.c
+ft_bzero.c
+ft_char_str_join.c
+ft_define_base_length.c
+ft_define_length.c
+ft_dynamic_string.c
+ft_is_whitespace.c
+ft_isalnum.c
+ft_isalpha.c
+ft_isascii.c
+ft_isdigit.c
+ft_isprint.c
+ft_itoa.c
+ft_itoa_base.c
+ft_itoa_float.c
+ft_itoa_hexa.c
+ft_itoa_uint.c
+ft_lst_length.c
+ft_lst_merge_sort.c
+ft_lst_reverse.c
+ft_lst_sorted_merge.c
+ft_lst_split.c
+ft_lstadd.c
+ft_lstaddafter.c
+ft_lstdel.c
+ft_lstdellast.c
+ft_lstdelone.c
+ft_lstend.c
+ft_lstiter.c
+ft_lstmap.c
+ft_lstnew.c
+ft_lstnewtoend.c
+ft_lstsrc.c
+ft_memalloc.c
+ft_memccpy.c
+ft_memchr.c
+ft_memcmp.c
+ft_memcpy.c
+ft_memdel.c
+ft_memmove.c
+ft_memset.c
+ft_putchar.c
+ft_putchar_fd.c
+ft_putendl.c
+ft_putendl_fd.c
+ft_putnbr.c
+ft_putnbr_fd.c
+ft_putstr.c
+ft_putstr_fd.c
+ft_str_char_join.c
+ft_str_realloc.c
+ft_strcat.c
+ft_strchr.c
+ft_strclr.c
+ft_strcmp.c
+ft_strcpy.c
+ft_strdel.c
+ft_strdup.c
+ft_strequ.c
+ft_striter.c
+ft_striteri.c
+ft_strjoin.c
+ft_strjoin_frees1.c
+ft_strjoin_frees2.c
+ft_strlast.c
+ft_strlcat.c
+ft_strlen.c
+ft_strmap.c
+ft_strmapi.c
+ft_strncat.c
+ft_strncmp.c
+ft_strncpy.c
+ft_strnequ.c
+ft_strnew.c
+ft_strnstr.c
+ft_strpaste.c
+ft_strpaste_digits.c
+ft_strpaste_end.c
+ft_strrchr.c
+ft_strset.c
+ft_strsplit.c
+ft_strstr.c
+ft_strsub.c
+ft_strsub_freestr.c
+ft_strtrim.c
+ft_tolower.c
+ft_toupper.c
+get_next_line.c
+libft.h
+
+/Users/helvi/Documents/hive/libftest:
+README.md
+changelog
+deepthought
+grademe.sh
+my_config.sh
+srcs
+supported_functions.md
+tests
+tmp_tests_dir
+
+/Users/helvi/Documents/hive/libftest/srcs:
+activation.sh
+check_compilation.sh
+check_file.sh
+check_forbidden_function.sh
+check_norme.sh
+check_update.sh
+compil_lib.sh
+config_template.sh
+diff_test.sh
+help.1
+img_readme.png
+print.sh
+test_function.sh
+utils.sh
+variables
+
+/Users/helvi/Documents/hive/libftest/srcs/variables:
+colors.sh
+core.sh
+display.sh
+functions
+options.sh
+
+/Users/helvi/Documents/hive/libftest/srcs/variables/functions:
+additional.sh
+bonus.sh
+part_1.sh
+part_2.sh
+
+/Users/helvi/Documents/hive/libftest/tests:
+Additional_functions
+Bonus_functions
+Part1_functions
+Part2_functions
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions:
+ft_isblank
+ft_iscntrl
+ft_isgraph
+ft_islower
+ft_isspace
+ft_isupper
+ft_isxdigit
+ft_itoa_base
+ft_memalloc
+ft_memdel
+ft_putchar
+ft_putendl
+ft_putnbr
+ft_putstr
+ft_str_is_alpha
+ft_str_is_lowercase
+ft_str_is_numeric
+ft_str_is_printable
+ft_str_is_uppercase
+ft_strcapitalize
+ft_strcasecmp
+ft_strcasestr
+ft_strcat
+ft_strclr
+ft_strcmp
+ft_strcpy
+ft_strdel
+ft_strequ
+ft_striter
+ft_striteri
+ft_strlowcase
+ft_strmap
+ft_strncasecmp
+ft_strncat
+ft_strncpy
+ft_strndup
+ft_strnequ
+ft_strnew
+ft_strstr
+ft_strtok
+ft_strupcase
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_isblank:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_iscntrl:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_isgraph:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_islower:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_isspace:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_isupper:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_isxdigit:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_itoa_base:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+test10.output
+test11.output
+test12.output
+test13.output
+test14.output
+test15.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+user_output_test10
+user_output_test11
+user_output_test12
+user_output_test13
+user_output_test14
+user_output_test15
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_memalloc:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_memdel:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_putchar:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_putendl:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_putnbr:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_putstr:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_str_is_alpha:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_str_is_lowercase:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_str_is_numeric:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_str_is_printable:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_str_is_uppercase:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strcapitalize:
+main.c
+test01.output
+test02.output
+test03.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strcasecmp:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strcasestr:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strcat:
+main.c
+test01.output
+test02.output
+test03.output
+user_output_test01
+user_output_test02
+user_output_test03
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strclr:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strcmp:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strcpy:
+main.c
+test01.output
+test02.output
+test03.output
+user_output_test01
+user_output_test02
+user_output_test03
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strdel:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strequ:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_striter:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_striteri:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strlowcase:
+main.c
+test01.output
+test02.output
+test03.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strmap:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strncasecmp:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+test10.output
+test11.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strncat:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strncpy:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strndup:
+main.c
+test01.output
+test02.output
+test03.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strnequ:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+test10.output
+test11.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+user_output_test10
+user_output_test11
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strnew:
+main.c
+test01.output
+test02.output
+user_output_test01
+user_output_test02
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strstr:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strtok:
+main.c
+test01.output
+test02.output
+test03.output
+
+/Users/helvi/Documents/hive/libftest/tests/Additional_functions/ft_strupcase:
+main.c
+test01.output
+test02.output
+test03.output
+
+/Users/helvi/Documents/hive/libftest/tests/Bonus_functions:
+ft_lstadd_back
+ft_lstadd_front
+ft_lstclear
+ft_lstdelone
+ft_lstiter
+ft_lstlast
+ft_lstmap
+ft_lstnew
+ft_lstsize
+
+/Users/helvi/Documents/hive/libftest/tests/Bonus_functions/ft_lstadd_back:
+main.c
+test01.output
+
+/Users/helvi/Documents/hive/libftest/tests/Bonus_functions/ft_lstadd_front:
+main.c
+test01.output
+
+/Users/helvi/Documents/hive/libftest/tests/Bonus_functions/ft_lstclear:
+main.c
+test01.output
+
+/Users/helvi/Documents/hive/libftest/tests/Bonus_functions/ft_lstdelone:
+main.c
+test01.output
+
+/Users/helvi/Documents/hive/libftest/tests/Bonus_functions/ft_lstiter:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/libftest/tests/Bonus_functions/ft_lstlast:
+main.c
+test01.output
+test02.output
+
+/Users/helvi/Documents/hive/libftest/tests/Bonus_functions/ft_lstmap:
+main.c
+test01.output
+
+/Users/helvi/Documents/hive/libftest/tests/Bonus_functions/ft_lstnew:
+main.c
+test01.output
+test02.output
+test03.output
+
+/Users/helvi/Documents/hive/libftest/tests/Bonus_functions/ft_lstsize:
+main.c
+test01.output
+test02.output
+test03.output
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions:
+ft_atoi
+ft_bzero
+ft_calloc
+ft_isalnum
+ft_isalpha
+ft_isascii
+ft_isdigit
+ft_isprint
+ft_memccpy
+ft_memchr
+ft_memcmp
+ft_memcpy
+ft_memmove
+ft_memset
+ft_strchr
+ft_strdup
+ft_strlcat
+ft_strlcpy
+ft_strlen
+ft_strncmp
+ft_strnstr
+ft_strrchr
+ft_tolower
+ft_toupper
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_atoi:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+test10.output
+test11.output
+test12.output
+test13.output
+test14.output
+test15.output
+test16.output
+test17.output
+test18.output
+test19.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+user_output_test10
+user_output_test11
+user_output_test12
+user_output_test13
+user_output_test14
+user_output_test15
+user_output_test16
+user_output_test17
+user_output_test18
+user_output_test19
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_bzero:
+main.c
+test01.output
+test02.output
+user_output_test01
+user_output_test02
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_calloc:
+main.c
+test01.output
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_isalnum:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_isalpha:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_isascii:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_isdigit:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_isprint:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_memccpy:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_memchr:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_memcmp:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_memcpy:
+main.c
+test01.output
+test02.output
+test03.output
+user_output_test01
+user_output_test02
+user_output_test03
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_memmove:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_memset:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_strchr:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_strdup:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_strlcat:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_strlcpy:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_strlen:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_strncmp:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+test10.output
+test11.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+user_output_test10
+user_output_test11
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_strnstr:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+test10.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+user_output_test10
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_strrchr:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_tolower:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/libftest/tests/Part1_functions/ft_toupper:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/libftest/tests/Part2_functions:
+ft_itoa
+ft_putchar_fd
+ft_putendl_fd
+ft_putnbr_fd
+ft_putstr_fd
+ft_split
+ft_strjoin
+ft_strmapi
+ft_strtrim
+ft_substr
+
+/Users/helvi/Documents/hive/libftest/tests/Part2_functions/ft_itoa:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+test10.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+user_output_test10
+
+/Users/helvi/Documents/hive/libftest/tests/Part2_functions/ft_putchar_fd:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/libftest/tests/Part2_functions/ft_putendl_fd:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+
+/Users/helvi/Documents/hive/libftest/tests/Part2_functions/ft_putnbr_fd:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+
+/Users/helvi/Documents/hive/libftest/tests/Part2_functions/ft_putstr_fd:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+
+/Users/helvi/Documents/hive/libftest/tests/Part2_functions/ft_split:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+
+/Users/helvi/Documents/hive/libftest/tests/Part2_functions/ft_strjoin:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+
+/Users/helvi/Documents/hive/libftest/tests/Part2_functions/ft_strmapi:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/libftest/tests/Part2_functions/ft_strtrim:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+
+/Users/helvi/Documents/hive/libftest/tests/Part2_functions/ft_substr:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+
+/Users/helvi/Documents/hive/libftest/tmp_tests_dir:
+ft_addstr.c
+ft_atoi.c
+ft_bzero.c
+ft_bzero.o
+ft_char_str_join.c
+ft_define_length.c
+ft_dynamic_string.c
+ft_is_whitespace.c
+ft_isalnum.c
+ft_isalpha.c
+ft_isascii.c
+ft_isdigit.c
+ft_isprint.c
+ft_itoa.c
+ft_itoa.o
+ft_itoa_float.c
+ft_itoa_hexa.c
+ft_itoa_uint.c
+ft_lst_length.c
+ft_lst_merge_sort.c
+ft_lst_reverse.c
+ft_lst_sorted_merge.c
+ft_lst_split.c
+ft_lstadd.c
+ft_lstaddafter.c
+ft_lstdel.c
+ft_lstdellast.c
+ft_lstdelone.c
+ft_lstend.c
+ft_lstnewtoend.c
+ft_lstsrc.c
+ft_memalloc.c
+ft_memccpy.o
+ft_memchr.c
+ft_memchr.o
+ft_memcmp.c
+ft_memcmp.o
+ft_memcpy.c
+ft_memcpy.o
+ft_memdel.c
+ft_memmove.c
+ft_memmove.o
+ft_memset.c
+ft_putchar.c
+ft_putchar.o
+ft_putchar_fd.c
+ft_putchar_fd.o
+ft_putendl.c
+ft_putendl_fd.c
+ft_putendl_fd.o
+ft_putnbr.o
+ft_putnbr_fd.c
+ft_putnbr_fd.o
+ft_putstr.c
+ft_putstr.o
+ft_putstr_fd.c
+ft_putstr_fd.o
+ft_str_char_join.c
+ft_str_realloc.c
+ft_strcat.c
+ft_strcat.o
+ft_strclr.c
+ft_strcmp.c
+ft_strcpy.c
+ft_strcpy.o
+ft_strdel.c
+ft_strdup.c
+ft_strdup.o
+ft_strequ.c
+ft_striter.c
+ft_striteri.c
+ft_strjoin_frees1.c
+ft_strjoin_frees2.c
+ft_strlcat.c
+ft_strlcat.o
+ft_strlen.c
+ft_strlen.o
+ft_strmap.c
+ft_strmapi.c
+ft_strncat.c
+ft_strncat.o
+ft_strncmp.c
+ft_strncpy.c
+ft_strncpy.o
+ft_strnequ.c
+ft_strnstr.c
+ft_strpaste.c
+ft_strpaste_end.c
+ft_strrchr.o
+ft_strset.c
+ft_strsplit.c
+ft_strstr.c
+ft_strsub.c
+ft_strsub_freestr.c
+ft_strtrim.c
+ft_tolower.c
+ft_toupper.c
+get_next_line.c
+libft.h
+
+/Users/helvi/Documents/hive/ls_remove:
+
+/Users/helvi/Documents/hive/old_libdtest:
+README.md
+changelog
+deepthought
+grademe.sh
+my_config.sh
+srcs
+supported_functions.md
+tests
+
+/Users/helvi/Documents/hive/old_libdtest/srcs:
+check_cheat.sh
+check_compilation.sh
+check_file.sh
+check_norme.sh
+check_update.sh
+colors.sh
+compil_lib.sh
+config_template.sh
+diff_test.sh
+help.1
+img_readme.png
+test_function.sh
+variables.sh
+
+/Users/helvi/Documents/hive/old_libdtest/tests:
+Additional_functions
+Bonus_functions
+Part1_functions
+Part2_functions
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions:
+ft_isblank
+ft_iscntrl
+ft_isgraph
+ft_islower
+ft_isspace
+ft_isupper
+ft_isxdigit
+ft_itoa_base
+ft_str_is_alpha
+ft_str_is_lowercase
+ft_str_is_numeric
+ft_str_is_printable
+ft_str_is_uppercase
+ft_strcapitalize
+ft_strcasecmp
+ft_strcasestr
+ft_strlcpy
+ft_strlowcase
+ft_strncasecmp
+ft_strndup
+ft_strtok
+ft_strupcase
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_isblank:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_iscntrl:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_isgraph:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_islower:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_isspace:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_isupper:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_isxdigit:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_itoa_base:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+test10.output
+test11.output
+test12.output
+test13.output
+test14.output
+test15.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+user_output_test10
+user_output_test11
+user_output_test12
+user_output_test13
+user_output_test14
+user_output_test15
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_str_is_alpha:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_str_is_lowercase:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_str_is_numeric:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_str_is_printable:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_str_is_uppercase:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_strcapitalize:
+main.c
+test01.output
+test02.output
+test03.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_strcasecmp:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_strcasestr:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_strlcpy:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_strlowcase:
+main.c
+test01.output
+test02.output
+test03.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_strncasecmp:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+test10.output
+test11.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_strndup:
+main.c
+test01.output
+test02.output
+test03.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_strtok:
+main.c
+test01.output
+test02.output
+test03.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Additional_functions/ft_strupcase:
+main.c
+test01.output
+test02.output
+test03.output
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Bonus_functions:
+ft_lstadd
+ft_lstdel
+ft_lstdelone
+ft_lstiter
+ft_lstmap
+ft_lstnew
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Bonus_functions/ft_lstadd:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Bonus_functions/ft_lstdel:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Bonus_functions/ft_lstdelone:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Bonus_functions/ft_lstiter:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Bonus_functions/ft_lstmap:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Bonus_functions/ft_lstnew:
+main.c
+test01.output
+test02.output
+test03.output
+user_output_test01
+user_output_test02
+user_output_test03
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions:
+ft_atoi
+ft_bzero
+ft_isalnum
+ft_isalpha
+ft_isascii
+ft_isdigit
+ft_isprint
+ft_memccpy
+ft_memchr
+ft_memcmp
+ft_memcpy
+ft_memmove
+ft_memset
+ft_strcat
+ft_strchr
+ft_strcmp
+ft_strcpy
+ft_strdup
+ft_strlcat
+ft_strlen
+ft_strncat
+ft_strncmp
+ft_strncpy
+ft_strnstr
+ft_strrchr
+ft_strstr
+ft_tolower
+ft_toupper
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_atoi:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+test10.output
+test11.output
+test12.output
+test13.output
+test14.output
+test15.output
+test16.output
+test17.output
+test18.output
+test19.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+user_output_test10
+user_output_test11
+user_output_test12
+user_output_test13
+user_output_test14
+user_output_test15
+user_output_test16
+user_output_test17
+user_output_test18
+user_output_test19
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_bzero:
+main.c
+test01.output
+test02.output
+user_output_test01
+user_output_test02
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_isalnum:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_isalpha:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_isascii:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_isdigit:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_isprint:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_memccpy:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_memchr:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_memcmp:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_memcpy:
+main.c
+test01.output
+test02.output
+test03.output
+user_output_test01
+user_output_test02
+user_output_test03
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_memmove:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_memset:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_strcat:
+main.c
+test01.output
+test02.output
+test03.output
+user_output_test01
+user_output_test02
+user_output_test03
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_strchr:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_strcmp:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_strcpy:
+main.c
+test01.output
+test02.output
+test03.output
+user_output_test01
+user_output_test02
+user_output_test03
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_strdup:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_strlcat:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_strlen:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_strncat:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_strncmp:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+test10.output
+test11.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+user_output_test10
+user_output_test11
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_strncpy:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_strnstr:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+test10.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+user_output_test10
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_strrchr:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_strstr:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_tolower:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part1_functions/ft_toupper:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions:
+ft_itoa
+ft_memalloc
+ft_memdel
+ft_putchar
+ft_putchar_fd
+ft_putendl
+ft_putendl_fd
+ft_putnbr
+ft_putnbr_fd
+ft_putstr
+ft_putstr_fd
+ft_strclr
+ft_strdel
+ft_strequ
+ft_striter
+ft_striteri
+ft_strjoin
+ft_strmap
+ft_strmapi
+ft_strnequ
+ft_strnew
+ft_strsplit
+ft_strsub
+ft_strtrim
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_itoa:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+test10.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+user_output_test10
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_memalloc:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_memdel:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_putchar:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_putchar_fd:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_putendl:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_putendl_fd:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_putnbr:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_putnbr_fd:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_putstr:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_putstr_fd:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_strclr:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_strdel:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_strequ:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_striter:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_striteri:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_strjoin:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_strmap:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_strmapi:
+main.c
+test01.output
+user_output_test01
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_strnequ:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+test06.output
+test07.output
+test08.output
+test09.output
+test10.output
+test11.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+user_output_test06
+user_output_test07
+user_output_test08
+user_output_test09
+user_output_test10
+user_output_test11
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_strnew:
+main.c
+test01.output
+test02.output
+user_output_test01
+user_output_test02
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_strsplit:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_strsub:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+
+/Users/helvi/Documents/hive/old_libdtest/tests/Part2_functions/ft_strtrim:
+main.c
+test01.output
+test02.output
+test03.output
+test04.output
+test05.output
+user_output_test01
+user_output_test02
+user_output_test03
+user_output_test04
+user_output_test05
+
+/Users/helvi/Documents/hive/printf:
+Makefile
+README.md
+author
+float_trim_and_round.c
+float_trim_and_round.o
+ft_addstr.o
+ft_atoi.o
+ft_bzero.o
+ft_char_str_join.o
+ft_define_length.o
+ft_dynamic_string.o
+ft_is_whitespace.o
+ft_isalnum.o
+ft_isalpha.o
+ft_isascii.o
+ft_isdigit.o
+ft_isprint.o
+ft_itoa.o
+ft_itoa_base.o
+ft_itoa_float.o
+ft_itoa_hexa.o
+ft_itoa_uint.o
+ft_lstadd.o
+ft_lstdel.o
+ft_lstdelone.o
+ft_lstiter.o
+ft_lstmap.o
+ft_lstnew.o
+ft_memalloc.o
+ft_memccpy.o
+ft_memchr.o
+ft_memcmp.o
+ft_memcpy.o
+ft_memdel.o
+ft_memmove.o
+ft_memset.o
+ft_printf.c
+ft_printf.h
+ft_printf.h.gch
+ft_printf.o
+ft_putchar.o
+ft_putchar_fd.o
+ft_putendl.o
+ft_putendl_fd.o
+ft_putnbr.o
+ft_putnbr_fd.o
+ft_putstr.o
+ft_putstr_fd.o
+ft_str_realloc.o
+ft_strcat.o
+ft_strchr.o
+ft_strclr.o
+ft_strcmp.o
+ft_strcpy.o
+ft_strdel.o
+ft_strdup.o
+ft_strequ.o
+ft_striter.o
+ft_striteri.o
+ft_strjoin.o
+ft_strjoin_frees2.o
+ft_strlcat.o
+ft_strlen.o
+ft_strmap.o
+ft_strmapi.o
+ft_strncat.o
+ft_strncmp.o
+ft_strncpy.o
+ft_strnequ.o
+ft_strnew.o
+ft_strnstr.o
+ft_strpaste.o
+ft_strpaste_digits.o
+ft_strpaste_end.o
+ft_strrchr.o
+ft_strset.o
+ft_strsplit.o
+ft_strstr.o
+ft_strsub.o
+ft_strsub_freestr.o
+ft_strtrim.o
+ft_tolower.o
+ft_toupper.o
+get_next_line.o
+helper_functions.c
+helper_functions.o
+libft
+libftprintf.a
+print_c.c
+print_c.o
+print_d.c
+print_d.o
+print_f.c
+print_f.o
+print_o.c
+print_o.o
+print_p.c
+print_p.o
+print_s.c
+print_s.o
+print_u.c
+print_u.o
+print_x.c
+print_x.o
+set_command_values.c
+set_command_values.o
+va_arg_reader_functions.c
+va_arg_reader_functions.o
+
+/Users/helvi/Documents/hive/printf/libft:
+Makefile
+author
+ft_addstr.c
+ft_atoi.c
+ft_bzero.c
+ft_char_str_join.c
+ft_define_length.c
+ft_dynamic_string.c
+ft_is_whitespace.c
+ft_isalnum.c
+ft_isalpha.c
+ft_isascii.c
+ft_isdigit.c
+ft_isprint.c
+ft_itoa.c
+ft_itoa_base.c
+ft_itoa_float.c
+ft_itoa_hexa.c
+ft_itoa_uint.c
+ft_lstadd.c
+ft_lstdel.c
+ft_lstdelone.c
+ft_lstiter.c
+ft_lstmap.c
+ft_lstnew.c
+ft_memalloc.c
+ft_memccpy.c
+ft_memchr.c
+ft_memcmp.c
+ft_memcpy.c
+ft_memdel.c
+ft_memmove.c
+ft_memset.c
+ft_putchar.c
+ft_putchar_fd.c
+ft_putendl.c
+ft_putendl_fd.c
+ft_putnbr.c
+ft_putnbr_fd.c
+ft_putstr.c
+ft_putstr_fd.c
+ft_str_realloc.c
+ft_strcat.c
+ft_strchr.c
+ft_strclr.c
+ft_strcmp.c
+ft_strcpy.c
+ft_strdel.c
+ft_strdup.c
+ft_strequ.c
+ft_striter.c
+ft_striteri.c
+ft_strjoin.c
+ft_strjoin_frees2.c
+ft_strlcat.c
+ft_strlen.c
+ft_strmap.c
+ft_strmapi.c
+ft_strncat.c
+ft_strncmp.c
+ft_strncpy.c
+ft_strnequ.c
+ft_strnew.c
+ft_strnstr.c
+ft_strpaste.c
+ft_strpaste_digits.c
+ft_strpaste_end.c
+ft_strrchr.c
+ft_strset.c
+ft_strsplit.c
+ft_strstr.c
+ft_strsub.c
+ft_strsub_freestr.c
+ft_strtrim.c
+ft_tolower.c
+ft_toupper.c
+get_next_line.c
+includes
+libft.h
+libft.h.gch
+
+/Users/helvi/Documents/hive/printf/libft/includes:
+libft.h
+
+/Users/helvi/Documents/hive/printf_tests:
+Makefile
+checker.sh
+main_ansi.c
+main_floatft.c
+main_floatpf.c
+main_hexft.c
+main_hexpf.c
+main_intft.c
+main_intpf.c
+main_pointer.c
+main_pointer2.c
+main_pointer3.c
+main_pointer4.c
+main_pointer5.c
+main_pointer6.c
+mainft.c
+mainpf.c
+
+/Users/helvi/Documents/hive/reaktor_puzzle:
+main.c
+
+/Users/helvi/Documents/hive/submission_to_junction2019:
+README.md
+banner.jpg
+cartlila.png
+curry.png
+dropdown.js
+example2.png
+health.png
+health2.png
+index.html
+kchallenge.css
+kirjaudu.png
+logo.png
+logolila.png
+makrulaatikko.png
+persimmon.png
+reduce.png
+reduce2.png
+seasonal.png
+seasonal2.png
+
+/Users/helvi/Documents/hive/test:
+Makefile
+author
+ft_addstr.c
+ft_atoi.c
+ft_bzero.c
+ft_char_str_join.c
+ft_define_base_length.c
+ft_define_length.c
+ft_dynamic_string.c
+ft_is_whitespace.c
+ft_isalnum.c
+ft_isalpha.c
+ft_isascii.c
+ft_isdigit.c
+ft_isprint.c
+ft_itoa.c
+ft_itoa_base.c
+ft_itoa_float.c
+ft_itoa_hexa.c
+ft_itoa_uint.c
+ft_lst_length.c
+ft_lst_merge_sort.c
+ft_lst_reverse.c
+ft_lst_sorted_merge.c
+ft_lst_split.c
+ft_lstadd.c
+ft_lstaddafter.c
+ft_lstdel.c
+ft_lstdellast.c
+ft_lstdelone.c
+ft_lstend.c
+ft_lstiter.c
+ft_lstmap.c
+ft_lstnew.c
+ft_lstnewtoend.c
+ft_lstsrc.c
+ft_memalloc.c
+ft_memccpy.c
+ft_memchr.c
+ft_memcmp.c
+ft_memcpy.c
+ft_memdel.c
+ft_memmove.c
+ft_memset.c
+ft_putchar.c
+ft_putchar_fd.c
+ft_putendl.c
+ft_putendl_fd.c
+ft_putnbr.c
+ft_putnbr_fd.c
+ft_putstr.c
+ft_putstr_fd.c
+ft_str_char_join.c
+ft_str_realloc.c
+ft_strcat.c
+ft_strchr.c
+ft_strclr.c
+ft_strcmp.c
+ft_strcpy.c
+ft_strdel.c
+ft_strdup.c
+ft_strequ.c
+ft_striter.c
+ft_striteri.c
+ft_strjoin.c
+ft_strjoin_frees1.c
+ft_strjoin_frees2.c
+ft_strlast.c
+ft_strlcat.c
+ft_strlen.c
+ft_strmap.c
+ft_strmapi.c
+ft_strncat.c
+ft_strncmp.c
+ft_strncpy.c
+ft_strnequ.c
+ft_strnew.c
+ft_strnstr.c
+ft_strpaste.c
+ft_strpaste_digits.c
+ft_strpaste_end.c
+ft_strrchr.c
+ft_strset.c
+ft_strsplit.c
+ft_strstr.c
+ft_strsub.c
+ft_strsub_freestr.c
+ft_strtrim.c
+ft_tolower.c
+ft_toupper.c
+get_next_line.c
+libft.a
+libft.h
+
+/Users/helvi/Documents/hive/test2:
+Makefile
+author
+ft_addstr.c
+ft_atoi.c
+ft_bzero.c
+ft_char_str_join.c
+ft_define_base_length.c
+ft_define_length.c
+ft_dynamic_string.c
+ft_is_whitespace.c
+ft_isalnum.c
+ft_isalpha.c
+ft_isascii.c
+ft_isdigit.c
+ft_isprint.c
+ft_itoa.c
+ft_itoa_base.c
+ft_itoa_float.c
+ft_itoa_hexa.c
+ft_itoa_uint.c
+ft_lst_length.c
+ft_lst_merge_sort.c
+ft_lst_reverse.c
+ft_lst_sorted_merge.c
+ft_lst_split.c
+ft_lstadd.c
+ft_lstaddafter.c
+ft_lstdel.c
+ft_lstdellast.c
+ft_lstdelone.c
+ft_lstend.c
+ft_lstiter.c
+ft_lstmap.c
+ft_lstnew.c
+ft_lstnewtoend.c
+ft_lstsrc.c
+ft_memalloc.c
+ft_memccpy.c
+ft_memchr.c
+ft_memcmp.c
+ft_memcpy.c
+ft_memdel.c
+ft_memmove.c
+ft_memset.c
+ft_putchar.c
+ft_putchar_fd.c
+ft_putendl.c
+ft_putendl_fd.c
+ft_putnbr.c
+ft_putnbr_fd.c
+ft_putstr.c
+ft_putstr_fd.c
+ft_str_char_join.c
+ft_str_realloc.c
+ft_strcat.c
+ft_strchr.c
+ft_strclr.c
+ft_strcmp.c
+ft_strcpy.c
+ft_strdel.c
+ft_strdup.c
+ft_strequ.c
+ft_striter.c
+ft_striteri.c
+ft_strjoin.c
+ft_strjoin_frees1.c
+ft_strjoin_frees2.c
+ft_strlast.c
+ft_strlcat.c
+ft_strlen.c
+ft_strmap.c
+ft_strmapi.c
+ft_strncat.c
+ft_strncmp.c
+ft_strncpy.c
+ft_strnequ.c
+ft_strnew.c
+ft_strnstr.c
+ft_strpaste.c
+ft_strpaste_digits.c
+ft_strpaste_end.c
+ft_strrchr.c
+ft_strset.c
+ft_strsplit.c
+ft_strstr.c
+ft_strsub.c
+ft_strsub_freestr.c
+ft_strtrim.c
+ft_tolower.c
+ft_toupper.c
+get_next_line.c
+libft.h
+
+/Users/helvi/Documents/kasaripelit.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/kasaripelit.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/kasaripelit.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut:
+2019
+KEO_rk_hyvaksynta.jpg
+Untitled.pages
+Untitled1.pages
+Veikon kohtauspäiväkirja.pages
+Veikon oirepäiväkirja 2.pages
+ViSa
+äänisatu
+budjetti.ods
+hartaushetki ry
+helvin rokotukset.pages
+jokuruno.pages
+joulu2014.pages
+käsityöt
+kirjaimia ja numeroita.pages
+koko karkku
+laina ja korkotiedot
+pakkauslista.odt
+rakennus
+ruokavaliot
+sadutus huhtikuu 2014.pages
+todistuksia
+tulotjamenot.ods
+työnhaku
+työt
+uusi ainola
+vaaliesittely2017.docx
+veikon terveysselvitys liite.pdf
+vuokrasopimus_aino.pdf
+
+/Users/helvi/Documents/muut/2019:
+Photos
+photos2
+photos3
+sairaspäivärahapäätökset
+tyotodistus.jpg
+
+/Users/helvi/Documents/muut/2019/Photos:
+
+/Users/helvi/Documents/muut/2019/photos2:
+IMG_20190926_184918.jpg
+IMG_20190926_185022.jpg
+
+/Users/helvi/Documents/muut/2019/photos3:
+
+/Users/helvi/Documents/muut/2019/sairaspäivärahapäätökset:
+elo-lokakuu.pdf
+helmi-huhtikuu.pdf
+marras-tammikuu.pdf
+touko-heinakuu.pdf
+
+/Users/helvi/Documents/muut/Untitled.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/Untitled.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/Untitled.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/Untitled1.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/Untitled1.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/Untitled1.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/Veikon kohtauspäiväkirja.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/Veikon kohtauspäiväkirja.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/Veikon kohtauspäiväkirja.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/Veikon oirepäiväkirja 2.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/Veikon oirepäiväkirja 2.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/Veikon oirepäiväkirja 2.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/ViSa:
+20150111_halko.odt
+20150111_halko.pdf
+20150301_halko.odt
+20150301_halko.pdf
+Visa syyskokous 2015 pöytäkirja.rtf
+
+/Users/helvi/Documents/muut/äänisatu:
+Audio Recording.m4a
+
+/Users/helvi/Documents/muut/hartaushetki ry:
+Hartaushetki_tiliote 2013.pdf
+ba-wrks1op.pdf
+esityslista_yhdistyksen_kokous_2014.odt
+esityslista_yhdistyksen_kokous_2014.pdf
+halko_2013_2_9.odt
+halko_2013_5.odt
+halko_2013_5.pdf
+hallituksen_allekirjoitukset.odt
+hhlogo.png
+pohja.odt
+säännöt.odt
+säännöt.pdf
+talousarvio 2014.odt
+talousarvio 2014.pdf
+tilinpäätös 2013.odt
+toiminnantarkastus_2013.odt
+toimintakertomus 2013.odt
+toimintakertomus 2013.pdf
+toimintasuunnitelma 2014.odt
+toimintasuunnitelma 2014.pdf
+vuosikokous_2013.odt
+vuosikokous_2014.odt
+
+/Users/helvi/Documents/muut/helvin rokotukset.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/helvin rokotukset.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/helvin rokotukset.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/jokuruno.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/jokuruno.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/jokuruno.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/joulu2014.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/joulu2014.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/joulu2014.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/käsityöt:
+16-_Sixteen_Cable_Hat.pdf
+Downtown_Cowl.pdf
+PlanAhead_large.jpeg
+Untitled 15.pages
+origami
+snowfalke.jpg
+vanulaput.pages
+
+/Users/helvi/Documents/muut/käsityöt/Untitled 15.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/käsityöt/Untitled 15.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/käsityöt/Untitled 15.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/käsityöt/origami:
+E-ICOSAHEDRON-GEM-paper-crystal.pdf
+G-DIAMOND-paper-crystal.pdf
+L-SHORT-BIPYRAMID-paper-crystal.pdf
+
+/Users/helvi/Documents/muut/käsityöt/vanulaput.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/käsityöt/vanulaput.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/käsityöt/vanulaput.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/kirjaimia ja numeroita.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/kirjaimia ja numeroita.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/kirjaimia ja numeroita.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/koko karkku:
+2017
+
+/Users/helvi/Documents/muut/koko karkku/2017:
+Hallituksen kokous1 23_05_17.doc
+Hallituksen kokous2 06_06_17 pöytäkirja.doc
+Hallituksen kokous2 06_06_17.doc
+Hallituksen kokous3 06_06_17.doc
+Hallituksen kokous4 02_08_17.doc
+Hallituksen kokous4 02_08_17_muokkaus.odt
+Hallituksen kokous5 23_08_17 pöytäkirja.doc
+Hallituksen kokous5 23_08_17.doc
+Hallituksen kokous6 25_09_17_esityslista.doc
+Hallituksen kokous6 25_09_17_pöytäkirja.doc
+Hallituksen kokous7 15_10_17_pöytäkirja.doc
+Koko Karkku ry toimintasuunnitelma vol 3.1.docx
+Rahoitusopaslaaja.pdf
+Säännöt Koko Karkku ry.docx
+
+/Users/helvi/Documents/muut/laina ja korkotiedot:
+asuntolaina.pdf
+opintolaina
+remonttilaina.pdf
+supermikko_luottollinen_tili.pdf
+
+/Users/helvi/Documents/muut/laina ja korkotiedot/opintolaina:
+document.pdf
+vakiomuotoiset_eurooppalaiset_kuluttajaluottotiedot.pdf
+velan ehdot.pdf
+yleiset ennakkotiedot etämyynnistä.pdf
+
+/Users/helvi/Documents/muut/rakennus:
+Talo Toivola pohja 10.4.2014.pdf
+Talo Toivola ve2.jpg
+Talo Toivola ve2.pdf
+talosuunnitelmat.pages
+
+/Users/helvi/Documents/muut/rakennus/talosuunnitelmat.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/rakennus/talosuunnitelmat.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/rakennus/talosuunnitelmat.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/ruokavaliot:
+Superdieetti extra
+kehitys.pages
+motivaatio.pages
+muscle challenge
+superdieetti
+tiimalasiksi
+
+/Users/helvi/Documents/muut/ruokavaliot/Superdieetti extra:
+SDX14_EFBWtkoti.pdf
+SDX14_EFBWtreeni.pdf
+SDX14_mies_laihduttaja.pdf
+SDX14_mies_yllapito.pdf
+SDX14_nainen_laihduttaja.pdf
+SDX14_nainen_yllapito.pdf
+bullin haaste.odt
+sd14_kahvakuula.pdf
+viikko2_päivitykset.odt
+viikko4_paivitykset.odt
+viikko6_paivitys.odt
+
+/Users/helvi/Documents/muut/ruokavaliot/kehitys.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/ruokavaliot/kehitys.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/ruokavaliot/kehitys.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/ruokavaliot/motivaatio.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/ruokavaliot/motivaatio.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/ruokavaliot/motivaatio.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/ruokavaliot/muscle challenge:
+ruokavalio_ladies.pdf
+treeniohjelma_ladies.pdf
+videot
+
+/Users/helvi/Documents/muut/ruokavaliot/muscle challenge/videot:
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti:
+SD14_jatko.pdf
+fysioterapiamuistiinpanot.pages
+kehitys_etu.jpg
+kehitys_selkä.jpg
+kehitys_sivu_vasen.jpg
+miesten ruokavaliot
+reseptit
+viikko1
+viikko2
+viikko3
+viikko4
+viikko5
+viikko6
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/fysioterapiamuistiinpanot.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/fysioterapiamuistiinpanot.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/fysioterapiamuistiinpanot.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/miesten ruokavaliot:
+sd14_mies1_vk1.pdf
+sd14_mies1_vk1lihaton.pdf
+sd14_mies1_vk1maidoton.pdf
+sd14_mies1_vk2.pdf
+sd14_mies1_vk3.pdf
+sd14_mies1_vk4.pdf
+sd14_mies1_vk5.pdf
+sd14_mies1_vk6.pdf
+sd14_mies2_vk1.pdf
+sd14_mies2_vk1lihaton.pdf
+sd14_mies2_vk1maidoton.pdf
+sd14_mies2_vk2.pdf
+sd14_mies2_vk3.pdf
+sd14_mies2_vk4.pdf
+sd14_mies2_vk5.pdf
+sd14_mies2_vk6.pdf
+sd14_mies3_vk1.pdf
+sd14_mies3_vk1lihaton.pdf
+sd14_mies3_vk1maidoton.pdf
+sd14_mies3_vk2.pdf
+sd14_mies3_vk3.pdf
+sd14_mies3_vk4.pdf
+sd14_mies3_vk5.pdf
+sd14_mies3_vk6.pdf
+sd14_mies_tankkaus.pdf
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/reseptit:
+20140502_SD_Riisin_keittaminen_ja_maustaminen.pdf
+20140508_SD_Smoothie.pdf
+20140515_SD_Tsatsiki.pdf
+20140522_SD_Kirsikkatomaatti-valkuaishoysto.pdf
+20140522_SD_Taytetyt_paprikat.pdf
+20140528_SD_Kana-riisitaytteiset_paprikat.pdf
+20140528_SD_Lihamureke_uunissa_kera_kasvisten.pdf
+20140605_SD_Kesainen_fetasalaatti.pdf
+20140605_SD_Lihapullat_ja_ratatouille.pdf
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko1:
+henkiset.pages
+liteveny-2.pdf
+ohjeet kahvakuula.pages
+ohjeet kotitreeniin.pages
+ohjeet treeni 1.pages
+ohjeet treeni2.pages
+sd14_UKKravinto.pdf
+sd14_UKKtreeni.pdf
+sd14_efbw_kotitreeni.pdf
+sd14_efbwtreeni.pdf
+sd14_efbwtreeni2.pdf
+sd14_kahvakuula.pdf
+sd14_nainen1_vk1.pdf
+sd14_nainen1_vk1lihaton.pdf
+sd14_nainen1_vk1maidoton.pdf
+sd14_nainen2_vk1.pdf
+sd14_nainen2_vk1lihaton.pdf
+sd14_nainen2_vk1maidoton.pdf
+sd14_nainen3_vk1.pdf
+sd14_nainen3_vk1lihaton.pdf
+sd14_nainen3_vk1maidoton.pdf
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko1/henkiset.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko1/henkiset.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko1/henkiset.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko1/ohjeet kahvakuula.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko1/ohjeet kahvakuula.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko1/ohjeet kahvakuula.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko1/ohjeet kotitreeniin.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko1/ohjeet kotitreeniin.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko1/ohjeet kotitreeniin.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko1/ohjeet treeni 1.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko1/ohjeet treeni 1.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko1/ohjeet treeni 1.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko1/ohjeet treeni2.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko1/ohjeet treeni2.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko1/ohjeet treeni2.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko2:
+henkiset_viikko2.pages
+sd14_nainen1_vk2.pdf
+sd14_nainen2_vk2.pdf
+sd14_nainen3_vk2.pdf
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko2/henkiset_viikko2.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko2/henkiset_viikko2.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko2/henkiset_viikko2.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko3:
+henkiset_viikko3.pages
+sd14_efbw_kotitreeniosa2.pdf
+sd14_efbwtreeni2_osa2.pdf
+sd14_efbwtreeni_osa2.pdf
+sd14_nainen1_vk3.pdf
+sd14_nainen2_vk3.pdf
+sd14_nainen3_vk3.pdf
+sd14_nainen_tankkaus.pdf
+tankkauspäivän korvaavuudet.pages
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko3/henkiset_viikko3.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko3/henkiset_viikko3.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko3/henkiset_viikko3.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko3/tankkauspäivän korvaavuudet.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko3/tankkauspäivän korvaavuudet.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko3/tankkauspäivän korvaavuudet.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko4:
+henkiset_viikko5.pages
+sd14_nainen1_vk4.pdf
+sd14_nainen2_vk4.pdf
+sd14_nainen3_vk4.pdf
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko4/henkiset_viikko5.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko4/henkiset_viikko5.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko4/henkiset_viikko5.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko5:
+henkiset_viikko5.pages
+sd14_efbw_extrakotitreeni.png
+sd14_efbw_kotitreeniosa3.pdf
+sd14_efbwtreeni2_osa3.pdf
+sd14_efbwtreeni_osa3.pdf
+sd14_kahvakuula_osa2-3.pdf
+sd14_nainen1_vk5.pdf
+sd14_nainen2_vk5.pdf
+sd14_nainen3_vk5.pdf
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko5/henkiset_viikko5.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko5/henkiset_viikko5.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko5/henkiset_viikko5.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/ruokavaliot/superdieetti/viikko6:
+henkiset_6.rtf
+sd14_nainen1_vk6.pdf
+sd14_nainen2_vk6.pdf
+sd14_nainen3_vk6.pdf
+
+/Users/helvi/Documents/muut/ruokavaliot/tiimalasiksi:
+1 viikko
+10 viikko
+11 viikko
+12 viikko
+13 viikko
+2 viikko
+3 viikko
+4 viikko
+5 viikko
+6 viikko
+7 viikko
+8 viikko
+9 viikko
+
+/Users/helvi/Documents/muut/ruokavaliot/tiimalasiksi/1 viikko:
+5-x-miksi.pdf
+Dynaamiset-lämmittelyt.pdf
+Elamanpyora.pdf
+Jenkkakahvoista-tiimalasiksi-Kotitreeni.pdf
+Kotitreeni-ilman-kyykkyja.pdf
+Punttitreeni1A.pdf
+Punttitreeni1B.pdf
+Realistinen-liikuntasuunnitelma.pdf
+
+/Users/helvi/Documents/muut/ruokavaliot/tiimalasiksi/10 viikko:
+Hiilarit_on_hyviksia.pdf
+
+/Users/helvi/Documents/muut/ruokavaliot/tiimalasiksi/11 viikko:
+Katkaise_keksiketju.pdf
+
+/Users/helvi/Documents/muut/ruokavaliot/tiimalasiksi/12 viikko:
+Juo_vetta.pdf
+
+/Users/helvi/Documents/muut/ruokavaliot/tiimalasiksi/13 viikko:
+Elamanpyora.pdf
+
+/Users/helvi/Documents/muut/ruokavaliot/tiimalasiksi/2 viikko:
+Esimerkkiaterioita-.pdf
+Nalkapeli.pdf
+Syo-hitaasti-ja-tietoisesti.pdf
+tehtävä.pages
+
+/Users/helvi/Documents/muut/ruokavaliot/tiimalasiksi/2 viikko/tehtävä.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/ruokavaliot/tiimalasiksi/2 viikko/tehtävä.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/ruokavaliot/tiimalasiksi/2 viikko/tehtävä.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/ruokavaliot/tiimalasiksi/3 viikko:
+Vaaliunta.pdf
+Viikko 3 Maikki Marjaniemi - avaava jooga.mp4
+
+/Users/helvi/Documents/muut/ruokavaliot/tiimalasiksi/4 viikko:
+Ateriakalenteri.pdf
+Ideoitaostoslistaan.pdf
+Syo-tarpeeksi-kammenmallilla.pdf
+
+/Users/helvi/Documents/muut/ruokavaliot/tiimalasiksi/5 viikko:
+Itsemyotatuntoharjoituksia.pdf
+Lisaa-itsekuria-vai-myotatuntoa.pdf
+
+/Users/helvi/Documents/muut/ruokavaliot/tiimalasiksi/6 viikko:
+Kasviksiajokaaterialle.pdf
+Pikakuntopiiri.pdf
+TASOITAPOLKUA.pdf
+
+/Users/helvi/Documents/muut/ruokavaliot/tiimalasiksi/7 viikko:
+Dynaamiset_lammittelyt_2.pdf
+Punttitreeni2A-2.pdf
+Punttitreeni2B-1.pdf
+huomaajanimea.pdf
+
+/Users/helvi/Documents/muut/ruokavaliot/tiimalasiksi/8 viikko:
+Ahteri_ylos.pdf
+
+/Users/helvi/Documents/muut/ruokavaliot/tiimalasiksi/9 viikko:
+Rentoudu_jenkkakahvat_pois.pdf
+taydellinen_vai_tarpeeksi_hyva.pdf
+
+/Users/helvi/Documents/muut/sadutus huhtikuu 2014.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/sadutus huhtikuu 2014.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/sadutus huhtikuu 2014.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/todistuksia:
+Posti_kuitti_360487282.pdf
+opintotodistus.jpg
+rikosrekisteriote_at_20160128105545.pdf
+työt ja koulutukset.pages
+
+/Users/helvi/Documents/muut/todistuksia/työt ja koulutukset.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/todistuksia/työt ja koulutukset.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/todistuksia/työt ja koulutukset.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist
+
+/Users/helvi/Documents/muut/työnhaku:
+CV.odt
+CV.pdf
+CV_05:2015.pdf
+CV_08:2015.pdf
+CV_1.2.2017.pdf
+CV_1.2.2017_2.pdf
+CV_10:2016.pdf
+CV_2:2016.pdf
+CV_7.3.2017.pdf
+CV_Helvi_Lainekallio.pdf
+CV_Helvi_Toivola_7:2018.pdf
+CV_varit.odt
+CV_varit.pdf
+motivaatiokirje_Helvi_Lainekallio.odt
+motivaatiokirje_Helvi_Lainekallio.pdf
+työhakemus_1.2.2017.pdf
+työhakemus_7.3.2017.pdf
+työhakemus_varit.odt
+
+/Users/helvi/Documents/muut/työt:
+HELVI_Palkkio-matkalasku 2015 Parempi avioliitto ry.xls
+Hakemus_kassaan.pdf
+MIKKO_Palkkio-matkalasku 2015 Parempi avioliitto ry.xls
+Oletustitle - Verokortti-SivutulokorttiLisaprosentilla-20151117.pdf
+Palkkalaskelma 1 2017.pdf
+Palkkalaskelma 10 2016.pdf
+Palkkalaskelma 11 2016.pdf
+Palkkalaskelma 12 2016.pdf
+Palkkalaskelma 2 2017.pdf
+Palkkalaskelma 3 2017.pdf
+Palkkalaskelma 4 2016.pdf
+Palkkalaskelma 4 2017.pdf
+Palkkalaskelma 5 2016.pdf
+Palkkalaskelma 5_2 2016.pdf
+Palkkalaskelma 6 2016.pdf
+Palkkalaskelma 6_2 2016.pdf
+Palkkalaskelma 7 2016.pdf
+Palkkalaskelma 7_2 2016.pdf
+Palkkalaskelma 8 2016.pdf
+Palkkio-matkalasku 2015 Parempi avioliitto ry.xls
+Perintasopimus_kassaan.pdf
+Verokortti 2016 - Laskennan tulos.pdf
+Verokortti-PaatoimenPalkat-20160210.pdf
+Verokortti-PaatoimenPalkat-UUSI_6:16.pdf
+Verokortti-SivutulokorttiLisaprosentilla-20160529.pdf
+Verokortti-SivutulokorttiLisaprosentilla-20170712.pdf
+kilometrit 2015.ods
+
+/Users/helvi/Documents/muut/uusi ainola:
+02 PÄÄPIIRUSTUKSET 1.2.2015.pdf
+02 PÄÄPIIRUSTUKSET 15112014.pdf
+02 PÄÄPIIRUSTUKSET.pdf
+Ok-talo Toivola
+Pohjatutkimukset
+Talo Toivola 1.jpg
+Talo Toivola 1.pdf
+Talo Toivola 2.jpg
+Talo Toivola 2.pdf
+Talo Toivola assari.jpg
+Talo Toivola assari.pdf
+Talo Toivola ve4.jpg
+Talo Toivola ve4.pdf
+Talo Toivola ve4_iso.jpg
+Toivola_DWG
+budjetti.ods
+kantakartta.jpg
+näkymät
+rakennuslupahakemuksen liitteet
+suunnittelumuistiinpanot.pages
+
+/Users/helvi/Documents/muut/uusi ainola/Ok-talo Toivola:
+
+/Users/helvi/Documents/muut/uusi ainola/Pohjatutkimukset:
+001-PV-PTAP-10.12.2014.dwg
+001-PV-PTAP.pdf
+002-Leikkaukset-10.12.2014.dwg
+002-Leikkaus.pdf
+003-Leikkaus.pdf
+14222-Pohjarakennesuunnitelma.pdf
+Perustamisolosuhdeselvitys.pdf
+
+/Users/helvi/Documents/muut/uusi ainola/Toivola_DWG:
+001 Asemapiirustus.dwg
+002 Pohjapiirustukset.dwg
+003 Leikkaus A-A.dwg
+004 Julkisivupiirustukset.dwg
+005 Rakenneleikkaus.dwg
+
+/Users/helvi/Documents/muut/uusi ainola/näkymät:
+Talo Toivola2 keltamulta_View 1_3.jpg
+Talo Toivola2 keltamulta_View 1_5.jpg
+Talo Toivola2_View 1_5.jpg
+Talo Toivola_View 1_3.jpg
+
+/Users/helvi/Documents/muut/uusi ainola/rakennuslupahakemuksen liitteet:
+
+/Users/helvi/Documents/muut/uusi ainola/suunnittelumuistiinpanot.pages:
+Data
+Index.zip
+Metadata
+preview-micro.jpg
+preview-web.jpg
+preview.jpg
+
+/Users/helvi/Documents/muut/uusi ainola/suunnittelumuistiinpanot.pages/Data:
+Hardcover_bullet_black-13.png
+
+/Users/helvi/Documents/muut/uusi ainola/suunnittelumuistiinpanot.pages/Metadata:
+BuildVersionHistory.plist
+DocumentIdentifier
+Properties.plist

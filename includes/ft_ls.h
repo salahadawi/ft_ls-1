@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/01 16:15:23 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/21 11:51:32 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/22 12:08:27 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@ typedef struct	s_file
 	char		*name;
 	int			is_link;
 	struct stat	*stat_info;
+	int			is_dir;
 
 }				t_file;
 
@@ -86,7 +87,7 @@ void			add_file(t_file *new_file, t_params *params,
 				t_list *first_directory);
 void			add_directory(char *directory_name, t_list **first_directory,
 				struct stat *stat_buf);
-void			add_to_list(char *dirname, struct stat *stat_buf,
+void			add_to_list(struct dirent *dirent_buf, struct stat *stat_buf,
 				t_params *params, t_list **first_directory);
 void			find_dir_add_file(t_list **first_directory, t_file *new_file,
 				t_params *params);
@@ -102,5 +103,7 @@ void			read_file(char *file_name, t_file *new_file,
 t_list			*read_argv(int argc, int i, t_params *params, char **argv);
 void			handle_dir_error(char *directory_name, t_list **first_directory);
 void			handle_file_error(char *file_name, t_params *params, t_list **first_directory);
+void			recursive_caller(t_params *params,
+				t_list **first_directory);
 
 #endif

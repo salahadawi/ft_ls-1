@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/11 10:23:24 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/21 19:15:33 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/22 12:08:23 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ void	add_directory(char *directory_name, t_list **first_directory,
 ** Calls a function to do the adding.
 */
 
-void	add_to_list(char *name, struct stat *stat_buf, t_params *params,
+void	add_to_list(struct dirent *dirent_buf, struct stat *stat_buf, t_params *params,
 		t_list **first_directory)
 {
 	t_file			*new_file;
@@ -64,17 +64,18 @@ void	add_to_list(char *name, struct stat *stat_buf, t_params *params,
 	new_file = (t_file*)malloc(sizeof(t_file));
 	new_file->stat_info = stat_buf;
 	temp_dir = (t_directory*)(ft_lstend(*first_directory))->content;
-	path_filename = ft_strjoin(temp_dir->name, name);
+	path_filename = ft_strjoin(temp_dir->name, dirent_buf->d_name);
 	if (readlink(path_filename, link_name, 2000) != -1)
 	{
-		new_file->name = ft_strjoin3(name, " -> ", link_name);
+		new_file->name = ft_strjoin3(dirent_buf->d_name, " -> ", link_name);
 		new_file->is_link = 1;
 	}
 	else
 	{
-		new_file->name = ft_strdup(name);
+		new_file->name = ft_strdup(dirent_buf->d_name);
 		new_file->is_link = 0;
 	}
+	new_file->is_dir = (dirent_buf->d_type == DT_DIR) ? 1 : 0;
 	add_file(new_file, params, *first_directory);
 	free(path_filename);
 	free(link_name);
@@ -123,4 +124,30 @@ void	read_directory(char *directory_name, t_params *params,
 		directory_name = ft_str_char_join('/', directory_name);
 	read_dirp(stat_buf, directory_name, params, first_directory);
 	free(directory_name);
+	if (params->rr)
+		recursive_caller(params, first_directory);
+}
+
+void	recursive_caller(t_params *params,
+		t_list **first_directory)
+{
+	t_file		*temp_file;
+	t_list		*temp_file_list;
+	t_directory	*last_directory;
+	char		*path;
+
+	last_directory = (t_directory*)ft_lstend(*first_directory)->content;
+	temp_file_list = last_directory->first_file;
+	path = last_directory->name;
+	while (temp_file_list)
+	{
+		temp_file = (t_file*)temp_file_list->content;
+		if (temp_file->is_dir && !ft_strequ(temp_file->name, ".")
+		&& !ft_strequ(temp_file->name, "./") && !ft_strequ(temp_file->name, "..")
+		&& !ft_strequ(temp_file->name, "../"))
+			read_directory(ft_strjoin(path, temp_file->name), params,
+			first_directory);
+		temp_file_list = temp_file_list->next;
+	}
+
 }

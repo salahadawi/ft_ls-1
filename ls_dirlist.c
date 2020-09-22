@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/03 15:27:33 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/21 20:04:32 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/22 11:58:12 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,13 +84,7 @@ void	read_stat(char *directory_name, t_params *params,
 		free(stat_buf);
 		return ;
 	}
-	add_to_list(dirent_buf->d_name, stat_buf, params, first_directory);
-	if (dirent_buf->d_type == DT_DIR && params->rr &&
-	!ft_strequ(dirent_buf->d_name, ".") && !ft_strequ(dirent_buf->d_name, "./")
-	&& !ft_strequ(dirent_buf->d_name, "..")
-	&& !ft_strequ(dirent_buf->d_name, "../"))
-		read_directory(ft_strjoin(directory_name, dirent_buf->d_name), params,
-		first_directory);
+	add_to_list(dirent_buf, stat_buf, params, first_directory);
 	free(path_filename);
 }
 
