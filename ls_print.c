@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/01 16:13:13 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/16 20:08:20 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/22 14:03:32 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,7 +98,7 @@ char	*gettime(struct stat *buffer)
 	timestamp = buffer->st_mtime;
 	returnable = ft_strdup(ctime(&timestamp));
 	temp_year = ft_strsub(returnable, 19, 5);
-	if (ft_strequ(temp_year, year_now))
+	if (seconds - timestamp < 15778800)
 		returnable = ft_str_realloc(returnable, 4, 12);
 	else
 	{
