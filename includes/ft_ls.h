@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/01 16:15:23 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/22 12:08:27 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/22 13:48:37 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -103,7 +103,6 @@ void			read_file(char *file_name, t_file *new_file,
 t_list			*read_argv(int argc, int i, t_params *params, char **argv);
 void			handle_dir_error(char *directory_name, t_list **first_directory);
 void			handle_file_error(char *file_name, t_params *params, t_list **first_directory);
-void			recursive_caller(t_params *params,
-				t_list **first_directory);
+void			recursive_caller(t_params *params, t_list **first_directory);
 
 #endif

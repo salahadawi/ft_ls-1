@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/11 10:23:24 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/22 12:08:23 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/22 13:48:46 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -128,8 +128,7 @@ void	read_directory(char *directory_name, t_params *params,
 		recursive_caller(params, first_directory);
 }
 
-void	recursive_caller(t_params *params,
-		t_list **first_directory)
+void	recursive_caller(t_params *params, t_list **first_directory)
 {
 	t_file		*temp_file;
 	t_list		*temp_file_list;

@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/03 15:27:33 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/22 11:58:12 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/22 13:55:12 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ void	find_dir_add_file(t_list **first_directory, t_file *new_file,
 			break ;
 		temp_dir_list = temp_dir_list->next;
 	}
-	if (temp_directory == NULL)
+	if (temp_dir_list == NULL)
 		add_new_dir(first_directory, new_file, params);
 	else
 	{
