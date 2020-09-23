@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/03 15:25:02 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/23 17:34:58 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/23 18:03:38 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,7 @@ void	handle_file_error(char *file_name, t_params *params, t_list **first_directo
 	char	*error_message;
 	char	*error_str;
 
-	ft_printf("handel_file_error");
+	//ft_printf("handel_file_error");
 	error_message = ft_strjoin("ft_ls: ", file_name);
 	error_message = ft_strjoin_frees1(error_message, ": ");
 	error_str = ft_strdup(strerror(errno));
@@ -83,17 +83,17 @@ void	handle_dir_error(char *directory_name, t_list **first_directory)
 	t_directory	*new_directory;
 	char		*error_str;
 
-	ft_printf("handel_dir_error");
+	//ft_printf("handel_dir_error");
 	error_message = ft_strjoin("ft_ls: ", directory_name);
 	error_message = ft_strjoin_frees1(error_message, ": ");
-	ft_printf("HERE?");
+	//ft_printf("HERE?");
 	error_str = ft_strdup(strerror(errno));
-	ft_printf("HERE2?");
-	ft_printf("!!%s!!", error_str);
-	if (error_str == NULL)
-		ft_printf("malloc fail");
+	//ft_printf("HERE2?");
+	//ft_printf("!!%s!!", error_str);
+	//if (error_str == NULL)
+	//	ft_printf("malloc fail");
 	error_message = ft_strjoin_frees1(error_message, error_str);
-	ft_printf("HERE3?");
+	//ft_printf("HERE3?");
 	new_directory = (t_directory*)malloc(sizeof(t_directory));
 	initialize_directory(new_directory);
 	new_directory->name = ft_strdup(directory_name);

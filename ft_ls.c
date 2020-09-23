@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/26 11:53:03 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/23 13:24:01 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/23 18:06:42 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -147,7 +147,7 @@ int		main(int argc, char **argv)
 	while (i < argc && argv[i][0] == '-')
 		read_params(argv[i++], params);
 	first_directory = read_argv(argc, i, params, argv);
-	ft_printf("reading done");
+	//ft_printf("reading done");
 	sort_directories(&first_directory, params);
 	print_all(params, first_directory);
 	//while(1);

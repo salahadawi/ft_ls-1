@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/10 12:43:29 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/17 11:32:40 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/23 17:47:59 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ char	*ft_strjoin_frees2(char *s1, char *s2)
 	if (s1 && s2)
 	{
 		if (NULL != (returnable = (char*)malloc(sizeof(char)
-			* (ft_strlen(s1) + ft_strlen(s2)))))
+			* (ft_strlen(s1) + ft_strlen(s2)) + 1)))
 		{
 			i = 0;
 			w = 0;
