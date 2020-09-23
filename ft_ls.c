@@ -6,17 +6,20 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/26 11:53:03 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/23 18:44:19 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/23 21:02:54 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "includes/ft_ls.h"
 
-void	print_all(t_params *params, t_list *first_directory)
+/*
+** The main function that handles printing of the given datastructure
+*/
+
+static void	print_all(t_params *params, t_list *first_directory)
 {
 	t_directory		*temp_directory;
 	t_list			*temp_dirlist;
-	char			*directory_name;
 
 	temp_dirlist = first_directory;
 	while (temp_dirlist)
@@ -25,27 +28,18 @@ void	print_all(t_params *params, t_list *first_directory)
 		if (!temp_directory->stat_info && !ft_strequ(temp_directory->name, ""))
 			ft_printf("%s:\n", temp_directory->error_message);
 		else
-		{
-			if (!ft_strequ(temp_directory->name, ""))
-				directory_name = ft_strsub(temp_directory->name, 0,
-				ft_strlen(temp_directory->name) - 1);
-			if ((params->rr || (params->multiple_folders > -1)) && temp_dirlist
-			!= first_directory)
-				ft_printf("%s:\n", directory_name);
-			if (params->l && !ft_strequ(temp_directory->name, "") && temp_directory->first_file)
-				ft_printf("total %d\n", temp_directory->total);
-			print_filelist(params, temp_directory);
-			if ((params->rr && temp_dirlist->next) || temp_dirlist->next)
-				ft_printf("\n");
-		}
+			print_folder(temp_directory, params, first_directory, temp_dirlist);
 		temp_dirlist = temp_dirlist->next;
 		params->multiple_folders--;
-		if (!ft_strequ(temp_directory->name, "") && temp_directory->stat_info)
-			free(directory_name);
 	}
 }
 
-void	sort_directories(t_list **first_directory, t_params *params)
+/*
+** The main function on sorting the data structure. Calls on merge sort
+** algorithm with the right comparison functions.
+*/
+
+static void	sort_directories(t_list **first_directory, t_params *params)
 {
 	t_list		*temp_dir_list;
 	t_directory	*temp_directory;
@@ -69,13 +63,11 @@ void	sort_directories(t_list **first_directory, t_params *params)
 }
 
 /*
-** Opens the dirent stream on the given directory name after parsing the
-** name with "/" if necessary. Calls on a function to save the stat and
-** name info on a while loop while reading. Calls on itself recursively
-** when ever there is R flag given to read all subdirectories as well.
+** Reads the given parameters and calls on read_directory to read
+** and save the data
 */
 
-t_list	*read_argv(int argc, int i, t_params *params, char **argv)
+t_list		*read_argv(int argc, int i, t_params *params, char **argv)
 {
 	char		*directory_name;
 	t_list		*first_directory;
@@ -101,7 +93,7 @@ t_list	*read_argv(int argc, int i, t_params *params, char **argv)
 ** accordingly
 */
 
-void	read_params(char *input, t_params *params)
+void		read_params(char *input, t_params *params)
 {
 	int		i;
 
@@ -134,7 +126,7 @@ void	read_params(char *input, t_params *params)
 ** functions and then closes the program.
 */
 
-int		main(int argc, char **argv)
+int			main(int argc, char **argv)
 {
 	int			i;
 	t_params	*params;

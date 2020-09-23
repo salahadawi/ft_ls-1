@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/03 15:45:59 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/23 18:40:53 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/23 20:24:58 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,31 +29,60 @@ void	check_field_width(struct stat *info, t_directory *directory_info)
 	directory_info->total = directory_info->total + info->st_blocks;
 }
 
-void	print_filelist(t_params *params, t_directory *directory)
-{
-	t_file	*temp_file;
-	t_list	*temp_list;
+/*
+** Gets sticky bits (and some xattributes, but this is still buggy)
+*/
 
-	temp_list = directory->first_file;
-	while (temp_list)
-	{
-		temp_file = (t_file*)temp_list->content;
-		if (params->l && temp_file->stat_info)
-			print_l(temp_file->name, temp_file->stat_info, directory,
-			temp_file->is_link);
-		//else if (!temp_file->stat_info)
-		//	ft_printf("%s\n", temp_file->error_message);
-		else
-			ft_printf("%s\n", temp_file->name);
-		temp_list = temp_list->next;
-	}
+char	*get_sattr(struct stat *buffer, char *filename, char *directory,
+		char *returnable)
+{
+	char	*name_buf;
+	char	*path_name;
+
+	name_buf = NULL;
+	path_name = ft_strjoin(directory, filename);
+	returnable[10] = listxattr(path_name, name_buf, 0, 0) ? '@' : ' ';
+	if (buffer->st_mode & S_ISUID)
+		returnable[3] = (buffer->st_mode & S_IXUSR) ? 's' : 'S';
+	if (buffer->st_mode & S_ISGID)
+		returnable[6] = (buffer->st_mode & S_IXGRP) ? 's' : 'S';
+	if (buffer->st_mode & S_ISVTX)
+		returnable[9] = (buffer->st_mode & S_IXOTH) ? 't' : 'T';
+	free(path_name);
+	return (returnable);
 }
 
-void	print_error(char *directory_name)
+/*
+** returns as a character the filetype of given stat struct
+*/
+
+char	get_filetype(struct stat *buffer)
 {
-	ft_printf("ft_ls: %s: ", directory_name);
-	perror("");
+	char	c;
+
+	if (S_ISREG(buffer->st_mode))
+		c = '-';
+	else if (S_ISDIR(buffer->st_mode))
+		c = 'd';
+	else if (S_ISBLK(buffer->st_mode))
+		c = 'b';
+	else if (S_ISCHR(buffer->st_mode))
+		c = 'c';
+	else if (S_ISFIFO(buffer->st_mode))
+		c = 'p';
+	else if (S_ISLNK(buffer->st_mode))
+		c = 'l';
+	else if (S_ISSOCK(buffer->st_mode))
+		c = 's';
+	else
+		c = '?';
+	return (c);
 }
+
+/*
+** returns as a string the owner of the stat struct given as parameter.
+** if the username cannot be found, returns the id number as a string
+*/
 
 char	*getowner(struct stat *buffer)
 {
@@ -64,6 +93,11 @@ char	*getowner(struct stat *buffer)
 	else
 		return (ft_itoa(buffer->st_uid));
 }
+
+/*
+** returns as a string the group of the stat struct given as parameter.
+** if the group cannot be found, returns the id number as a string
+*/
 
 char	*getgroup(struct stat *buffer)
 {

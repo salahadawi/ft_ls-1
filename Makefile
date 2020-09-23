@@ -6,13 +6,14 @@
 #    By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/17 12:00:35 by hlaineka          #+#    #+#              #
-#    Updated: 2020/09/11 10:25:16 by hlaineka         ###   ########.fr        #
+#    Updated: 2020/09/23 20:42:45 by hlaineka         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = ft_ls
 
-SRC = ft_ls.c ls_print.c ls_sort.c ls_helpers.c ls_dirlist.c ls_print_helpers.c ls_dirlist2.c
+SRC = ft_ls.c ls_print.c ls_sort.c ls_helpers.c ls_dirlist.c ls_print_helpers.c \
+ls_dirlist2.c ls_dirlist3.c
 
 OSRC = $(SRC:.c=.o)
 

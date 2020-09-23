@@ -6,74 +6,34 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/03 15:27:33 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/23 18:22:04 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/23 20:57:47 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "includes/ft_ls.h"
 
-void	add_new_dir(t_list **first_directory, t_file *new_file,
-		t_params *params)
-{
-	t_directory	*temp_directory;
+/*
+** Creates and adds a directory to the list of directories to be printed.
+*/
 
-	temp_directory = (t_directory*)malloc(sizeof(t_directory));
-	initialize_directory(temp_directory);
-	temp_directory->name = ft_strdup("");
-	if (params->l)
-		check_field_width(new_file->stat_info, temp_directory);
-	ft_lstnewtoend(new_file, sizeof(t_file), &temp_directory->first_file);
-	ft_lstnewtoend(temp_directory, sizeof(t_directory), first_directory);
-	free(temp_directory);
+void		add_directory(char *directory_name, t_list **first_directory,
+			struct stat *stat_buf)
+{
+	t_directory	*new_directory;
+
+	new_directory = (t_directory*)malloc(sizeof(t_directory));
+	initialize_directory(new_directory);
+	new_directory->name = ft_strdup(directory_name);
+	new_directory->stat_info = stat_buf;
+	ft_lstnewtoend(new_directory, sizeof(t_directory), first_directory);
+	free(new_directory);
 }
 
-void	find_dir_add_file(t_list **first_directory, t_file *new_file,
-		t_params *params)
-{
-	t_directory	*temp_directory;
-	t_list		*temp_dir_list;
+/*
+** Reads the stat struct of a file and handles errors
+*/
 
-	temp_directory = NULL;
-	temp_dir_list = *first_directory;
-	while (temp_dir_list)
-	{
-		temp_directory = (t_directory*)temp_dir_list->content;
-		if (ft_strequ(temp_directory->name, ""))
-			break ;
-		temp_dir_list = temp_dir_list->next;
-	}
-	if (temp_dir_list == NULL)
-		add_new_dir(first_directory, new_file, params);
-	else
-	{
-		if (params->l)
-			check_field_width(new_file->stat_info, temp_directory);
-		ft_lstnewtoend(new_file, sizeof(t_file), &temp_directory->first_file);
-	}
-}
-
-int		handle_file_param(char *file_name, t_list **first_directory,
-		t_params *params)
-{
-	struct stat	*stat_buf;
-	t_file		*new_file;
-
-	if (ft_strlast(file_name) == '/')
-		file_name = ft_strsub_freestr(file_name, 0, ft_strlen(file_name) - 1);
-	stat_buf = (struct stat*)malloc(sizeof(struct stat));
-	if (-1 == lstat(file_name, stat_buf))
-	{
-		print_error(file_name);
-		return (0);
-	}
-	new_file = (t_file*)malloc(sizeof(t_file));
-	read_file(file_name, new_file, stat_buf);
-	find_dir_add_file(first_directory, new_file, params);
-	free(new_file);
-	return (1);
-}
-
-void	read_stat(char *directory_name, t_params *params,
+static void	read_stat(char *directory_name, t_params *params,
 		t_list **first_directory, struct dirent *dirent_buf)
 {
 	struct stat		*stat_buf;
@@ -92,8 +52,44 @@ void	read_stat(char *directory_name, t_params *params,
 	free(path_filename);
 }
 
-void	read_dirp(struct stat *dir_stat, char *directory_name, t_params *params,
-		t_list **first_directory)
+/*
+** Whenever there is the parameter -R, recursively calls on read_directory
+** to read all the subdirectories.
+*/
+
+static void	recursive_caller(t_params *params, t_list **first_directory)
+{
+	t_file		*temp_file;
+	t_list		*temp_file_list;
+	t_directory	*last_directory;
+	char		*path;
+
+	last_directory = (t_directory*)ft_lstend(*first_directory)->content;
+	if (ft_strequ(last_directory->name, "") || !last_directory->stat_info)
+		return ;
+	temp_file_list = last_directory->first_file;
+	path = last_directory->name;
+	while (temp_file_list)
+	{
+		temp_file = (t_file*)temp_file_list->content;
+		if (temp_file->is_dir && !ft_strequ(temp_file->name, ".")
+		&& !ft_strequ(temp_file->name, "./")
+		&& !ft_strequ(temp_file->name, "..")
+		&& !ft_strequ(temp_file->name, "../") && temp_file->stat_info)
+			read_directory(ft_strjoin(path, temp_file->name), params,
+			first_directory, 0);
+		temp_file_list = temp_file_list->next;
+	}
+}
+
+/*
+** Opens the directory stream and adds that directory to the data 
+** structure. Continues to read the directory stream and saves all the
+** files in the directory to the data structure
+*/
+
+static void	read_dirp(struct stat *dir_stat, char *directory_name,
+			t_params *params, t_list **first_directory)
 {
 	DIR				*dirp;
 	struct dirent	*dirent_buf;
@@ -116,4 +112,37 @@ void	read_dirp(struct stat *dir_stat, char *directory_name, t_params *params,
 			read_stat(directory_name, params, first_directory, dirent_buf);
 	}
 	closedir(dirp);
+}
+
+/*
+** Reads the stat struct of the directory and handles errors.
+** Call a function to read the directory stream and recursive
+** function, when needed
+*/
+
+void		read_directory(char *directory_name, t_params *params,
+			t_list **first_directory, int caller)
+{
+	struct stat		*stat_buf;
+
+	stat_buf = (struct stat*)malloc(sizeof(struct stat));
+	if (-1 == lstat(directory_name, stat_buf))
+	{
+		handle_dir_error(directory_name, first_directory);
+		free(stat_buf);
+		return ;
+	}
+	if (S_ISLNK(stat_buf->st_mode))
+	{
+		if (caller && params->l)
+			handle_file_param(directory_name, first_directory, params);
+		free(stat_buf);
+		return ;
+	}
+	if (ft_strlast(directory_name) != '/')
+		directory_name = ft_str_char_join('/', directory_name);
+	read_dirp(stat_buf, directory_name, params, first_directory);
+	free(directory_name);
+	if (params->rr && !S_ISLNK(stat_buf->st_mode))
+		recursive_caller(params, first_directory);
 }

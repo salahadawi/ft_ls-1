@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/17 11:58:27 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/23 17:36:48 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/23 20:15:25 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -131,6 +131,7 @@ void				ft_strpaste_end(char *dest, char *src);
 char				*ft_str_char_join(char c, char *s1);
 char				ft_strlast(char const *str);
 void				print_error_and_exit(char *name);
+void				print_error(char *directory_name);
 
 /*
 ** Different itoa functions to handle different data types

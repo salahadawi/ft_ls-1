@@ -6,54 +6,19 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/11 10:23:24 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/23 18:23:07 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/23 20:52:54 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "includes/ft_ls.h"
 
 /*
-** Adds a file to the last directory of the list.
-*/
-
-void	add_file(t_file *new_file, t_params *params, t_list *first_directory)
-{
-	t_list		*directory_elem;
-	t_directory	*temp_directory;
-	struct stat	*temp_stat;
-
-	directory_elem = ft_lstend(first_directory);
-	temp_directory = (t_directory*)directory_elem->content;
-	temp_stat = (struct stat*)new_file->stat_info;
-	if (params->l && temp_stat)
-		check_field_width(temp_stat, temp_directory);
-	ft_lstnewtoend(new_file, sizeof(t_file), &(temp_directory->first_file));
-}
-
-/*
-** Creates and dds a directory to the list of directories to be printed.
-*/
-
-void	add_directory(char *directory_name, t_list **first_directory,
-		struct stat *stat_buf)
-{
-	t_directory	*new_directory;
-
-	new_directory = (t_directory*)malloc(sizeof(t_directory));
-	initialize_directory(new_directory);
-	new_directory->name = ft_strdup(directory_name);
-	new_directory->stat_info = stat_buf;
-	ft_lstnewtoend(new_directory, sizeof(t_directory), first_directory);
-	free(new_directory);
-}
-
-/*
 ** Creates a new file to be added to the list of files on a directory.
 ** Calls a function to do the adding.
 */
 
-void	add_to_list(struct dirent *dirent_buf, struct stat *stat_buf, t_params *params,
-		t_list **first_directory)
+void		add_to_list(struct dirent *dirent_buf, struct stat *stat_buf,
+			t_params *params, t_list **first_directory)
 {
 	t_file			*new_file;
 	char			*path_filename;
@@ -82,7 +47,11 @@ void	add_to_list(struct dirent *dirent_buf, struct stat *stat_buf, t_params *par
 	free(new_file);
 }
 
-void	read_file(char *file_name, t_file *new_file, struct stat *stat_buf)
+/*
+** Checks if the given file is a link, and if so, changes the name accordingly
+*/
+
+void		read_link(char *file_name, t_file *new_file, struct stat *stat_buf)
 {
 	char	*link_name;
 	int		i;
@@ -103,57 +72,75 @@ void	read_file(char *file_name, t_file *new_file, struct stat *stat_buf)
 	free(link_name);
 }
 
-void	read_directory(char *directory_name, t_params *params,
-		t_list **first_directory, int caller)
-{
-	struct stat		*stat_buf;
+/*
+** helper function to handle_file_param
+*/
 
-	stat_buf = (struct stat*)malloc(sizeof(struct stat));
-	if (-1 == lstat(directory_name, stat_buf))
-	{
-		handle_dir_error(directory_name, first_directory);
-		free(stat_buf);
-		return ;
-	}
-	if (caller && params->l && S_ISLNK(stat_buf->st_mode))
-	{
-		handle_file_param(directory_name, first_directory, params);
-		free(stat_buf);
-		return ;
-	}
-	if (S_ISLNK(stat_buf->st_mode))
-	{	
-		free(stat_buf);
-		return;
-	}
-	if (ft_strlast(directory_name) != '/')
-		directory_name = ft_str_char_join('/', directory_name);
-	read_dirp(stat_buf, directory_name, params, first_directory);
-	free(directory_name);
-	if (params->rr && !S_ISLNK(stat_buf->st_mode))
-		recursive_caller(params, first_directory);
+static void	add_new_dir(t_list **first_directory, t_file *new_file,
+			t_params *params)
+{
+	t_directory	*temp_directory;
+
+	temp_directory = (t_directory*)malloc(sizeof(t_directory));
+	initialize_directory(temp_directory);
+	temp_directory->name = ft_strdup("");
+	if (params->l)
+		check_field_width(new_file->stat_info, temp_directory);
+	ft_lstnewtoend(new_file, sizeof(t_file), &temp_directory->first_file);
+	ft_lstnewtoend(temp_directory, sizeof(t_directory), first_directory);
+	free(temp_directory);
 }
 
-void	recursive_caller(t_params *params, t_list **first_directory)
-{
-	t_file		*temp_file;
-	t_list		*temp_file_list;
-	t_directory	*last_directory;
-	char		*path;
+/*
+** Helper function to handle_file_param
+*/
 
-	last_directory = (t_directory*)ft_lstend(*first_directory)->content;
-	if (ft_strequ(last_directory->name, "") || !last_directory->stat_info)
-		return;
-	temp_file_list = last_directory->first_file;
-	path = last_directory->name;
-	while (temp_file_list)
+void		find_dir_add_file(t_list **first_directory, t_file *new_file,
+			t_params *params)
+{
+	t_directory	*temp_directory;
+	t_list		*temp_dir_list;
+
+	temp_directory = NULL;
+	temp_dir_list = *first_directory;
+	while (temp_dir_list)
 	{
-		temp_file = (t_file*)temp_file_list->content;
-		if (temp_file->is_dir && !ft_strequ(temp_file->name, ".")
-		&& !ft_strequ(temp_file->name, "./") && !ft_strequ(temp_file->name, "..")
-		&& !ft_strequ(temp_file->name, "../") && temp_file->stat_info)
-			read_directory(ft_strjoin(path, temp_file->name), params,
-			first_directory, 0);
-		temp_file_list = temp_file_list->next;
+		temp_directory = (t_directory*)temp_dir_list->content;
+		if (ft_strequ(temp_directory->name, ""))
+			break ;
+		temp_dir_list = temp_dir_list->next;
 	}
+	if (temp_dir_list == NULL)
+		add_new_dir(first_directory, new_file, params);
+	else
+	{
+		if (params->l)
+			check_field_width(new_file->stat_info, temp_directory);
+		ft_lstnewtoend(new_file, sizeof(t_file), &temp_directory->first_file);
+	}
+}
+
+/*
+** Handles a file parameter and adds it to the data structure
+*/
+
+int			handle_file_param(char *file_name, t_list **first_directory,
+			t_params *params)
+{
+	struct stat	*stat_buf;
+	t_file		*new_file;
+
+	if (ft_strlast(file_name) == '/')
+		file_name = ft_strsub_freestr(file_name, 0, ft_strlen(file_name) - 1);
+	stat_buf = (struct stat*)malloc(sizeof(struct stat));
+	if (-1 == lstat(file_name, stat_buf))
+	{
+		print_error(file_name);
+		return (0);
+	}
+	new_file = (t_file*)malloc(sizeof(t_file));
+	read_link(file_name, new_file, stat_buf);
+	find_dir_add_file(first_directory, new_file, params);
+	free(new_file);
+	return (1);
 }

@@ -6,56 +6,18 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/01 16:13:13 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/22 14:03:32 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/23 20:31:05 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "includes/ft_ls.h"
 
-char	*get_sattr(struct stat *buffer, char *filename, char *directory,
-		char *returnable)
-{
-	char	*name_buf;
-	char	*path_name;
+/*
+** creates and returns a string where all the modes are marked
+*/
 
-	name_buf = NULL;
-	path_name = ft_strjoin(directory, filename);
-	returnable[10] = listxattr(path_name, name_buf, 0, 0) ? '@' : ' ';
-	if (buffer->st_mode & S_ISUID)
-		returnable[3] = (buffer->st_mode & S_IXUSR) ? 's' : 'S';
-	if (buffer->st_mode & S_ISGID)
-		returnable[6] = (buffer->st_mode & S_IXGRP) ? 's' : 'S';
-	if (buffer->st_mode & S_ISVTX)
-		returnable[9] = (buffer->st_mode & S_IXOTH) ? 't' : 'T';
-	free(path_name);
-	return (returnable);
-}
-
-char	get_filetype(struct stat *buffer)
-{
-	char	c;
-
-	if (S_ISREG(buffer->st_mode))
-		c = '-';
-	else if (S_ISDIR(buffer->st_mode))
-		c = 'd';
-	else if (S_ISBLK(buffer->st_mode))
-		c = 'b';
-	else if (S_ISCHR(buffer->st_mode))
-		c = 'c';
-	else if (S_ISFIFO(buffer->st_mode))
-		c = 'p';
-	else if (S_ISLNK(buffer->st_mode))
-		c = 'l';
-	else if (S_ISSOCK(buffer->st_mode))
-		c = 's';
-	else
-		c = '?';
-	return (c);
-}
-
-char	*get_modes(struct stat *buffer, char *filename, char *directory,
-		int is_link)
+char		*get_modes(struct stat *buffer, char *filename, char *directory,
+			int is_link)
 {
 	char	*returnable;
 
@@ -84,7 +46,11 @@ char	*get_modes(struct stat *buffer, char *filename, char *directory,
 	return (get_sattr(buffer, filename, directory, returnable));
 }
 
-char	*gettime(struct stat *buffer)
+/*
+** returns a string with a printable timestamp
+*/
+
+char		*gettime(struct stat *buffer)
 {
 	time_t	timestamp;
 	char	*returnable;
@@ -110,8 +76,12 @@ char	*gettime(struct stat *buffer)
 	return (returnable);
 }
 
-void	print_l(char *file_name, struct stat *buffer, t_directory *directory,
-		int is_link)
+/*
+** prints one line of info (= that of one file) when parameter -l is given
+*/
+
+static void	print_l(char *file_name, struct stat *buffer,
+				t_directory *directory, int is_link)
 {
 	char	*temp;
 
@@ -127,4 +97,52 @@ void	print_l(char *file_name, struct stat *buffer, t_directory *directory,
 	free(temp);
 	ft_printf("%s\n", file_name);
 	return ;
+}
+
+/*
+** Prints the list of files in a folder
+*/
+
+static void	print_filelist(t_params *params, t_directory *directory)
+{
+	t_file	*temp_file;
+	t_list	*temp_list;
+
+	temp_list = directory->first_file;
+	while (temp_list)
+	{
+		temp_file = (t_file*)temp_list->content;
+		if (params->l && temp_file->stat_info)
+			print_l(temp_file->name, temp_file->stat_info, directory,
+			temp_file->is_link);
+		else
+			ft_printf("%s\n", temp_file->name);
+		temp_list = temp_list->next;
+	}
+}
+
+/*
+** prints all the info needed of a folder. Takes in to consideration all the
+** flags given
+*/
+
+void		print_folder(t_directory *printable, t_params *params,
+			t_list *first_directory, t_list *printable_dir_list)
+{
+	char			*directory_name;
+
+	if (!ft_strequ(printable->name, ""))
+		directory_name = ft_strsub(printable->name, 0,
+		ft_strlen(printable->name) - 1);
+	if ((params->rr || (params->multiple_folders > -1)) && printable_dir_list
+	!= first_directory)
+		ft_printf("%s:\n", directory_name);
+	if (params->l && !ft_strequ(printable->name, "")
+	&& printable->first_file)
+		ft_printf("total %d\n", printable->total);
+	print_filelist(params, printable);
+	if ((params->rr && printable_dir_list->next) || printable_dir_list->next)
+		ft_printf("\n");
+	if (!ft_strequ(printable->name, "") && printable->stat_info)
+		free(directory_name);
 }
