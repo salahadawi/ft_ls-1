@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/26 11:53:03 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/22 11:37:45 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/23 13:24:01 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	print_all(t_params *params, t_list *first_directory)
 	{
 		temp_directory = (t_directory*)temp_dirlist->content;
 		if (!temp_directory->stat_info && !ft_strequ(temp_directory->name, ""))
-			ft_printf("%s:\n", temp_directory->name);
+			ft_printf("%s:\n", temp_directory->error_message);
 		else
 		{
 			//ft_printf("!%s!", temp_directory->name);
@@ -85,14 +85,14 @@ t_list	*read_argv(int argc, int i, t_params *params, char **argv)
 	if (i == argc)
 	{
 		directory_name = ft_strdup(".");
-		read_directory(directory_name, params, &first_directory);
+		read_directory(directory_name, params, &first_directory, 1);
 		free(directory_name);
 	}
 	while (argv[i])
 	{
 		params->multiple_folders++;
 		directory_name = ft_strdup(argv[i++]);
-		read_directory(directory_name, params, &first_directory);
+		read_directory(directory_name, params, &first_directory, 1);
 	}
 	return (first_directory);
 }
@@ -147,6 +147,7 @@ int		main(int argc, char **argv)
 	while (i < argc && argv[i][0] == '-')
 		read_params(argv[i++], params);
 	first_directory = read_argv(argc, i, params, argv);
+	ft_printf("reading done");
 	sort_directories(&first_directory, params);
 	print_all(params, first_directory);
 	//while(1);

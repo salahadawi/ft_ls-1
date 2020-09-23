@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/01 16:15:23 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/22 13:48:37 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/23 13:22:38 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ typedef struct	s_file
 	int			is_link;
 	struct stat	*stat_info;
 	int			is_dir;
+	char		*error_message;
 
 }				t_file;
 
@@ -42,6 +43,7 @@ typedef struct	s_directory
 	t_list		*first_file;
 	char		*name;
 	struct stat	*stat_info;
+	char		*error_message;
 }				t_directory;
 
 typedef struct	s_params
@@ -62,7 +64,7 @@ typedef struct	s_data
 }				t_data;
 
 void			read_directory(char	*directory_name, t_params *params,
-				t_list **first_directory);
+				t_list **first_directory, int caller);
 void			read_dirp(struct stat *dir_stat, char *directory_name,
 				t_params *params, t_list **first_directory);
 char			*getowner(struct stat *buffer);
@@ -91,7 +93,7 @@ void			add_to_list(struct dirent *dirent_buf, struct stat *stat_buf,
 				t_params *params, t_list **first_directory);
 void			find_dir_add_file(t_list **first_directory, t_file *new_file,
 				t_params *params);
-void			handle_file_param(char *file_name, t_list **first_directory,
+int				handle_file_param(char *file_name, t_list **first_directory,
 				t_params *params);
 void			check_field_width(struct stat *info,
 				t_directory *directory_info);

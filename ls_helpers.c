@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/03 15:25:02 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/18 18:06:58 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/23 17:08:45 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ void	initialize_directory(t_directory *directory)
 	directory->size_field = 0;
 	directory->first_file = NULL;
 	directory->stat_info = NULL;
+	directory->error_message = NULL;
 }
 
 void	print_error_and_exit(char *name)
@@ -65,36 +66,45 @@ char	*ft_strjoin3(char *str1, char *str2, char *str3)
 void	handle_file_error(char *file_name, t_params *params, t_list **first_directory)
 {
 	t_file	*new_file;
-	char	*name;
+	char	*error_message;
 	char	*error_str;
 
-	name = ft_strjoin("ft_ls: ", file_name);
-	name = ft_strjoin_frees1(name, ": ");
+	ft_printf("handel_file_error");
+	error_message = ft_strjoin("ft_ls: ", file_name);
+	error_message = ft_strjoin_frees1(error_message, ": ");
 	error_str = ft_strdup(strerror(errno));
-	name = ft_strjoin_frees1(name, error_str);
+	error_message = ft_strjoin_frees1(error_message, error_str);
 	new_file = (t_file*)malloc(sizeof(t_file));
-	new_file->name = ft_strdup(name);
+	new_file->error_message = ft_strdup(error_message);
+	new_file->name = ft_strdup(file_name);
 	new_file->is_link = FALSE;
 	new_file->stat_info = NULL;
 	add_file(new_file, params, *first_directory);
-	free(name);
+	free(error_message);
 	free(error_str);
 }
 
 void	handle_dir_error(char *directory_name, t_list **first_directory)
 {
-	char	*name;
-	//char	*error_str;
+	char		*error_message;
+	t_directory	*new_directory;
+	char		*error_str;
 
-	//ft_printf("!%s!\n", directory_name);
-	name = ft_strjoin("ft_ls: ", directory_name);
-	name = ft_strjoin_frees1(name, ": ");
-	//error_str = ft_strnew
-	//error_str = ft_strdup(strerror(errno));
-	//ft_printf("!%s!\n", name);
-	//ft_printf("!%s!\n", error_str);
-	name = ft_strjoin_frees1(name, strerror(errno));
-	add_directory(name, first_directory, NULL);
-	free(name);
-	//free(error_str);
+	ft_printf("handel_dir_error");
+	error_message = ft_strjoin("ft_ls: ", directory_name);
+	error_message = ft_strjoin_frees1(error_message, ": ");
+	ft_printf("HERE?");
+	error_str = ft_strdup(strerror(errno));
+	ft_printf("HERE2?");
+	ft_printf("!!%s!!", error_str);
+	error_message = ft_strjoin_frees1(error_message, error_str);
+	ft_printf("HERE3?");
+	new_directory = (t_directory*)malloc(sizeof(t_directory));
+	initialize_directory(new_directory);
+	new_directory->name = ft_strdup(directory_name);
+	new_directory->stat_info = NULL;
+	new_directory->error_message = ft_strdup(error_message);
+	ft_lstnewtoend(new_directory, sizeof(t_directory), first_directory);
+	//free(new_directory);
+	free(error_message);
 }

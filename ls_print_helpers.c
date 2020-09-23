@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/03 15:45:59 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/21 12:30:19 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/23 12:37:55 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,8 @@ void	print_filelist(t_params *params, t_directory *directory)
 		if (params->l)
 			print_l(temp_file->name, temp_file->stat_info, directory,
 			temp_file->is_link);
+		//else if (!temp_file->stat_info)
+		//	ft_printf("%s\n", temp_file->error_message);
 		else
 			ft_printf("%s\n", temp_file->name);
 		temp_list = temp_list->next;

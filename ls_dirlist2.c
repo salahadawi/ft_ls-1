@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/11 10:23:24 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/22 13:48:46 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/23 16:31:03 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ void	add_file(t_file *new_file, t_params *params, t_list *first_directory)
 	t_directory	*temp_directory;
 	struct stat	*temp_stat;
 
+	ft_printf("add_file");
 	directory_elem = ft_lstend(first_directory);
 	temp_directory = (t_directory*)directory_elem->content;
 	temp_stat = (struct stat*)new_file->stat_info;
@@ -39,6 +40,7 @@ void	add_directory(char *directory_name, t_list **first_directory,
 {
 	t_directory	*new_directory;
 
+	ft_printf("add_directory");
 	new_directory = (t_directory*)malloc(sizeof(t_directory));
 	initialize_directory(new_directory);
 	new_directory->name = ft_strdup(directory_name);
@@ -60,6 +62,7 @@ void	add_to_list(struct dirent *dirent_buf, struct stat *stat_buf, t_params *par
 	char			*link_name;
 	t_directory		*temp_dir;
 
+	ft_printf("add_to_list");
 	link_name = ft_strnew(2000);
 	new_file = (t_file*)malloc(sizeof(t_file));
 	new_file->stat_info = stat_buf;
@@ -85,10 +88,13 @@ void	add_to_list(struct dirent *dirent_buf, struct stat *stat_buf, t_params *par
 void	read_file(char *file_name, t_file *new_file, struct stat *stat_buf)
 {
 	char	*link_name;
+	int		i;
 
+	ft_printf("read_file");
 	link_name = ft_strnew(2000);
-	if (readlink(file_name, link_name, 2000) != -1)
+	if ((i = readlink(file_name, link_name, 2000)) != -1)
 	{
+		link_name[i] = '\0';
 		new_file->name = ft_strjoin3(file_name, " -> ", link_name);
 		new_file->is_link = 1;
 	}
@@ -102,29 +108,45 @@ void	read_file(char *file_name, t_file *new_file, struct stat *stat_buf)
 }
 
 void	read_directory(char *directory_name, t_params *params,
-		t_list **first_directory)
+		t_list **first_directory, int caller)
 {
 	struct stat		*stat_buf;
+	//char			*link_name;
+	//int				i;
 
+	ft_printf("read_directory !%s!\n", directory_name);
 	stat_buf = (struct stat*)malloc(sizeof(struct stat));
 	if (-1 == lstat(directory_name, stat_buf))
 	{
+		ft_printf("!!dir error!!");
 		handle_dir_error(directory_name, first_directory);
-		free(stat_buf);
+		//free(stat_buf);
 		return ;
 	}
-	if (params->multiple_folders != -1 && params->l
-	&& S_ISLNK(stat_buf->st_mode))
+	if (caller && params->l && S_ISLNK(stat_buf->st_mode))
 	{
+		ft_printf("!!file param!!");
 		handle_file_param(directory_name, first_directory, params);
-		free(stat_buf);
+		//free(stat_buf);
 		return ;
+	}
+	if (S_ISLNK(stat_buf->st_mode))
+	{	
+		ft_printf("!!is link!!");
+		free(stat_buf);
+		return;
+		//link_name = ft_strnew(2000);
+		//i = readlink(directory_name, link_name, 2000);
+		//link_name[i] = '\0';
+		//free(directory_name);
+		//directory_name = ft_strdup(link_name);
+		//free(link_name);
 	}
 	if (ft_strlast(directory_name) != '/')
 		directory_name = ft_str_char_join('/', directory_name);
 	read_dirp(stat_buf, directory_name, params, first_directory);
-	free(directory_name);
-	if (params->rr)
+	//free(directory_name);
+	if (params->rr && !S_ISLNK(stat_buf->st_mode))
 		recursive_caller(params, first_directory);
 }
 
@@ -135,7 +157,10 @@ void	recursive_caller(t_params *params, t_list **first_directory)
 	t_directory	*last_directory;
 	char		*path;
 
+	ft_printf("recursive_caller");
 	last_directory = (t_directory*)ft_lstend(*first_directory)->content;
+	if (ft_strequ(last_directory->name, "") || !last_directory->stat_info)
+		return;
 	temp_file_list = last_directory->first_file;
 	path = last_directory->name;
 	while (temp_file_list)
@@ -143,10 +168,9 @@ void	recursive_caller(t_params *params, t_list **first_directory)
 		temp_file = (t_file*)temp_file_list->content;
 		if (temp_file->is_dir && !ft_strequ(temp_file->name, ".")
 		&& !ft_strequ(temp_file->name, "./") && !ft_strequ(temp_file->name, "..")
-		&& !ft_strequ(temp_file->name, "../"))
+		&& !ft_strequ(temp_file->name, "../") && temp_file->stat_info)
 			read_directory(ft_strjoin(path, temp_file->name), params,
-			first_directory);
+			first_directory, 0);
 		temp_file_list = temp_file_list->next;
 	}
-
 }
