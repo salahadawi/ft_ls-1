@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/01 16:15:23 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/23 13:22:38 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/23 17:36:40 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,7 +80,6 @@ int				sort_file_name(t_list *a, t_list *b);
 int				sort_file_time(t_list *a, t_list *b);
 void			reverse_lists(t_list **first_directory);
 void			initialize_directory(t_directory *directory);
-void			print_error_and_exit(char *name);
 void			print_usage(void);
 void			initialize_params(t_params *params);
 void			check_field_width(struct stat *info,

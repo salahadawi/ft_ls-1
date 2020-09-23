@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/03 15:25:02 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/23 17:08:45 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/23 17:34:58 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,13 +22,6 @@ void	initialize_directory(t_directory *directory)
 	directory->first_file = NULL;
 	directory->stat_info = NULL;
 	directory->error_message = NULL;
-}
-
-void	print_error_and_exit(char *name)
-{
-	ft_printf("ft_ls: %s: ", name);
-	perror("");
-	exit(0);
 }
 
 void	print_usage(void)
@@ -97,6 +90,8 @@ void	handle_dir_error(char *directory_name, t_list **first_directory)
 	error_str = ft_strdup(strerror(errno));
 	ft_printf("HERE2?");
 	ft_printf("!!%s!!", error_str);
+	if (error_str == NULL)
+		ft_printf("malloc fail");
 	error_message = ft_strjoin_frees1(error_message, error_str);
 	ft_printf("HERE3?");
 	new_directory = (t_directory*)malloc(sizeof(t_directory));
