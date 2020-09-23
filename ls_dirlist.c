@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/03 15:27:33 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/23 18:07:18 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/23 18:22:04 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,6 @@ int		handle_file_param(char *file_name, t_list **first_directory,
 	struct stat	*stat_buf;
 	t_file		*new_file;
 
-	//ft_printf("handle_file_param");
 	if (ft_strlast(file_name) == '/')
 		file_name = ft_strsub_freestr(file_name, 0, ft_strlen(file_name) - 1);
 	stat_buf = (struct stat*)malloc(sizeof(struct stat));
@@ -80,19 +79,15 @@ void	read_stat(char *directory_name, t_params *params,
 	struct stat		*stat_buf;
 	char			*path_filename;
 
-	//t_printf("read_stat");
 	stat_buf = (struct stat*)malloc(sizeof(struct stat));
 	path_filename = ft_strjoin(directory_name, dirent_buf->d_name);
-	//ft_printf("!!HERE 1 @ read_stat!!");
 	if (-1 == lstat(path_filename, stat_buf))
 	{
-		//ft_printf("!!HERE 2 @ read_stat!!");
 		handle_file_error(dirent_buf->d_name, params, first_directory);
 		free(path_filename);
 		free(stat_buf);
 		return ;
 	}
-	//ft_printf("!!HERE 3 @ read_stat!!");
 	add_to_list(dirent_buf, stat_buf, params, first_directory);
 	free(path_filename);
 }
@@ -103,7 +98,6 @@ void	read_dirp(struct stat *dir_stat, char *directory_name, t_params *params,
 	DIR				*dirp;
 	struct dirent	*dirent_buf;
 
-	//ft_printf("read_dirp");
 	dirp = opendir(directory_name);
 	if (dirp == NULL)
 	{
@@ -116,7 +110,6 @@ void	read_dirp(struct stat *dir_stat, char *directory_name, t_params *params,
 		return ;
 	}
 	add_directory(directory_name, first_directory, dir_stat);
-	//free(dir_stat);
 	while (NULL != (dirent_buf = readdir(dirp)))
 	{
 		if (params->a || dirent_buf->d_name[0] != '.')
