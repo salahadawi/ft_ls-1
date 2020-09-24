@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/03 15:27:33 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/24 16:23:27 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/24 16:56:20 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -100,7 +100,7 @@ static void	read_dirp(struct stat *dir_stat, char *directory_name,
 		if (errno == 20)
 		{
 			if (handle_file_param(directory_name, first_directory, params))
-			{	
+			{
 				free(dir_stat);
 				return ;
 			}
