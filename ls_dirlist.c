@@ -83,7 +83,7 @@ static void	recursive_caller(t_params *params, t_list **first_directory)
 }
 
 /*
-** Opens the directory stream and adds that directory to the data 
+** Opens the directory stream and adds that directory to the data
 ** structure. Continues to read the directory stream and saves all the
 ** files in the directory to the data structure
 */

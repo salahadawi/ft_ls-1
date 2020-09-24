@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/26 11:53:03 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/24 11:37:29 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/24 12:47:42 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 ** The main function that handles printing of the given datastructure
 */
 
-static void	print_all(t_params *params, t_list *first_directory)
+static void		print_all(t_params *params, t_list *first_directory)
 {
 	t_directory		*temp_directory;
 	t_list			*temp_dirlist;
@@ -39,7 +39,7 @@ static void	print_all(t_params *params, t_list *first_directory)
 ** algorithm with the right comparison functions.
 */
 
-static void	sort_directories(t_list **first_directory, t_params *params)
+static void		sort_directories(t_list **first_directory, t_params *params)
 {
 	t_list		*temp_dir_list;
 	t_directory	*temp_directory;
@@ -67,7 +67,7 @@ static void	sort_directories(t_list **first_directory, t_params *params)
 ** and save the data
 */
 
-t_list		*read_argv(int argc, int i, t_params *params, char **argv)
+static t_list	*read_argv(int argc, int i, t_params *params, char **argv)
 {
 	char		*directory_name;
 	t_list		*first_directory;
@@ -86,7 +86,6 @@ t_list		*read_argv(int argc, int i, t_params *params, char **argv)
 		read_directory(directory_name, params, &first_directory, 1);
 		free(directory_name);
 	}
-	while(1);
 	return (first_directory);
 }
 
@@ -95,7 +94,7 @@ t_list		*read_argv(int argc, int i, t_params *params, char **argv)
 ** accordingly
 */
 
-void		read_params(char *input, t_params *params)
+static void		read_params(char *input, t_params *params)
 {
 	int		i;
 
@@ -128,7 +127,7 @@ void		read_params(char *input, t_params *params)
 ** functions and then closes the program.
 */
 
-int			main(int argc, char **argv)
+int				main(int argc, char **argv)
 {
 	int			i;
 	t_params	*params;
@@ -142,6 +141,5 @@ int			main(int argc, char **argv)
 	first_directory = read_argv(argc, i, params, argv);
 	sort_directories(&first_directory, params);
 	print_all(params, first_directory);
-	//while(1);
 	return (0);
 }

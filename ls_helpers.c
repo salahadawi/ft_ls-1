@@ -6,11 +6,15 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/03 15:25:02 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/24 11:30:31 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/24 12:48:05 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "includes/ft_ls.h"
+
+/*
+** Initializes the directory struct.
+*/
 
 void	initialize_directory(t_directory *directory)
 {
@@ -23,6 +27,10 @@ void	initialize_directory(t_directory *directory)
 	directory->stat_info = NULL;
 	directory->error_message = NULL;
 }
+
+/*
+** Prints usage of the program in case of false flags input.
+*/
 
 void	print_usage(void)
 {
@@ -40,23 +48,19 @@ void	initialize_params(t_params *params)
 	params->r = 0;
 	params->rr = 0;
 	params->t = 0;
-	params->file_param = NULL;
 	params->multiple_folders = -1;
 	return ;
 }
 
-char	*ft_strjoin3(char *str1, char *str2, char *str3)
-{
-	char	*returnable;
+/*
+** Creates and saves an error message when ever a error is found while
+** reading a file. Saves the error in the error_message of the file, as
+** well as other info accordingly. Stat struct is always set as NULL
+** whenever there was an error reading the file.
+*/
 
-	returnable = (char*)malloc(sizeof(char) * (ft_strlen(str1)
-				+ ft_strlen(str2) + ft_strlen(str3) + 1));
-	returnable = ft_strjoin(str1, str2);
-	returnable = ft_strjoin_frees1(returnable, str3);
-	return (returnable);
-}
-
-void	handle_file_error(char *file_name, t_params *params, t_list **first_directory)
+void	handle_file_error(char *file_name, t_params *params,
+		t_list **first_directory)
 {
 	t_file	*new_file;
 	char	*error_message;
@@ -75,6 +79,13 @@ void	handle_file_error(char *file_name, t_params *params, t_list **first_directo
 	free(error_message);
 	free(error_str);
 }
+
+/*
+** Creates and saves an error message when ever a error is found while
+** reading a folder. Saves the error in the error_message of the folder, as
+** well as other info accordingly. Stat struct is always set as NULL
+** whenever there was an error reading the folder.
+*/
 
 void	handle_dir_error(char *directory_name, t_list **first_directory)
 {

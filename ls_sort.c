@@ -6,11 +6,16 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/01 16:16:25 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/18 17:43:32 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/24 12:45:28 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "includes/ft_ls.h"
+
+/*
+** Sorting function given as a parameter to the merge_sort algorithm
+** when directories are sorted alphabetically.
+*/
 
 int		sort_dir_name(t_list *a, t_list *b)
 {
@@ -24,6 +29,11 @@ int		sort_dir_name(t_list *a, t_list *b)
 	return (FALSE);
 }
 
+/*
+** Sorting function given as a parameter to the merge_sort algorithm
+** when files are sorted alphabetically.
+*/
+
 int		sort_file_name(t_list *a, t_list *b)
 {
 	t_file	*a_file;
@@ -35,6 +45,11 @@ int		sort_file_name(t_list *a, t_list *b)
 		return (TRUE);
 	return (FALSE);
 }
+
+/*
+** Sorting function given as a parameter to the merge_sort algorithm
+** when directories are sorted by time.
+*/
 
 int		sort_dir_time(t_list *a, t_list *b)
 {
@@ -64,6 +79,11 @@ int		sort_dir_time(t_list *a, t_list *b)
 	return (FALSE);
 }
 
+/*
+** Sorting function given as a parameter to the merge_sort algorithm
+** when files are sorted by time.
+*/
+
 int		sort_file_time(t_list *a, t_list *b)
 {
 	t_file	*a_file;
@@ -87,6 +107,11 @@ int		sort_file_time(t_list *a, t_list *b)
 	}
 	return (FALSE);
 }
+
+/*
+** Function that reverses the given directory list as well as all the
+** file lists inside it.
+*/
 
 void	reverse_lists(t_list **first_directory)
 {

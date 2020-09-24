@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/01 16:15:23 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/24 10:46:26 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/24 12:38:52 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,15 +23,26 @@
 # include <sys/xattr.h>
 # include <errno.h>
 
-typedef struct	s_file
-{
-	char		*name;
-	int			is_link;
-	struct stat	*stat_info;
-	int			is_dir;
-	char		*error_message;
-
-}				t_file;
+/*
+** Data structure:
+** All the data read in saved in one linked list. The basic node of the
+** list is dedefined in libft.h and is as follows:
+** typedef struct		s_list
+**
+**{
+**	void			*content;
+**	size_t			content_size;
+**	struct s_list	*next;
+**
+**}					t_list;
+**
+** On the content is saved every directory to be printed. In the
+** t_directory struct important data of the directory is saved: number
+** of total blocks in total, maximum width of links, owner, size and group
+** colums when printing with -l as well as the name of the folder, stat
+** struct and possible error message generated while reading the directory.
+** All the folders  are saved in a linked list as above on the first_file.
+*/
 
 typedef struct	s_directory
 {
@@ -46,6 +57,28 @@ typedef struct	s_directory
 	char		*error_message;
 }				t_directory;
 
+/*
+** Info about every file is saved in t_file struct, that is the name of
+** the file, stat struct, info if it is a directory or a link as well as
+** the possible error message generated while reading the file.
+*/
+
+typedef struct	s_file
+{
+	char		*name;
+	int			is_link;
+	struct stat	*stat_info;
+	int			is_dir;
+	char		*error_message;
+
+}				t_file;
+
+/*
+** The params given to the program are saved in the t_params struct.
+** The Struct contains info on flags, and info if there is several
+** files/folders given as a parameter.
+*/
+
 typedef struct	s_params
 {
 	int			a;
@@ -53,42 +86,12 @@ typedef struct	s_params
 	int			rr;
 	int			r;
 	int			t;
-	t_file		*file_param;
 	int			multiple_folders;
 }				t_params;
 
-typedef struct	s_data
-{
-	char		*name;
-	struct stat	*info;
-}				t_data;
-
-char			*get_modes(struct stat *buffer, char *filename, char *directory,
-				int is_link);
-char			*gettime(struct stat *buffer);
-int				sort_dir_name(t_list *a, t_list *b);
-int				sort_dir_time(t_list *a, t_list *b);
-int				sort_file_name(t_list *a, t_list *b);
-int				sort_file_time(t_list *a, t_list *b);
-void			reverse_lists(t_list **first_directory);
-void			initialize_directory(t_directory *directory);
-void			print_usage(void);
-void			initialize_params(t_params *params);
-void			check_field_width(struct stat *info,
-				t_directory *directory_info);
-char			*ft_strjoin3(char *str1, char *str2, char *str3);
-void			print_error(char *directory_name);
-t_list			*read_argv(int argc, int i, t_params *params, char **argv);
-void			handle_dir_error(char *directory_name,
-				t_list **first_directory);
-void			handle_file_error(char *file_name, t_params *params,
-				t_list **first_directory);
-void			print_folder(t_directory *printable, t_params *params,
-				t_list *first_directory, t_list *printable_dir_list);
-
 /*
 ** Functions used to read directory stream and creating the data structure for
-** saving the info
+** saving the info. Found in ls_dirlist.c, ls_dirlist2.c and ls_dirlist3.c
 */
 
 void			read_directory(char	*directory_name, t_params *params,
@@ -107,8 +110,20 @@ int				handle_file_param(char *file_name, t_list **first_directory,
 				t_params *params);
 
 /*
-** Print helpers
+** Helper functions to sorting the files and folders. Found in ls_sort.c
 */
+
+int				sort_dir_name(t_list *a, t_list *b);
+int				sort_dir_time(t_list *a, t_list *b);
+int				sort_file_name(t_list *a, t_list *b);
+int				sort_file_time(t_list *a, t_list *b);
+void			reverse_lists(t_list **first_directory);
+
+/*
+** Print helpers. Found in ls_print.c and ls_print_helpers.c
+*/
+void			print_folder(t_directory *printable, t_params *params,
+				t_list *first_directory, t_list *printable_dir_list);
 char			*getowner(struct stat *buffer);
 char			*getgroup(struct stat *buffer);
 char			get_filetype(struct stat *buffer);
@@ -116,5 +131,19 @@ char			*get_sattr(struct stat *buffer, char *filename, char *directory,
 				char *returnable);
 void			check_field_width(struct stat *info,
 				t_directory *directory_info);
+void			check_field_width(struct stat *info,
+				t_directory *directory_info);
+
+/*
+** Helper functions to initialize or to handle errors. Found in ls_helpers.c
+*/
+
+void			initialize_directory(t_directory *directory);
+void			print_usage(void);
+void			initialize_params(t_params *params);
+void			handle_file_error(char *file_name, t_params *params,
+				t_list **first_directory);
+void			handle_dir_error(char *directory_name,
+				t_list **first_directory);
 
 #endif

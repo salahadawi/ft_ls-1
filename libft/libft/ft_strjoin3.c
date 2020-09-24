@@ -1,19 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   print_error.c                                      :+:      :+:    :+:   */
+/*   ft_strjoin3.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/09/23 20:14:47 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/23 20:15:01 by hlaineka         ###   ########.fr       */
+/*   Created: 2020/09/24 12:00:05 by hlaineka          #+#    #+#             */
+/*   Updated: 2020/09/24 12:05:30 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
 
-void	print_error(char *directory_name)
+/*
+** Joins three strings into one in the given order.
+*/
+
+char	*ft_strjoin3(char *str1, char *str2, char *str3)
 {
-	ft_printf("ft_ls: %s: ", directory_name);
-	perror("");
+	char	*returnable;
+
+	returnable = ft_strjoin(str1, str2);
+	returnable = ft_strjoin_frees1(returnable, str3);
+	return (returnable);
 }

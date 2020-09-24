@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/01 16:13:13 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/24 10:57:25 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/24 12:18:43 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 ** creates and returns a string where all the modes are marked
 */
 
-char		*get_modes(struct stat *buffer, char *filename, char *directory,
+static char	*get_modes(struct stat *buffer, char *filename, char *directory,
 			int is_link)
 {
 	char	*returnable;
@@ -50,7 +50,7 @@ char		*get_modes(struct stat *buffer, char *filename, char *directory,
 ** returns a string with a printable timestamp
 */
 
-char		*gettime(struct stat *buffer)
+static char	*gettime(struct stat *buffer)
 {
 	time_t	timestamp;
 	char	*returnable;
