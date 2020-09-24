@@ -6,7 +6,7 @@
 #    By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/17 12:00:35 by hlaineka          #+#    #+#              #
-#    Updated: 2020/09/23 20:42:45 by hlaineka         ###   ########.fr        #
+#    Updated: 2020/09/24 13:37:37 by hlaineka         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,6 +26,7 @@ LIB_FT = libft/libft.a
 all: $(NAME)
 
 $(NAME): fclean
+	@cd libft && make
 	@gcc -Wall -Wextra -Werror $(LIB_FT) $(SRC) -o $(NAME) -I$(INC_LS)
 	@make clean
 
