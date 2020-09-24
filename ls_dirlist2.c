@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/11 10:23:24 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/24 11:33:34 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/24 16:46:28 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -131,7 +131,7 @@ int			handle_file_param(char *file_name, t_list **first_directory,
 	t_file		*new_file;
 
 	if (ft_strlast(file_name) == '/')
-		file_name = ft_strsub_freestr(file_name, 0, ft_strlen(file_name) - 1);
+		file_name = ft_str_realloc(file_name, 0, ft_strlen(file_name) - 1);
 	stat_buf = (struct stat*)malloc(sizeof(struct stat));
 	if (-1 == lstat(file_name, stat_buf))
 	{

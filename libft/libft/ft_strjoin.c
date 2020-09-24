@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/29 14:15:51 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/24 13:40:28 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/24 14:25:27 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ char	*ft_strjoin(const char *s1, const char *s2)
 
 	if (s1 && s2)
 	{
-		if (NULL != (returnable = ft_strnew(ft_strlen(s1) + ft_strlen(s2) + 1)))
+		if (NULL != (returnable = ft_strnew(ft_strlen(s1) + ft_strlen(s2))))
 		{
 			i = 0;
 			w = 0;

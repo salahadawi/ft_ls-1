@@ -1,23 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lst_addtoend.c                                  :+:      :+:    :+:   */
+/*   ft_lstaddtoend.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/09/21 15:11:32 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/21 19:06:24 by hlaineka         ###   ########.fr       */
+/*   Created: 2020/09/24 16:35:53 by hlaineka          #+#    #+#             */
+/*   Updated: 2020/09/24 16:38:32 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
+#include "../../includes/ft_ls.h"
 
-void	ft_lstaddtoend(void *content, size_t content_size, t_list **beginning)
+/*
+** Adds given content to the end of the list.
+*/
+
+void	ft_lstaddtoend(const void *content, size_t content_size,
+		t_list **beginning)
 {
-	t_list		*newelem;
-	t_list		*temp;
+	t_list	*newelem;
+	t_list	*temp;
 
-	newelem = ft_lstnew(content, content_size);
+	newelem = (t_list*)malloc(sizeof(t_list));
+	newelem->content = (void*)content;
+	newelem->content_size = content_size;
 	temp = ft_lstend(*beginning);
 	if (temp == NULL)
 		*beginning = newelem;
