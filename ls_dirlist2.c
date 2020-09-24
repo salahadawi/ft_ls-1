@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/11 10:23:24 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/23 20:52:54 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/24 11:33:34 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -136,6 +136,7 @@ int			handle_file_param(char *file_name, t_list **first_directory,
 	if (-1 == lstat(file_name, stat_buf))
 	{
 		print_error(file_name);
+		free(stat_buf);
 		return (0);
 	}
 	new_file = (t_file*)malloc(sizeof(t_file));

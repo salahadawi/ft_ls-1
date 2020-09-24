@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/17 11:58:27 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/23 20:15:25 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/24 10:45:36 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -109,7 +109,8 @@ int					ft_lst_length(t_list *first);
 t_list				*ft_lst_sorted_merge(t_list *a, t_list *b,
 					int (*f)(t_list *elem_a, t_list *elem_b));
 t_list				*ft_lst_reverse(t_list **first);
-void				ft_lstaddtoend(void *content, size_t content_size, t_list **beginning);
+void				ft_lstaddtoend(void *content, size_t content_size,
+					t_list **beginning);
 
 /*
 ** Own adds.

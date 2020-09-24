@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/01 16:15:23 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/23 20:59:41 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/24 10:46:26 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,8 +79,10 @@ void			check_field_width(struct stat *info,
 char			*ft_strjoin3(char *str1, char *str2, char *str3);
 void			print_error(char *directory_name);
 t_list			*read_argv(int argc, int i, t_params *params, char **argv);
-void			handle_dir_error(char *directory_name, t_list **first_directory);
-void			handle_file_error(char *file_name, t_params *params, t_list **first_directory);
+void			handle_dir_error(char *directory_name,
+				t_list **first_directory);
+void			handle_file_error(char *file_name, t_params *params,
+				t_list **first_directory);
 void			print_folder(t_directory *printable, t_params *params,
 				t_list *first_directory, t_list *printable_dir_list);
 
@@ -103,8 +105,6 @@ void			find_dir_add_file(t_list **first_directory, t_file *new_file,
 				t_params *params);
 int				handle_file_param(char *file_name, t_list **first_directory,
 				t_params *params);
-
-
 
 /*
 ** Print helpers

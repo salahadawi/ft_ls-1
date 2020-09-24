@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/03 15:25:02 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/23 18:39:25 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/24 11:30:31 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ char	*ft_strjoin3(char *str1, char *str2, char *str3)
 	char	*returnable;
 
 	returnable = (char*)malloc(sizeof(char) * (ft_strlen(str1)
-				+ ft_strlen(str2) + ft_strlen(str3)));
+				+ ft_strlen(str2) + ft_strlen(str3) + 1));
 	returnable = ft_strjoin(str1, str2);
 	returnable = ft_strjoin_frees1(returnable, str3);
 	return (returnable);
