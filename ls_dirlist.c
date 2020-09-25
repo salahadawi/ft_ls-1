@@ -134,7 +134,9 @@ void		read_directory(char *directory_name, t_params *params,
 			t_list **first_directory, int caller)
 {
 	struct stat		*stat_buf;
+	char			*new_name;
 
+	new_name = NULL;
 	stat_buf = (struct stat*)malloc(sizeof(struct stat));
 	if (-1 == lstat(directory_name, stat_buf))
 	{
@@ -150,9 +152,11 @@ void		read_directory(char *directory_name, t_params *params,
 		return ;
 	}
 	if (ft_strlast(directory_name) != '/')
-		directory_name = ft_str_char_join('/', directory_name);
-	read_dirp(stat_buf, directory_name, params, first_directory);
-	free(directory_name);
+		new_name = ft_str_char_join('/', directory_name);
+	else
+		new_name = ft_strdup(directory_name);
+	read_dirp(stat_buf, new_name, params, first_directory);
+	free(new_name);
 	if (params->rr && !S_ISLNK(stat_buf->st_mode))
 		recursive_caller(params, first_directory);
 }
