@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_char_join.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
+/*   By: sadawi <sadawi@student.hive.fi>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/16 20:15:53 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/16 20:16:18 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/25 13:08:25 by sadawi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,6 @@ char	*ft_str_char_join(char c, char *s1)
 			}
 			returnable[i] = c;
 			returnable[i + 1] = '\0';
-			free(s1);
 			return (returnable);
 		}
 	}
