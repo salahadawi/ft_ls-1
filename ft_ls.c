@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_ls.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
+/*   By: sadawi <sadawi@student.hive.fi>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/26 11:53:03 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/24 16:52:32 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/25 13:02:28 by sadawi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -141,5 +141,6 @@ int				main(int argc, char **argv)
 	first_directory = read_argv(argc, i, params, argv);
 	sort_directories(&first_directory, params);
 	print_all(params, first_directory);
+	exit(0);
 	return (0);
 }
