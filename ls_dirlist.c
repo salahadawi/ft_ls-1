@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ls_dirlist.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
+/*   By: sadawi <sadawi@student.hive.fi>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/03 15:27:33 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/24 16:56:20 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/25 13:17:30 by sadawi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,7 +63,9 @@ static void	recursive_caller(t_params *params, t_list **first_directory)
 	t_list		*temp_file_list;
 	t_directory	*last_directory;
 	char		*path;
+	char		*tmp;
 
+	tmp = NULL;
 	last_directory = (t_directory*)ft_lstend(*first_directory)->content;
 	if (ft_strequ(last_directory->name, "") || !last_directory->stat_info)
 		return ;
@@ -76,8 +78,12 @@ static void	recursive_caller(t_params *params, t_list **first_directory)
 		&& !ft_strequ(temp_file->name, "./")
 		&& !ft_strequ(temp_file->name, "..")
 		&& !ft_strequ(temp_file->name, "../") && temp_file->stat_info)
-			read_directory(ft_strjoin(path, temp_file->name), params,
+		{
+			tmp = ft_strjoin(path, temp_file->name);
+			read_directory(tmp, params,
 			first_directory, 0);
+			free(tmp);
+		}
 		temp_file_list = temp_file_list->next;
 	}
 }
