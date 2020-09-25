@@ -6,7 +6,7 @@
 /*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/11 10:23:24 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/24 16:46:28 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/25 11:57:39 by hlaineka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -121,7 +121,9 @@ void		find_dir_add_file(t_list **first_directory, t_file *new_file,
 }
 
 /*
-** Handles a file parameter and adds it to the data structure
+** Handles a file parameter and adds it to the data structure. The stat
+** struct of t_directory structure where file params are saved is set
+** to NULL as well as the name of the directory to "" (empty string).
 */
 
 int			handle_file_param(char *file_name, t_list **first_directory,
