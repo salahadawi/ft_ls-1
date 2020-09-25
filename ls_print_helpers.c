@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ls_print_helpers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hlaineka <hlaineka@student.hive.fi>        +#+  +:+       +#+        */
+/*   By: sadawi <sadawi@student.hive.fi>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/03 15:45:59 by hlaineka          #+#    #+#             */
-/*   Updated: 2020/09/23 20:24:58 by hlaineka         ###   ########.fr       */
+/*   Updated: 2020/09/25 12:45:40 by sadawi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ char	*get_sattr(struct stat *buffer, char *filename, char *directory,
 
 	name_buf = NULL;
 	path_name = ft_strjoin(directory, filename);
-	returnable[10] = listxattr(path_name, name_buf, 0, 0) ? '@' : ' ';
+	returnable[10] = (listxattr(path_name, name_buf, 0, 0) > 0) ? '@' : ' ';
 	if (buffer->st_mode & S_ISUID)
 		returnable[3] = (buffer->st_mode & S_IXUSR) ? 's' : 'S';
 	if (buffer->st_mode & S_ISGID)
